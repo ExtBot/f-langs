@@ -1,7 +1,10 @@
 {
     "require": {
+        "flarum/flarum-ext-english": "*",
         "cbmainz/flarum-de": "*",
-        "flarum/flarum-ext-english": "*"
+        "metastore/flarum-ext-russian": "*",
+        "eikoninaru/flarum-ext-ukrainian": "*",
+        "heidarKadkhoda/flarum-ext-swedish": "*"
     },
     "replace": {
 		"flarum/core": "*"
