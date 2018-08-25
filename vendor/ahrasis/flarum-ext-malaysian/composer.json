@@ -1,0 +1,37 @@
+{
+	"name": "ahrasis/flarum-ext-malaysian",
+	"version": "v.1.0-beta.5",
+	"minimum-stability": "alpha",
+	"prefer-stable": true,
+	"type": "flarum-extension",
+	"description": "Pakej Bahasa Malaysia",
+	"keywords": ["locale"],
+	"license": "MIT",
+	"authors": [{
+		"name": "Hj Ahmad Rasyid Hj Ismail",
+		"email": "ahrasis@gmail.com"
+	}],
+	"support": {
+	        "issues": "https://github.com/ahrasis/flarum-ext-malaysian/issues",
+	        "source": "https://github.com/ahrasis/flarum-ext-malaysian",
+	        "site": "http://flarum.sch.my"
+	},
+	"require": {
+	        "flarum/core": "^0.1.0-beta.5"
+	},
+	"extra": {
+		"flarum-extension": {
+			"title": "Bahasa Malaysia",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundColor": "#00247d",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "my",
+			"title": "Bahasa Malaysia"
+		}
+	}
+}
