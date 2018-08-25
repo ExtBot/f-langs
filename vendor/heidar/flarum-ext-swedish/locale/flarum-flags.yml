@@ -1,0 +1,80 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      #flag_posts_label: Flag posts
+      flag_posts_label: Flagga inlägg
+      #view_flags_label: View flagged posts
+      view_flags_label: Visa flaggade inlägg
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      #guidelines_url_label: Community Guidelines URL
+      guidelines_url_label: URL till forumets riktlinjer
+      #title: Flags Settings
+      title: Flagg inställningar
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      #confirmation_message: Thank you for flagging this post. Our moderators will look into it.
+      confirmation_message: Tack för att du flaggade detta inlägg. Våra moderatorer kommer att kolla upp detta.
+      dismiss_button: => core.ref.okay
+      #reason_inappropriate_label: Inappropriate
+      reason_inappropriate_label: Olämpligt
+      #reason_inappropriate_text: "This post is offensive, abusive, or violates our <a>community guidelines</a>."
+      reason_inappropriate_text: "Detta inlägg är stötande, kränkande eller bryter mot <a>forumets riktlinjer</a>."
+      #reason_off_topic_label: "Off-topic"
+      reason_off_topic_label: "Irrelevant"
+      #reason_off_topic_text: This post is not relevant to the current discussion and should be moved elsewhere.
+      reason_off_topic_text: Det här inlägget är inte relevant för den här tråden och bör flyttas någon annanstans.
+      #reason_other_label: Other
+      reason_other_label: Annat
+      reason_spam_label: Spam
+      #reason_spam_text: This post is an advertisement.
+      reason_spam_text: Det här inlägget är reklam.
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      #empty_text: No Flags
+      empty_text: Inga flaggor
+      #item_text: "{username} in <em>{discussion}</em>"
+      item_text: "{username} i <em>{discussion}</em>"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      #dismiss_flag_button: Dismiss Flag
+      dismiss_flag_button: Avfärda flagga
+      #flagged_by_text: "Flagged by {username}"
+      flagged_by_text: "Flaggad av {username}"
+      #flagged_by_with_reason_text: "Flagged by {username} as {reason}"
+      flagged_by_with_reason_text: "Flaggad av {username} som {reason}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      #flag_button: Flag
+      flag_button: Flagga
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    #flag_post: Flag Post
+    flag_post: Flagga inlägg
+    #flagged_posts: Flagged Posts
+    flagged_posts: Flaggade inlägg

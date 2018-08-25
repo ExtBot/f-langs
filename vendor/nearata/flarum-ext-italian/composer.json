@@ -1,0 +1,34 @@
+{
+    "name": "nearata/flarum-ext-italian",
+    "type": "flarum-extension",
+    "description": "Italian language pack.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+	"authors": [
+        {
+            "name": "Nearata"
+        }
+    ],
+	"support": {
+        "issues": "https://github.com/Nearata/flarum-ext-italian/issues",
+        "source": "https://github.com/Nearata/flarum-ext-italian"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Italian",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "it_it",
+            "title": "Italiano"
+        }
+    }
+}
