@@ -11,6 +11,13 @@
         "realodix/flarum-ext-indonesian": "*",
         "milescellar/flarum-ext-french": "*",
         "lilcode/flarum-ext-estonian": "*",
+        "kassius/flarum-brazilian-portuguese": "*",
+        "ahrasis/flarum-ext-malaysian": "*",
+        "rodymolenaar/flarum-ext-dutch": "*",
+        "bek/flarum-ext-turkish": "*",
+        "rafo/flarum-ext-azeri": "*",
+        "veriael/flarum-polish": "*",
+        "sijad/flarum-ext-persian": "*",
         "jsthon/flarum-ext-simplified-chinese": "*",
         "csineneo/flarum-ext-traditional-chinese": "*"
     },

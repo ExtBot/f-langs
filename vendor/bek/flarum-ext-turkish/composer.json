@@ -1,0 +1,34 @@
+{
+    "name": "msalihkarakasli/flarum-ext-turkish-tr",
+    "type": "flarum-extension",
+    "description": "Turkish language pack.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.6"
+    },
+    "authors": [
+    {
+      "name": "msalihkarakasli",
+      "email": "msalihkarakasli@gmail.com"
+    }
+  ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.2.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Turkish",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "tr",
+            "title": "Turkish"
+        }
+    }
+}

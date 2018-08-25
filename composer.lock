@@ -4,8 +4,110 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8fe3bb0208771ea61a35bbf84f662bb1",
+    "content-hash": "cc36f77d78f839e2d1fde912a36ca70f",
     "packages": [
+        {
+            "name": "ahrasis/flarum-ext-malaysian",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ahrasis/flarum-ext-malaysian.git",
+                "reference": "05a06cfc3895af8727143233d4e1a4c472be20ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ahrasis/flarum-ext-malaysian/zipball/05a06cfc3895af8727143233d4e1a4c472be20ad",
+                "reference": "05a06cfc3895af8727143233d4e1a4c472be20ad",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Bahasa Malaysia",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "my",
+                    "title": "Bahasa Malaysia"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hj Ahmad Rasyid Hj Ismail",
+                    "email": "ahrasis@gmail.com"
+                }
+            ],
+            "description": "Pakej Bahasa Malaysia",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2016-11-23T01:47:56+00:00"
+        },
+        {
+            "name": "bek/flarum-ext-turkish",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/XEngine/flarum-ext-turkish.git",
+                "reference": "458045666fa48cf8c2e9c5da21e7b041daa29393"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/XEngine/flarum-ext-turkish/zipball/458045666fa48cf8c2e9c5da21e7b041daa29393",
+                "reference": "458045666fa48cf8c2e9c5da21e7b041daa29393",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.6"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Turkish",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "tr",
+                    "title": "Turkish"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "msalihkarakasli",
+                    "email": "msalihkarakasli@gmail.com"
+                }
+            ],
+            "description": "Turkish language pack.",
+            "keywords": [
+                "locale"
+            ],
+            "abandoned": "fla-tr",
+            "time": "2017-04-18T16:04:51+00:00"
+        },
         {
             "name": "cbmainz/flarum-de",
             "version": "0.7.1",
@@ -414,6 +516,66 @@
             "time": "2017-08-03T13:29:40+00:00"
         },
         {
+            "name": "kassius/flarum-brazilian-portuguese",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kassius/flarum-brazilian-portuguese.git",
+                "reference": "c9ebffa1e6e0b78406c401132ac082b05e499c13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kassius/flarum-brazilian-portuguese/zipball/c9ebffa1e6e0b78406c401132ac082b05e499c13",
+                "reference": "c9ebffa1e6e0b78406c401132ac082b05e499c13",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.4"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Brazilian Portuguese (Português Brasileiro)",
+                    "icon": {
+                        "image": "icon.jpg",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "pt-BR",
+                    "title": "Português (Brasileiro)"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kassius Mercurius",
+                    "email": "kassivs@gmail.com",
+                    "homepage": "https://www.kassius.org"
+                },
+                {
+                    "name": "Santiago Testa Biali",
+                    "email": "santiago.t.biali@gmail.com"
+                }
+            ],
+            "description": "Brazilian portuguese language pack.",
+            "homepage": "https://github.com/kassius/flarum-brazilian-portuguese",
+            "keywords": [
+                "brazilian",
+                "language",
+                "locale",
+                "localization",
+                "portuguese",
+                "translation"
+            ],
+            "time": "2016-01-14T22:18:11+00:00"
+        },
+        {
             "name": "lilcode/flarum-ext-estonian",
             "version": "v1.6.2.2",
             "source": {
@@ -634,6 +796,55 @@
             "time": "2017-12-12T15:15:46+00:00"
         },
         {
+            "name": "rafo/flarum-ext-azeri",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rafoabbas/Flarum.git",
+                "reference": "c018bb960ac5f78f080545cfa79d86d9fa5f8d3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rafoabbas/Flarum/zipball/c018bb960ac5f78f080545cfa79d86d9fa5f8d3e",
+                "reference": "c018bb960ac5f78f080545cfa79d86d9fa5f8d3e",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Azeri",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#ff0000",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "az",
+                    "title": "Azeri"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rauf Abbas",
+                    "email": "info@kubpro.com"
+                }
+            ],
+            "description": "Azerbaijan language pack.",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2018-07-30T18:43:36+00:00"
+        },
+        {
             "name": "realodix/flarum-ext-indonesian",
             "version": "1.3.11",
             "source": {
@@ -684,6 +895,158 @@
                 "locale"
             ],
             "time": "2018-05-08T19:23:50+00:00"
+        },
+        {
+            "name": "rodymolenaar/flarum-ext-dutch",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rodymolenaar/flarum-ext-dutch.git",
+                "reference": "b75cbd02e30fd4da32874e309a50eaf017db0de8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rodymolenaar/flarum-ext-dutch/zipball/b75cbd02e30fd4da32874e309a50eaf017db0de8",
+                "reference": "b75cbd02e30fd4da32874e309a50eaf017db0de8",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Dutch",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#fff",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "nl",
+                    "title": "Nederlands"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rody Molenaar",
+                    "email": "rody.molenaar@xtrada.nl",
+                    "homepage": "http://rodymolenaar.nl/"
+                }
+            ],
+            "description": "Dutch language pack for Flarum.",
+            "homepage": "https://github.com/rodymolenaar/Flarum-nl-NL",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2017-09-28T21:59:28+00:00"
+        },
+        {
+            "name": "sijad/flarum-ext-persian",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sijad/flarum-ext-persian.git",
+                "reference": "15dbe1ba69280014624e2a5fffa76617af413442"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sijad/flarum-ext-persian/zipball/15dbe1ba69280014624e2a5fffa76617af413442",
+                "reference": "15dbe1ba69280014624e2a5fffa76617af413442",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Persian",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#FFF",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "fa",
+                    "title": "Persian"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sijad\\Persian\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sajjad Hashemian",
+                    "email": "wolaws@gmail.com"
+                }
+            ],
+            "description": "Persian language pack.",
+            "keywords": [
+                "farsi",
+                "locale"
+            ],
+            "abandoned": "user persianfla/flarum-ext-persian",
+            "time": "2018-05-27T07:31:10+00:00"
+        },
+        {
+            "name": "veriael/flarum-polish",
+            "version": "1.0.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Veriael/flarum-polish.git",
+                "reference": "d5961357ac092fdb9f1a1c1a02a13724db3bff7b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Veriael/flarum-polish/zipball/d5961357ac092fdb9f1a1c1a02a13724db3bff7b",
+                "reference": "d5961357ac092fdb9f1a1c1a02a13724db3bff7b",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Jezyk polski",
+                    "icon": {
+                        "image": "icon.png",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "pl",
+                    "title": "Polski"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Polska paczka jezykowa.",
+            "homepage": "https://github.com/Veriael/flarum-polish",
+            "keywords": [
+                "locale"
+            ],
+            "abandoned": true,
+            "time": "2017-09-10T17:28:16+00:00"
         }
     ],
     "packages-dev": [],

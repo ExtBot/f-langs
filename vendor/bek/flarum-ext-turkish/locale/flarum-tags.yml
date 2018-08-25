@@ -1,0 +1,101 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: Renk
+      delete_tag_button: Etiketi Sil
+      delete_tag_confirmation: "Etiketi silmek istediğinize emin misiniz? Konular SİLİNMEYECEKTİR."
+      description_label: Açıklama
+      hide_label: Tüm konularda gösterme
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Link Gösterimi
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Konularda kullanılabilecek etiketleri yönet
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: Etiket Düzenlemeye İzin ver
+      restrict_by_tag_heading: Etikete Göre Kısıtla
+      tag_discussions_label: Konuları Etiketle
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " to "
+      required_primary_heading: Gerekli Birincil Etiket Sayısı
+      required_primary_text: Bir konuya eklenebilecek en az ve an fazla birincil etiket sayısını giriniz.
+      required_secondary_heading: Gerekli İkincil Etiket Sayısı
+      required_secondary_text: Bir konuya eklenebilecek en az ve en fazla ikincil etiket sayısını giriniz.
+      title: Etiket Ayarları
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "Etiketler konuları kategorize etmek için kullanılır. Birincil keyler klasik categoriler gibi düşünülebilir ve iki seviyeli olarak kullanılabilir. İkincik etiletlerin hiyerarşik bir devamı yoktur alt kateforiler olarak kullanılır."
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: Birincil Etiketler
+      secondary_heading: İkincil Etiketler
+      settings_button: Ayarlar
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "Birincil Etiket Seç|{count} Birincil Etiket Seç"
+      choose_secondary_placeholder: "Bir etiket daha seç|{count} etiket daha seç"
+      edit_title: "{title} için etiketleri düzenle"
+      submit_button: => core.ref.okay
+      title: Konunuz için etiket seçin
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Etiketleri Seç
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Etiketleri Düzenle
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: Daha Fazla...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: Etiketlenmemiş
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username} şunları ekledi {tagsAdded}."
+      added_and_removed_tags_text: "{username} şunlaru ekledi {tagsAdded} ve şunları sildi {tagsRemoved}."
+      removed_tags_text: "{username} şunları sildi {tagsRemoved}."
+      tags_text: "{tags} etiket|{tags} etiketler"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: Silindi
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: Etiket Oluştur
+    name: İsim
+    tags: Etiketler
