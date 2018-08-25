@@ -1,0 +1,67 @@
+core:
+  forum:
+    index_sort:
+      hot_button: Trendande
+
+reflar-gamification:
+  forum:
+    vote_title: Visa vem som röstade
+    nav:
+      name: Rankning
+    ranking:
+      rank: Plats
+      name: Användare
+      amount: Poäng
+    notification:
+      upvote: "{username} röstade upp ditt inlägg"
+      downvote: "{username} röstade ner ditt inlägg"
+    user:
+      points: "Poäng: {points}"
+      rank: "{rank}"
+    modal:
+      title: Röstande
+      upvotes_label: 'Uppröstare:'
+      downvotes_label: 'Nerröstare:'
+    mod_item: Visa Röstande
+  admin:
+    permissions:
+      vote_label: Rösta upp/ned inlägg
+      see_votes_label: Se inläggets upp-/nedröstningar
+      see_ranking_page: Visa rankningsidan
+    nav:
+      desc: Spelifiering för ditt Flarum-community
+    page:
+      rankings:
+        blocked:
+          placeholder: CDK2020, Ralkage, AngelAvila
+          title: Ignorerade Användare
+          help: Dessa användare kommer inte att visas på rankningsidan. Användarnamn ska separeras med ett kommateckent följt av ett mellanslag.
+        title: Rankningsidan
+        enable: Aktivera anpassade bilder
+        custom_image_1: 1:a platsens bild
+        custom_image_2: 2:a platsens bild
+        custom_image_3: 3:e platsens bild
+      votes:
+        points_title: Platshållare för poäng
+        points_placeholder: "Poäng: "
+        color_holder: '#ffffff'
+        auto_upvote: Upprösta inlägg automatiskt när de publiceras
+        title: Röster
+        vote_color: Röstad färg
+        icon_name: Ikon för upp-/nedröstning
+        icon_help: "Skriv in namnet på en FontAwesome-ikon som har -up eller -down på slutet. Exempel: arrow, thumbs, chevron"
+      save_settings: Spara inställningar
+      convert:
+        button: Konvertera gillningar till uppröstningar
+        help: Konvertera dina tidgare gillningar från flarum-ext-likes till uppröstningar och beräkna poulariteten för alla existerande trådar.
+        converting: Dina gillningar blir nu konverterade. Ladda om sidan efter ett par minuter för att se det färdiga resultatet. (Tiden för konvertering beror på ditt forums totala antal gillningar)
+        converted: "Alla {number} gillningar har konverterats"
+      ranks:
+        title: Rank
+        ranks: Anpassade ranker
+        number_title: Hur många rank emblem ska visas?
+        help:
+          color: '#ffffff'
+          help: "Skriv in antalet uppröstningar som krävs, rankens namn och hexkoden för rankens färg."
+          points: Poäng
+          name: Namn

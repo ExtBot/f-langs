@@ -1,0 +1,12 @@
+flarum-best-answer:
+    admin:
+        permissions:
+            best_answer: => flarum-best-answer.ref.best_answer
+    forum:
+        this_best_answer: "সেরা উত্তর"
+        remove_best_answer: "সেরা উত্তর না"
+        header_best_answer: "সেরা উত্তর হিসাবে চিহ্নিত করেছে"
+        best_answer_button: => flarum-best-answer.ref.best_answer
+        best_answer: => flarum-best-answer.ref.best_answer
+    ref:
+      best_answer: 'সেরা উত্তর'

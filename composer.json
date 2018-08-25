@@ -1,29 +1,37 @@
 {
-    "require": {
-        "flarum/flarum-ext-english": "*",
-        "cbmainz/flarum-de": "*",
-        "metastore/flarum-ext-russian": "*",
-        "eikoninaru/flarum-ext-ukrainian": "*",
-        "heidar/flarum-ext-swedish": "*",
-        "flarumes/flarum-ext-spanish": "*",
-        "comocozy/flarum-ext-korean": "*",
-        "nearata/flarum-ext-italian": "*",
-        "realodix/flarum-ext-indonesian": "*",
-        "milescellar/flarum-ext-french": "*",
-        "lilcode/flarum-ext-estonian": "*",
-        "kassius/flarum-brazilian-portuguese": "*",
-        "ahrasis/flarum-ext-malaysian": "*",
-        "rodymolenaar/flarum-ext-dutch": "*",
-        "bek/flarum-ext-turkish": "*",
-        "rafo/flarum-ext-azeri": "*",
-        "veriael/flarum-polish": "*",
-        "sijad/flarum-ext-persian": "*",
-        "jsthon/flarum-ext-simplified-chinese": "*",
-        "csineneo/flarum-ext-traditional-chinese": "*"
-    },
-    "replace": {
+	"require": {
+		"ahrasis/flarum-ext-malaysian": "*",
+		"cbmainz/flarum-de": "*",
+		"comocozy/flarum-ext-korean": "*",
+		"csineneo/flarum-ext-traditional-chinese": "*",
+		"eikoninaru/flarum-ext-ukrainian": "*",
+		"elite-devs/flarum-ext-arabic": "*",
+		"enver/flarum-ext-turkish": "*",
+		"flabrew/flabrew": "*",
+		"flarum/flarum-ext-english": "*",
+		"flarumes/flarum-ext-spanish": "*",
+		"heidar/flarum-ext-swedish": "*",
+		"jsthon/flarum-ext-simplified-chinese": "*",
+		"jubayed/flarum-ext-bengali": "*",
+		"kassius/flarum-brazilian-portuguese": "*",
+		"laptrinhphp/vietnamese": "*",
+		"lilcode/flarum-ext-estonian": "*",
+		"lukaszflorczak/flarum-ext-polish": "*",
+		"manaszon/flarum-ext-hungarian": "*",
+		"metastore/flarum-ext-russian": "*",
+		"milescellar/flarum-ext-french": "*",
+		"naga0ka/flarum-ext-japanese": "*",
+		"nearata/flarum-ext-italian": "*",
+		"nit/flarum-ext-albania": "*",
+		"nlssn/flarum-ext-swedish": "*",
+		"rafo/flarum-ext-azeri": "*",
+		"realodix/flarum-ext-indonesian": "*",
+		"rodymolenaar/flarum-ext-dutch": "*",
+		"sijad/flarum-ext-persian": "*"
+	},
+	"replace": {
 		"flarum/core": "*"
 	},
 	"minimum-stability": "dev",
-    "prefer-stable": true
+	"prefer-stable": true
 }

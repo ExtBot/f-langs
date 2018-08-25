@@ -1,0 +1,54 @@
+flarum-subscriptions:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are displayed as tooltips for discussion badges.
+    badge:
+      following_tooltip: => flarum-subscriptions.ref.following
+      ignoring_tooltip: => flarum-subscriptions.ref.ignoring
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      unfollow_button: Przestań obserwować
+      unignore_button: Przestań ignorować
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      following_link: => flarum-subscriptions.ref.following
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      new_post_text: "Nowy post użytkownika {username}"
+
+    # These translations are used in the Settings page.
+    settings:
+      follow_after_reply_label: Automatycznie obserwuj dyskusję, w której uczestniczę
+      notify_new_post_label: Ktoś odpowie w dyskusji, którą obserwuję
+
+    # These translations are used in the subscription menu displayed to the right of the post stream.
+    sub_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      following_button: => flarum-subscriptions.ref.following
+      following_text: Powiadamiaj o wszystkich odpowiedziach.
+      ignoring_button: => flarum-subscriptions.ref.ignoring
+      ignoring_text: Nigdy nie powiadamiaj. Ukryj na liście dyskusji.
+      not_following_button: Przestań obserwować
+      not_following_text: "Powiadom tylko, gdy ktoś mnie @wspomni."
+      notify_alert_tooltip: Powiadom na stronie, gdy pojawi się nowy wpis
+      notify_email_tooltip: Wyślij email, gdy pojawi się nowy wpis
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    follow: Obserwuj
+    following: Obserwujesz
+    ignoring: Ignoruj

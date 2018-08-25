@@ -1,0 +1,101 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: রঙ
+      delete_tag_button: ট্যাগ মুছুন
+      delete_tag_confirmation: "এই ট্যাগটিকে মুছে দিতে চান? ট্যাগ এর প্রশ্ন সমূহ মুছে ফেলা হবে না"
+      description_label: বিবরণ
+      hide_label: সব প্রশ্ন থেকে লুকান
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: স্লুগ
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: প্রশ্নগুলো সাথে ট্যাগ গুলোর তালিকা পরিচালনা করা হয়
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: ট্যাগ সম্পাদনা করার অনুমতি দিন
+      restrict_by_tag_heading: ট্যাগ দ্বারা সীমাবদ্ধ করুন
+      tag_discussions_label: ট্যাগ আলোচনা
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " to "
+      required_primary_heading: একটি প্রাথমিক ট্যাগ আবশ্যক
+      required_primary_text: আলোচনার জন্য ন্যূনতম এবং সর্বাধিক সংখ্যক প্রাথমিক ট্যাগ লিখুন
+      required_secondary_heading: একটি মাধ্যমিক ট্যাগ আবশ্যক
+      required_secondary_text: আলোচনার জন্য ন্যূনতম এবং সর্বাধিক সংখ্যক সর্বাধিক ট্যাগ লিখুন
+      title: ট্যাগ সেটিংস
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "আলোচনাগুলি শ্রেণীভুক্ত করার জন্য ট্যাগ ব্যবহার করা হয়।প্রাথমিক ট্যাগগুলি প্রথাগত ফোরাম বিভাগের মতো হয়: তাদের একটি দুই-স্তরীয় অনুক্রমের মধ্যে ব্যবস্থা করা যেতে পারে। মাধ্যমিক ট্যাগগুলি অনুক্রম বা আদেশ নেই এবং উপ-শ্রেণী করনের জন্য উপযোগী।"
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: প্রাথমিক ট্যাগগুলি
+      secondary_heading: মাধ্যমিক ট্যাগগুলি
+      settings_button: সেটিংস
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "একটি প্রাথমিক ট্যাগ চয়ন করুন |নির্বাচন করুন {count} বেশি প্রাথমিক  ট্যাগ"
+      choose_secondary_placeholder: "নির্বাচন করুন ১ টির বেশি ট্যাগ|নির্বাচন করুন {count} বেশি প্রাথমিক  ট্যাগ"
+      edit_title: "{title} শিরোনামের জন্য ট্যাগগুলি সম্পাদন"
+      submit_button: => core.ref.okay
+      title: প্রশ্নের জন্য ট্যাগ নির্বাচন করুন
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: ট্যাগ নির্বাচন করুন
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: ট্যাগগুলি সম্পাদনা
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: আরও ...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: ট্যাগ ব্যবহার করা হয়নি
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username} added the {tagsAdded}."
+      added_and_removed_tags_text: "{username} added the {tagsAdded} and removed the {tagsRemoved}."
+      removed_tags_text: "{username} removed the {tagsRemoved}."
+      tags_text: "{tags} ট্যাগ|{tags} ট্যাগগুলি"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: মুছে ফেলা হয়েছে
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: ট্যাগ তৈরি করুন
+    name: নাম
+    tags: ট্যাগগুলি

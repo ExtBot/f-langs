@@ -1,0 +1,61 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: পোস্টগুলি  চিহ্নিত 
+      view_flags_label: চিহ্নিত করা পোস্ট গুলো দেখুন
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: কমিউনিটি নির্দেশিকা ঠিকানা 
+      title: চিহ্নিত সেটিংস
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: এই পোস্টটি চিহ্নিত করার জন্য আপনাকে ধন্যবাদ। আমাদের মডারেটর এটিকে দেখবে।
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: অনুপযুক্ত
+      reason_inappropriate_text: "এই পোস্টটি আপত্তিকর, অপমানজনক, বা লঙ্ঘন আমাদের <a>কমিউনিটি নীতিমালা</a>।"
+      reason_off_topic_label: "বন্ধ করা টপিক"
+      reason_off_topic_text: এই পোস্টটি বর্তমান প্রশ্নের জন্য প্রাসঙ্গিক নয় এবং অন্য কোথাও স্থানান্তর করা উচিত।
+      reason_other_label: অন্যান্য
+      reason_spam_label: স্প্যাম
+      reason_spam_text: এই পোস্টটি একটি বিজ্ঞাপন।
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: কোন চিহ্ন নেই
+      item_text: "{username} in <em>{discussion}</em>"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_button: চিহ্ন বাতিল করুন
+      flagged_by_text: "{username} চিহ্নিত করেছেন"
+      flagged_by_with_reason_text: "{username} চিহ্নিত করেছেন {reason} কারণে"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: চিহ্নিত
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: চিহ্নিত করা পোস্ট
+    flagged_posts: চিহ্নিত করা পোস্ট সমূহ

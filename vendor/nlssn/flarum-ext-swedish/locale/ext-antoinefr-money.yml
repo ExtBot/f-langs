@@ -1,0 +1,17 @@
+antoinefr-money:
+  admin:
+    settings:
+      title: Inställningar
+      moneyforpost: Summa som delas ut för ett nytt inlägg
+      moneyfordiscussion: Summa som delas ut för en ny tråd
+      moneyname: Namn på valuta (ex. poäng)
+      postminimumlength: Minimum inläggslängd för att få pengar (0 för att inaktivera)
+    permissions:
+      edit_money_label: Redigera pengar
+  forum:
+    user_controls:
+      money_button: Redigera pengar
+    modal:
+      title: "{username}s pengar"
+      current: Nuvarande :
+      submit_button: => core.ref.save_changes

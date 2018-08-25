@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc36f77d78f839e2d1fde912a36ca70f",
+    "content-hash": "5bffbb010425aaab59af7215f4d21227",
     "packages": [
         {
             "name": "ahrasis/flarum-ext-malaysian",
@@ -54,59 +54,6 @@
                 "locale"
             ],
             "time": "2016-11-23T01:47:56+00:00"
-        },
-        {
-            "name": "bek/flarum-ext-turkish",
-            "version": "1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/XEngine/flarum-ext-turkish.git",
-                "reference": "458045666fa48cf8c2e9c5da21e7b041daa29393"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/XEngine/flarum-ext-turkish/zipball/458045666fa48cf8c2e9c5da21e7b041daa29393",
-                "reference": "458045666fa48cf8c2e9c5da21e7b041daa29393",
-                "shasum": ""
-            },
-            "require": {
-                "flarum/core": "^0.1.0-beta.6"
-            },
-            "type": "flarum-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.2.x-dev"
-                },
-                "flarum-extension": {
-                    "title": "Turkish",
-                    "icon": {
-                        "image": "icon.svg",
-                        "backgroundColor": "#00247d",
-                        "backgroundSize": "cover",
-                        "backgroundPosition": "center"
-                    }
-                },
-                "flarum-locale": {
-                    "code": "tr",
-                    "title": "Turkish"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "msalihkarakasli",
-                    "email": "msalihkarakasli@gmail.com"
-                }
-            ],
-            "description": "Turkish language pack.",
-            "keywords": [
-                "locale"
-            ],
-            "abandoned": "fla-tr",
-            "time": "2017-04-18T16:04:51+00:00"
         },
         {
             "name": "cbmainz/flarum-de",
@@ -317,6 +264,142 @@
             "time": "2017-11-09T10:11:05+00:00"
         },
         {
+            "name": "elite-devs/flarum-ext-arabic",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hichem2h/flarum-ext-arabic.git",
+                "reference": "e392e90fce80385266f734b47b5c097cb35d6711"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hichem2h/flarum-ext-arabic/zipball/e392e90fce80385266f734b47b5c097cb35d6711",
+                "reference": "e392e90fce80385266f734b47b5c097cb35d6711",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "العربية",
+                    "icon": {
+                        "image": "icon.png",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "ar",
+                    "title": "العربية"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "تعريب الفلاروم",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2018-04-03T14:13:10+00:00"
+        },
+        {
+            "name": "enver/flarum-ext-turkish",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/enverarslan/flarum-ext-turkish.git",
+                "reference": "8c55f13937a56d782f9617b3a348b4376008ee27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/enverarslan/flarum-ext-turkish/zipball/8c55f13937a56d782f9617b3a348b4376008ee27",
+                "reference": "8c55f13937a56d782f9617b3a348b4376008ee27",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Turkish",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#ff0000",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "tr",
+                    "title": "Turkish"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Enver Arslan",
+                    "email": "enver@programmer.net"
+                }
+            ],
+            "description": "Turkish language pack.",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2017-08-25T02:03:05+00:00"
+        },
+        {
+            "name": "flabrew/flabrew",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itayganor/flabrew.git",
+                "reference": "063430a3a3cfff9ecc7dce57857d7b43222f115e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itayganor/flabrew/zipball/063430a3a3cfff9ecc7dce57857d7b43222f115e",
+                "reference": "063430a3a3cfff9ecc7dce57857d7b43222f115e",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "השפה העברית",
+                    "icon": {
+                        "image": "logo.png",
+                        "backgroundColor": "#212121",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "he",
+                    "title": "Hebrew"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "תרגום רשמי לעברית.",
+            "homepage": "https://github.com/itayganor/flabrew",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2017-09-25T08:10:12+00:00"
+        },
+        {
             "name": "flarum/flarum-ext-english",
             "version": "v0.1.0-beta.7",
             "source": {
@@ -516,6 +599,52 @@
             "time": "2017-08-03T13:29:40+00:00"
         },
         {
+            "name": "jubayed/flarum-ext-bengali",
+            "version": "v0.1.0-beta.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jubayed/flarum-ext-bengali.git",
+                "reference": "0bba264a86675def55b9070b4865857c9df342e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jubayed/flarum-ext-bengali/zipball/0bba264a86675def55b9070b4865857c9df342e5",
+                "reference": "0bba264a86675def55b9070b4865857c9df342e5",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Bengali",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "bn",
+                    "title": "Bengali"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Bangla language pack.",
+            "homepage": "https://github.com/jubayed/flarum-ext-bengali",
+            "keywords": [
+                "bengali",
+                "flarum",
+                "locale"
+            ],
+            "time": "2017-11-14T17:18:47+00:00"
+        },
+        {
             "name": "kassius/flarum-brazilian-portuguese",
             "version": "0.1.1",
             "source": {
@@ -576,6 +705,56 @@
             "time": "2016-01-14T22:18:11+00:00"
         },
         {
+            "name": "laptrinhphp/vietnamese",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laptrinhphp/flarum-ext-vietnamese.git",
+                "reference": "0f1cba24505678bb74e0e7e512912cc062e22252"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laptrinhphp/flarum-ext-vietnamese/zipball/0f1cba24505678bb74e0e7e512912cc062e22252",
+                "reference": "0f1cba24505678bb74e0e7e512912cc062e22252",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.4"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Tiếng việt",
+                    "icon": {
+                        "name": "star",
+                        "backgroundColor": "#FF0000",
+                        "color": "#FFFF00"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "vi",
+                    "title": "Tiếng việt"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "dungphanxuan",
+                    "email": "dungphanxuan@vccorp.vn",
+                    "homepage": "http://www.laptrinhphp.edu.vn"
+                }
+            ],
+            "description": "Vietnam language pack for Flarum.",
+            "homepage": "https://github.com/laptrinhphp/flarum",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2016-02-02T14:50:43+00:00"
+        },
+        {
             "name": "lilcode/flarum-ext-estonian",
             "version": "v1.6.2.2",
             "source": {
@@ -623,6 +802,113 @@
                 "multilanguage"
             ],
             "time": "2017-12-08T07:51:45+00:00"
+        },
+        {
+            "name": "lukaszflorczak/flarum-ext-polish",
+            "version": "v0.1.0-beta.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lukaszflorczak/flarum-ext-polish.git",
+                "reference": "13f82b559b14f5ce089f8ade4f4c29959be7612b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lukaszflorczak/flarum-ext-polish/zipball/13f82b559b14f5ce089f8ade4f4c29959be7612b",
+                "reference": "13f82b559b14f5ce089f8ade4f4c29959be7612b",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.6"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Polish",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "pl",
+                    "title": "Polish"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lukasz Florcczak",
+                    "email": "lukasz@muuteam.com"
+                }
+            ],
+            "description": "Polish language pack",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2017-01-31T18:32:10+00:00"
+        },
+        {
+            "name": "manaszon/flarum-ext-hungarian",
+            "version": "v1.0b",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/manaszon/flarum-ext-hungarian.git",
+                "reference": "88db637df7e9376eff38d3d453007e96eacf60a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/manaszon/flarum-ext-hungarian/zipball/88db637df7e9376eff38d3d453007e96eacf60a3",
+                "reference": "88db637df7e9376eff38d3d453007e96eacf60a3",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Hungarian",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#fff",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "hu",
+                    "title": "Magyar"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kiss Attila",
+                    "email": "kissattila97@gmail.com"
+                }
+            ],
+            "description": "Hungarian language pack for Flarum.",
+            "homepage": "https://github.com/manaszon/flarum-ext-hungarian",
+            "keywords": [
+                "flarum",
+                "hungarian",
+                "locale"
+            ],
+            "time": "2018-02-05T18:27:03+00:00"
         },
         {
             "name": "metastore/flarum-ext-russian",
@@ -748,6 +1034,59 @@
             "time": "2017-07-24T17:03:19+00:00"
         },
         {
+            "name": "naga0ka/flarum-ext-japanese",
+            "version": "v1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/naga0ka/flarum-ext-japanese.git",
+                "reference": "983b1df01756d3a114f82d319bcf4b53332f4274"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/naga0ka/flarum-ext-japanese/zipball/983b1df01756d3a114f82d319bcf4b53332f4274",
+                "reference": "983b1df01756d3a114f82d319bcf4b53332f4274",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.6"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Japanese",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "ja",
+                    "title": "Japanese"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "yuji nagaoka",
+                    "email": "y.nagaoka77@gmail.com"
+                }
+            ],
+            "description": "Japanese language pack",
+            "keywords": [
+                "flarum",
+                "locale"
+            ],
+            "time": "2018-02-08T01:37:33+00:00"
+        },
+        {
             "name": "nearata/flarum-ext-italian",
             "version": "v0.1.0-beta.7.1",
             "source": {
@@ -794,6 +1133,106 @@
                 "locale"
             ],
             "time": "2017-12-12T15:15:46+00:00"
+        },
+        {
+            "name": "nit/flarum-ext-albania",
+            "version": "v0.1.0-beta.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tinaira/flarum-ext-albania.git",
+                "reference": "5b14897cdd4573ef44ac4adf5d892cbcb2b84b1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tinaira/flarum-ext-albania/zipball/5b14897cdd4573ef44ac4adf5d892cbcb2b84b1e",
+                "reference": "5b14897cdd4573ef44ac4adf5d892cbcb2b84b1e",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "English",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "en",
+                    "title": "English"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "English language pack.",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2017-07-22T02:38:43+00:00"
+        },
+        {
+            "name": "nlssn/flarum-ext-swedish",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nlssn/flarum-ext-swedish.git",
+                "reference": "b1626fef44482948a9a235dd74913d379aa52e4a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nlssn/flarum-ext-swedish/zipball/b1626fef44482948a9a235dd74913d379aa52e4a",
+                "reference": "b1626fef44482948a9a235dd74913d379aa52e4a",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Swedish",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "sv",
+                    "title": "Svenska"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes Nilsson",
+                    "email": "johannes@nilsson.im",
+                    "homepage": "http://nilsson.im"
+                }
+            ],
+            "description": "Swedish language extension.",
+            "keywords": [
+                "Swedish",
+                "extension",
+                "flarum",
+                "locale",
+                "translation"
+            ],
+            "time": "2018-05-09T13:10:53+00:00"
         },
         {
             "name": "rafo/flarum-ext-azeri",
@@ -1002,51 +1441,6 @@
             ],
             "abandoned": "user persianfla/flarum-ext-persian",
             "time": "2018-05-27T07:31:10+00:00"
-        },
-        {
-            "name": "veriael/flarum-polish",
-            "version": "1.0.6.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Veriael/flarum-polish.git",
-                "reference": "d5961357ac092fdb9f1a1c1a02a13724db3bff7b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Veriael/flarum-polish/zipball/d5961357ac092fdb9f1a1c1a02a13724db3bff7b",
-                "reference": "d5961357ac092fdb9f1a1c1a02a13724db3bff7b",
-                "shasum": ""
-            },
-            "require": {
-                "flarum/core": "^0.1.0-beta.7"
-            },
-            "type": "flarum-extension",
-            "extra": {
-                "flarum-extension": {
-                    "title": "Jezyk polski",
-                    "icon": {
-                        "image": "icon.png",
-                        "backgroundColor": "#00247d",
-                        "backgroundSize": "cover",
-                        "backgroundPosition": "center"
-                    }
-                },
-                "flarum-locale": {
-                    "code": "pl",
-                    "title": "Polski"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Polska paczka jezykowa.",
-            "homepage": "https://github.com/Veriael/flarum-polish",
-            "keywords": [
-                "locale"
-            ],
-            "abandoned": true,
-            "time": "2017-09-10T17:28:16+00:00"
         }
     ],
     "packages-dev": [],

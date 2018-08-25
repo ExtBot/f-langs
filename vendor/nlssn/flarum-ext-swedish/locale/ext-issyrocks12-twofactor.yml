@@ -1,0 +1,22 @@
+issyrocks12-twofactor:
+  forum:
+    accountlabel: Två-Faktor
+    reloadmsg: Förbereder två-faktors autentisering... vänligen öppna fönstret för två-faktor igen.
+    incorrect_2fa: Felaktiv engångskod
+    2fa_disabled: Två-faktors autentisering avaktiverades korrekt.
+    2fa_enabled: Två-faktors autentisering aktiverades korrekt.
+    remember_me_label: Kom ihåg mig
+    modal:
+      twofactor_title: Installation av två-faktor
+      heading: Inställningar för två-faktor
+      switch: Två-Faktor
+      QRheading: Två-Faktor Kod
+      help: Skanna QR-koden, eller lägg till koden manuellt i Google Authenticator eller en annan TOTP-applikation.
+      placeholder: Engångskod
+      button: Sänd
+      2fa_help: Skriv in engångskoden från din TOTP-applikation.
+      close: Jag har sparat mina koder
+      recov: Återställningskoder
+      login_title: Två-faktors autentisering
+      recov_help1: Vänligen spara de här koderna!
+      recov_help2: Detta är det enda sättet du kommer att kunna få tillgång till ditt konto om du inte längre kan komma åt din TOTP-applikation. De här koderna kommer inte att visas igen.

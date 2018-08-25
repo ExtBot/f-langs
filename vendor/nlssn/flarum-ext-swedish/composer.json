@@ -1,0 +1,36 @@
+{
+    "name": "nlssn/flarum-ext-swedish",
+    "type": "flarum-extension",
+    "description": "Swedish language extension.",
+    "keywords": ["extension", "flarum", "swedish", "locale", "translation"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johannes Nilsson",
+            "email": "johannes@nilsson.im",
+            "homepage": "http://nilsson.im"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/nlssn/flarum-ext-swedish/issues",
+        "source": "https://github.com/nlssn/flarum-ext-swedish"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Swedish",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "sv",
+            "title": "Svenska"
+        }
+    }
+}

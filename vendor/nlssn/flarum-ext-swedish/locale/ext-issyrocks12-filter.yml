@@ -1,0 +1,29 @@
+issyrocks12-filter:
+    forum:
+        flagger_name: Automoderator
+        flaged_text: Innehöll blockerade strängar
+    admin:
+        title: Filtrera
+        help: Skriv in strängar separerade med ett kommatecken och ett mellanslag.
+        email_help: Brödtext för email om flaggning. Kan vara HTML eller klartext.
+        filter_label: Strängar att filtrera
+        input:
+            placeholder: Strängar som ska filtreras
+            filter_title: Strängar att filtrera
+            email_label: Inställningar för e-post
+            switch:
+              email: Skicka email till användaren när ett inlägg är filtrerat
+              merge: Slå samman dubbelinlägg automatiskt
+            email_subject: Ämne
+            email_body: Brödtext
+        nav:
+            text: Filter
+            desc: Filtrera inlägg efter ord
+        email:
+            default_subject: Angående ditt senaste inlägg
+            default_text: |
+                Tack för att du gjort ett inlägg! Tyvärr så har ditt inlägg blvit borttaget eftersom det innehåll material som vi inte vill se i vårt forum.
+
+                Om du tror att detta är inte stämmer så kan du vara lugn. Varje inlägg som filtrerats bort kontrolleras av våra moderatorer. Om de anser att ditt inlägg inte ska raderas, så kommer dem att återställa det.
+
+                Tack för visad förståelse.

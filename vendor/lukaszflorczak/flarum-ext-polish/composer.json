@@ -1,0 +1,40 @@
+{
+  "name": "lukaszflorczak/flarum-ext-polish",
+  "type": "flarum-extension",
+  "description": "Polish language pack",
+  "keywords": [
+    "locale"
+  ],
+  "require": {
+    "flarum/core": "^0.1.0-beta.6"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lukasz Florcczak",
+      "email": "lukasz@muuteam.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/lukaszflorczak/flarum-ext-polish/issues",
+    "source": "https://github.com/lukaszflorczak/flarum-ext-polish"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    },
+    "flarum-extension": {
+      "title": "Polish",
+      "icon": {
+        "image": "icon.svg",
+        "backgroundColor": "#00247d",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center"
+      }
+    },
+    "flarum-locale": {
+      "code": "pl",
+      "title": "Polish"
+    }
+  }
+}
