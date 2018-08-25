@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f45d2e3e600adc4fccb1c13f6e6dd26",
+    "content-hash": "8fe3bb0208771ea61a35bbf84f662bb1",
     "packages": [
         {
             "name": "cbmainz/flarum-de",
@@ -51,6 +51,170 @@
             "time": "2017-07-23T21:07:22+00:00"
         },
         {
+            "name": "comocozy/flarum-ext-korean",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Comocozy/flarum-ext-korean.git",
+                "reference": "cd164219a77b306f2f00740984637edbd0477d4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Comocozy/flarum-ext-korean/zipball/cd164219a77b306f2f00740984637edbd0477d4c",
+                "reference": "cd164219a77b306f2f00740984637edbd0477d4c",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.6"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Korean",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "kr",
+                    "title": "Korean"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Comocozy",
+                    "email": "woogyom@comocozy.com"
+                }
+            ],
+            "description": "Korean language pack.",
+            "keywords": [
+                "flarum",
+                "locale"
+            ],
+            "time": "2017-05-29T05:36:24+00:00"
+        },
+        {
+            "name": "csineneo/flarum-ext-traditional-chinese",
+            "version": "v0.1.0-beta.7.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Csineneo/flarum-ext-traditional-chinese.git",
+                "reference": "9141d1662efcff292b83bdd0c5f180b8c139fda5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Csineneo/flarum-ext-traditional-chinese/zipball/9141d1662efcff292b83bdd0c5f180b8c139fda5",
+                "reference": "9141d1662efcff292b83bdd0c5f180b8c139fda5",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Chinese (zh_TW)",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#fff",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "zh-tw",
+                    "title": "正體中文"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Csineneo",
+                    "email": "csineneo@gmail.com",
+                    "homepage": "https://vivaldi.club"
+                }
+            ],
+            "description": "Traditional Chinese language pack for Flarum",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2018-04-25T15:35:16+00:00"
+        },
+        {
+            "name": "eikoninaru/flarum-ext-ukrainian",
+            "version": "0.1.0-beta.5-8.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eikoninaru/flarum-ext-ukrainian.git",
+                "reference": "47921a43af948979bd067088afea2bda38d6510f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eikoninaru/flarum-ext-ukrainian/zipball/47921a43af948979bd067088afea2bda38d6510f",
+                "reference": "47921a43af948979bd067088afea2bda38d6510f",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Ukrainian",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#fff",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "uk",
+                    "title": "Українська"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "sizonov_stas",
+                    "email": "root@linuxmint.com.ua",
+                    "homepage": "https://linuxmint.com.ua/"
+                },
+                {
+                    "name": "Igor Kiselyuk",
+                    "homepage": "http://netishin.com.ua/"
+                }
+            ],
+            "description": "Ukrainian language pack for Flarum.",
+            "homepage": "https://github.com/eikoninaru/flarum-ext-ukrainian",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2017-11-09T10:11:05+00:00"
+        },
+        {
             "name": "flarum/flarum-ext-english",
             "version": "v0.1.0-beta.7",
             "source": {
@@ -95,6 +259,431 @@
                 "locale"
             ],
             "time": "2017-07-22T02:38:43+00:00"
+        },
+        {
+            "name": "flarumes/flarum-ext-spanish",
+            "version": "v0.1.0-beta.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FlarumES/Spanish.git",
+                "reference": "aa81ee596da5334465e0a37b0a6dbdbbcc7f2643"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FlarumES/Spanish/zipball/aa81ee596da5334465e0a37b0a6dbdbbcc7f2643",
+                "reference": "aa81ee596da5334465e0a37b0a6dbdbbcc7f2643",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Spanish",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#AD1519",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "es",
+                    "title": "Spanish"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johann Rodríguez",
+                    "email": "johann@flarum.es"
+                }
+            ],
+            "description": "Spanish language pack.",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2017-07-24T21:26:48+00:00"
+        },
+        {
+            "name": "heidar/flarum-ext-swedish",
+            "version": "v0.1.0-beta.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heidarKadkhoda/flarum-ext-swedish.git",
+                "reference": "c5eb45391836f22307a64405944a0548e900928b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heidarKadkhoda/flarum-ext-swedish/zipball/c5eb45391836f22307a64405944a0548e900928b",
+                "reference": "c5eb45391836f22307a64405944a0548e900928b",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Svenska",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "sv",
+                    "title": "Svenska"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Heidar Kadkhoda",
+                    "email": "heidar.kadkhoda@gmail.com"
+                }
+            ],
+            "description": "Swedish language pack.",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2017-07-23T22:23:46+00:00"
+        },
+        {
+            "name": "jsthon/flarum-ext-simplified-chinese",
+            "version": "v0.1.0-beta.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Flarum-Chinese/flarum-ext-simplified-chinese.git",
+                "reference": "d61c54219caa8a121f07e8893e4f1a8cea7437f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Flarum-Chinese/flarum-ext-simplified-chinese/zipball/d61c54219caa8a121f07e8893e4f1a8cea7437f5",
+                "reference": "d61c54219caa8a121f07e8893e4f1a8cea7437f5",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Simplified Chinese",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#DE2910",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "zh",
+                    "title": "简体中文"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jsthon Wong",
+                    "email": "jsthon@outlook.com"
+                }
+            ],
+            "description": "Simplified Chinese language pack.",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2017-08-03T13:29:40+00:00"
+        },
+        {
+            "name": "lilcode/flarum-ext-estonian",
+            "version": "v1.6.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lilcode/flarum-ext-estonian.git",
+                "reference": "b8c06e731853103db0e4603876c4293bd296f4e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lilcode/flarum-ext-estonian/zipball/b8c06e731853103db0e4603876c4293bd296f4e5",
+                "reference": "b8c06e731853103db0e4603876c4293bd296f4e5",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Estonian",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#6893ff",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "ee",
+                    "title": "Eesti"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Estonian language pack.",
+            "homepage": "https://github.com/lilcode/flarum-ext-estonian",
+            "keywords": [
+                "language",
+                "locale",
+                "multilanguage"
+            ],
+            "time": "2017-12-08T07:51:45+00:00"
+        },
+        {
+            "name": "metastore/flarum-ext-russian",
+            "version": "0.1.0-beta.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/metastore-flarum/flarum-l10n-forum.git",
+                "reference": "11582fa3565b543a20c49f6e5b95a1af3e2331b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/metastore-flarum/flarum-l10n-forum/zipball/11582fa3565b543a20c49f6e5b95a1af3e2331b8",
+                "reference": "11582fa3565b543a20c49f6e5b95a1af3e2331b8",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "suggest": {
+                "flarum/flags": "Разрешает пользователям отмечать сообщения для рассмотрения модератором.",
+                "flarum/likes": "Разрешает пользователям отмечать понравившиеся сообщения.",
+                "flarum/lock": "Закрывает дискуссии и не позволяет добавлять новые сообщения.",
+                "flarum/mentions": "Упоминания и ответы отдельным пользователям.",
+                "flarum/pusher": "Смотреть новые дискуссии и сообщения в режиме реального времени, используя Pusher.",
+                "flarum/sticky": "Прикрепление дискуссий в списке.",
+                "flarum/subscriptions": "Разрешает пользователям наблюдать за дискуссиями и получать уведомления о новых сообщениях.",
+                "flarum/tags": "Структурирование дискуссий по иерархии тегов и категорий."
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Русский",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#ffffff",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "ru",
+                    "title": "Русский"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Kitsune Solar",
+                    "email": "kitsune.solar@gmail.com",
+                    "homepage": "https://kitsune.solar/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Russian language pack for Flarum.",
+            "homepage": "https://metastore.pro/",
+            "keywords": [
+                "flarum",
+                "language",
+                "locale",
+                "localization",
+                "russian",
+                "translation"
+            ],
+            "time": "2018-07-19T07:40:58+00:00"
+        },
+        {
+            "name": "milescellar/flarum-ext-french",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/milescellar/flarum-ext-french.git",
+                "reference": "7a265bfaa2ec360b26acc3b3f86edc2f813c9fc9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/milescellar/flarum-ext-french/zipball/7a265bfaa2ec360b26acc3b3f86edc2f813c9fc9",
+                "reference": "7a265bfaa2ec360b26acc3b3f86edc2f813c9fc9",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "French",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#fff",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "fr",
+                    "title": "Français"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Miles Cellar",
+                    "email": "milescellar@protonmail.com"
+                }
+            ],
+            "description": "French language pack for Flarum.",
+            "homepage": "https://github.com/milescellar/flarum-ext-french",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2017-07-24T17:03:19+00:00"
+        },
+        {
+            "name": "nearata/flarum-ext-italian",
+            "version": "v0.1.0-beta.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nearata/flarum-ext-italian.git",
+                "reference": "bb2c764f99af2e76308d363b435fa6d9e9732b04"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nearata/flarum-ext-italian/zipball/bb2c764f99af2e76308d363b435fa6d9e9732b04",
+                "reference": "bb2c764f99af2e76308d363b435fa6d9e9732b04",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Italian",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "it_it",
+                    "title": "Italiano"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nearata"
+                }
+            ],
+            "description": "Italian language pack.",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2017-12-12T15:15:46+00:00"
+        },
+        {
+            "name": "realodix/flarum-ext-indonesian",
+            "version": "1.3.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/realodix/flarum-ext-indonesian.git",
+                "reference": "4c5edcf877366a98fc01b0aa5192fa6c39dc5578"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/4c5edcf877366a98fc01b0aa5192fa6c39dc5578",
+                "reference": "4c5edcf877366a98fc01b0aa5192fa6c39dc5578",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Indonesian",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "id",
+                    "title": "Indonesian"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Realodix",
+                    "email": "keigarrix@gmail.com"
+                }
+            ],
+            "description": "Indonesian language pack.",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2018-05-08T19:23:50+00:00"
         }
     ],
     "packages-dev": [],

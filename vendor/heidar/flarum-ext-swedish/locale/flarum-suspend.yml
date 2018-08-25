@@ -1,0 +1,42 @@
+flarum-suspend:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      #suspend_users_label: Suspend users
+      suspend_users_label: Avstängda användare
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used in the Suspend User modal dialog (admin function).
+    suspend_user:
+      #indefinitely_label: Suspended indefinitely
+      indefinitely_label: Stäng av på obestämd tid
+      #limited_time_label: Suspended for a limited time...
+      limited_time_label: Stäng av under begränsad tid...
+      #limited_time_days_text: " days"
+      limited_time_days_text: " dagar"
+      #not_suspended_label: Not suspended
+      not_suspended_label: Inte avstängd
+      #status_heading: Suspension Status
+      status_heading: Avstängningens status
+      submit_button: => core.ref.save_changes
+      #title: "Suspend {username}"
+      title: "Stäng av {username}"
+
+    # These translations are displayed as tooltips for user badges.
+    user_badge:
+      #suspended_tooltip: Suspended
+      suspended_tooltip: Avstängd
+
+    # These translations are found on the user profile page (admin function).
+    user_controls:
+      #suspend_button: Suspend
+      suspend_button: Stäng av

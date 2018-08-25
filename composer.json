@@ -4,7 +4,15 @@
         "cbmainz/flarum-de": "*",
         "metastore/flarum-ext-russian": "*",
         "eikoninaru/flarum-ext-ukrainian": "*",
-        "heidarKadkhoda/flarum-ext-swedish": "*"
+        "heidar/flarum-ext-swedish": "*",
+        "flarumes/flarum-ext-spanish": "*",
+        "comocozy/flarum-ext-korean": "*",
+        "nearata/flarum-ext-italian": "*",
+        "realodix/flarum-ext-indonesian": "*",
+        "milescellar/flarum-ext-french": "*",
+        "lilcode/flarum-ext-estonian": "*",
+        "jsthon/flarum-ext-simplified-chinese": "*",
+        "csineneo/flarum-ext-traditional-chinese": "*"
     },
     "replace": {
 		"flarum/core": "*"

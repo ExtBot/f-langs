@@ -1,0 +1,61 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: Luba märgista postitused
+      view_flags_label: Luba vaadata märgistatud postitusi
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: Kommuuni Juhiste URL
+      title: Märgistuse Seaded
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: Täname teid selle postituse märgistamise eest. Meie moderaatorid uurivad seda.
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: Ebasobilik
+      reason_inappropriate_text: "See postitus on solvav, kuritahtlik või rikub meie <a>kommuuni reegleid</a>."
+      reason_off_topic_label: "Teemast mööda"
+      reason_off_topic_text: See postitus ei ole praeguse arutelu jaoks asjakohane ja seda tuleks mujale teisaldada.
+      reason_other_label: Muu
+      reason_spam_label: Rämpspost
+      reason_spam_text: See postitus on reklaam.
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: Märgistused Puuduvad
+      item_text: "{username} arutelus <em>{discussion}</em>"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_button: Heida märgistus kõrvale
+      flagged_by_text: "Tähistatud {username} poolt"
+      flagged_by_with_reason_text: "Tähistatud {username} poolt põhjusega {reason}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: Märgista
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: Märgista Postitus
+    flagged_posts: Märgistatud Postitused
