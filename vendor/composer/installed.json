@@ -1,0 +1,96 @@
+[
+    {
+        "name": "cbmainz/flarum-de",
+        "version": "0.7.1",
+        "version_normalized": "0.7.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Kakifrucht/flarum-de.git",
+            "reference": "a64db03cf3656fafb34090b4485442a572e69c1a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/a64db03cf3656fafb34090b4485442a572e69c1a",
+            "reference": "a64db03cf3656fafb34090b4485442a572e69c1a",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.7"
+        },
+        "time": "2017-07-23T21:07:22+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Deutsch",
+                "icon": {
+                    "image": "icon.svg",
+                    "backgroundColor": "#00247d",
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                }
+            },
+            "flarum-locale": {
+                "code": "de",
+                "title": "Deutsch"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "German language pack for Flarum and its bundled extensions.",
+        "homepage": "https://github.com/Kakifrucht/flarum-de",
+        "keywords": [
+            "locale"
+        ]
+    },
+    {
+        "name": "flarum/flarum-ext-english",
+        "version": "v0.1.0-beta.7",
+        "version_normalized": "0.1.0.0-beta7",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/flarum/flarum-ext-english.git",
+            "reference": "5b14897cdd4573ef44ac4adf5d892cbcb2b84b1e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-english/zipball/5b14897cdd4573ef44ac4adf5d892cbcb2b84b1e",
+            "reference": "5b14897cdd4573ef44ac4adf5d892cbcb2b84b1e",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.7"
+        },
+        "time": "2017-07-22T02:38:43+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.1.x-dev"
+            },
+            "flarum-extension": {
+                "title": "English",
+                "icon": {
+                    "image": "icon.svg",
+                    "backgroundColor": "#00247d",
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                }
+            },
+            "flarum-locale": {
+                "code": "en",
+                "title": "English"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "English language pack.",
+        "keywords": [
+            "locale"
+        ]
+    }
+]
