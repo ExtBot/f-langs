@@ -9,3 +9,5 @@ vendor/composer/autoload_real.php
 vendor/composer/autoload_static.php
 .git
 **/.git
+vendor/rafo/flarum-ext-azeri/.git
+vendor/rafo/flarum-ext-azeri/.git/*
