@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5bffbb010425aaab59af7215f4d21227",
+    "content-hash": "3adda71c2af76c50118a0fa67e57aef3",
     "packages": [
         {
             "name": "ahrasis/flarum-ext-malaysian",
@@ -54,6 +54,60 @@
                 "locale"
             ],
             "time": "2016-11-23T01:47:56+00:00"
+        },
+        {
+            "name": "bmain/flarum-ext-romanian",
+            "version": "v0.6.0-beta.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bmalex88/flarum-ext-romanian.git",
+                "reference": "fc16c4b0da26f7969b8d4ab66a546e094716b619"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bmalex88/flarum-ext-romanian/zipball/fc16c4b0da26f7969b8d4ab66a546e094716b619",
+                "reference": "fc16c4b0da26f7969b8d4ab66a546e094716b619",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.6"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Romanian",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#CB0002",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "ro",
+                    "title": "Romanian"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Buhnici Mihai Alexandru",
+                    "email": "admin@bmain.ro",
+                    "homepage": "https://www.bmain.ro"
+                }
+            ],
+            "description": "Romanian language pack for Flarum.",
+            "homepage": "https://github.com/bmalex88/flarum-ext-romanian",
+            "keywords": [
+                "locale"
+            ],
+            "time": "2017-07-21T16:22:10+00:00"
         },
         {
             "name": "cbmainz/flarum-de",

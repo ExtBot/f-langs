@@ -27,6 +27,7 @@
 		"rafo/flarum-ext-azeri": "*",
 		"realodix/flarum-ext-indonesian": "*",
 		"rodymolenaar/flarum-ext-dutch": "*",
+		"bmain/flarum-ext-romanian": "*",
 		"sijad/flarum-ext-persian": "*"
 	},
 	"replace": {
