@@ -29,8 +29,8 @@ flarum-lock:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} এর প্রশ্ন লক করা"
-      discussion_unlocked_text: "{username} এর প্রশ্ন আনলক করা"
+      discussion_locked_text: "{username} দ্বারা প্রশ্ন লক করা"
+      discussion_unlocked_text: "{username} দ্বারা প্রশ্ন আনলক করা"
 
     # These translations are used in the Settings page.
     settings:

@@ -127,9 +127,9 @@ core:
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: Add Extension
+      add_button: নতুন এক্সটেনশান
       settings_button: => core.ref.settings
-      uninstall_button: Uninstall
+      uninstall_button: আনইনস্টল
 
     # These translations are used in the session dropdown menu.
     header:
@@ -281,10 +281,10 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: আমরা আপনার পাসওয়ার্ড পুনরায় সেট করার জন্য একটি লিঙ্ক ইমেল ঠিকানায় পাঠানো হয়েছে। আপনার স্প্যাম ফোল্ডারটি চেক করুন, যদি আপনি তা পরবর্তী দুই মিনিটের মধ্যে না পান।
+      email_sent_message:  পাসওয়ার্ড পুনরায় সেট করার জন্য একটি লিঙ্ক ইমেল ঠিকানায় পাঠানো হয়েছে। যদি ২/১ মিনিটের মধ্যে ইমেইল না পান তা হলে স্প্যাম ফোল্ডারটি চেক করুন।
       not_found_message: এই ইমেল ঠিকানার দিয়ে এখনো কোনো নিবন্ধন করা হয়নি
       submit_button: পাসওয়ার্ড উদ্ধার করুন
-      text: আপনার ইমেল ঠিকানা লিখুন এবং আমরা আপনাকে পাসওয়ার্ড পরিবর্তন করার জন্য একটি লিঙ্ক পাঠানো হবে
+      text: ইমেইল ঠিকানা লিখুন এবং পাসওয়ার্ড পরিবর্তন করার জন্য একটি লিঙ্ক পাঠানো হবে
       title: পাসওয়ার্ড ভুলে গেছেন
 
     # These translations are used in the header and session dropdown menu.
@@ -302,7 +302,7 @@ core:
     index:
       all_discussions_link: => core.ref.all_discussions
       cannot_start_discussion_button: প্রশ্ন করতে পারবেন না
-      mark_all_as_read_confirmation: "আপনি কি পড়ার মত সব প্রশ্নকে চিহ্নিত করতে চান?"
+      mark_all_as_read_confirmation: "পঠিত হিসেবে চিহ্নিত করতে চান?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: রিফ্রেশ
       start_discussion_button: => core.ref.start_a_discussion
@@ -318,7 +318,7 @@ core:
     # These translations are used in the Log In modal dialog.
     log_in:
       forgot_password_link: "পাসওয়ার্ড ভুলে গেছেন?"
-      invalid_login_message: আপনার লগইন সঠিক নয়
+      invalid_login_message: প্রবেশ বৈধ নয়
       password_placeholder: => core.ref.password
       remember_me_label: মনে রাখুন
       sign_up_text: "অ্যাকাউন্ট নেই? <a>নিবন্ধন করুন</a>"
@@ -538,12 +538,12 @@ core:
     confirm_password: পাসওয়ার্ড নিশ্চিত করুন
     confirmation_email_sent: " এই  {email}  ঠিকানায় একটি নিশ্চিতকরণ ইমেল পারানো হয়েছে। যদি তা শীঘ্রই আসে না, আপনার স্প্যাম ফোল্ডারটি চেক করুন"
     delete: মুছুন
-    delete_forever: চিরতরে মুছুন
+    delete_forever: স্থায়ীভাবে মুছুন
     discussions: প্রশ্ন
     edit: সম্পাদন
     email: ইমেইল
     load_more: আরো লোড করুন
-    log_in: লগইন
+    log_in: প্রবেশ
     log_out: প্রস্থান
     mark_all_as_read: পঠিত হিসাবে চিহ্নিত করুন
     next_page: পরবর্তী পৃষ্ঠা

@@ -1,0 +1,496 @@
+core:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the placeholder Add Extension modal dialog.
+    add_extension:
+      developer_text: "Utviklere kan <a>lese dokumentasjonen</a> og lage egne tillegg."
+      install_text: "I mellomtiden kan du se etter tillegg på <a>Flarum-sidene</a> og installere dem manuelt med Composer."
+      temporary_text: "En vakker dag kan du enkelt installere tillegg herfra. Vi jobber med saken!"
+
+    # These translations are used in the Appearance page.
+    appearance:
+      colored_header_label: Farget topplinje
+      colors_heading: Farger
+      colors_text: "Velg to farger til forumet ditt. Den første brukes til uthevinger, den andre til bakgrunnselementer."
+      custom_styles_heading: Egne stiler
+      custom_styles_text: Tilpass forumet med egen LESS/CSS i tillegg til standardstilene i Flarum.
+      dark_mode_label: Mørk modus
+      edit_css_button: Rediger egen CSS
+      enter_hex_message: Legg inn en heksadesimal fargekode.
+      submit_button: => core.ref.save_changes
+
+    # These translations are used in the Basics page.
+    basics:
+      all_discussions_label: => core.ref.all_discussions
+      default_language_heading: Standardspråk
+      forum_description_heading: Beskrivelse av forumet
+      forum_description_text: Legg inn en kort setning som beskriver forumet. Den kommer med i meta-taggen og vises i søkemotorer.
+      forum_title_heading: Forumnavn
+      home_page_heading: Startside
+      home_page_text: "Velg hvilken side brukere ser først når de besøker forumet ditt. Hvis du legger inn en egen verdi, skal banen være relativ til forumrotkatalogen."
+      saved_message: Endringene ble lagret.
+      submit_button: => core.ref.save_changes
+      welcome_banner_heading: Vignett
+      welcome_banner_text: Velg hva som skal stå i vignetten på siden «Alle diskusjoner». Bruk den til å ønske velkommen.
+
+    # These translations are used in the Dashboard page.
+    dashboard:
+      beta_warning_text: "Denne <strong>betaversjonen</strong> er primært tiltenkt testing så du kan hjelpe oss med å utvikle Flarum. Den må ikke brukes til noe viktig."
+      contributing_text: "Vil du lete etter programfeil og bidra? <a>Les mer</a>."
+      extension_text: "Har du lyst til å utvikle tillegg? <a>Les mer</a>."
+      features_text: "Har du forslag til forberdringer? <a>Fortell oss om det</a>."
+      support_text: "Har du funnet en feil? Rapporter det i forumet vårt, under <a>brukerstøtte</a>."
+      troubleshooting_text: "Har du problemer? <a>Les mer om feilsøking</a>."
+      version_text: "Takk for at du prøver Flarum! Du kjører versjon {version}."
+      welcome_text: "Velkommen til Flarum Beta!"
+
+    # These translations are used in the Edit Custom CSS modal dialog.
+    edit_css:
+      customize_text: "Endre utseendet til forumet ditt ved å legge til din egen LESS/CSS-kode over <a>standardstilene</a>."
+      submit_button: => core.ref.save_changes
+      title: Rediger egen CSS
+
+    # These translations are used in the Edit Group modal dialog.
+    edit_group:
+      color_label: Farge
+      delete_button: Slett gruppe
+      delete_confirmation: "Er du sikker på at du vil slette denne gruppen? Medlemmene blir IKKE slettet."
+      icon_label: Ikon
+      icon_text: "Skriv inn navnet på en <a>FontAwesome</a>-ikonklasse <em>uten</em> prefikset <code>fa-</code>."
+      name_label: Navn
+      plural_placeholder: Flertall (f.eks. Moderatorer)
+      singular_placeholder: Entall (f.eks. Moderator)
+      submit_button: => core.ref.save_changes
+      title: Lag gruppe
+
+    # These translations are used in the Extensions page.
+    extensions:
+      add_button: Legg til tillegg
+      disable_button: Slå av
+      enable_button: Slå på
+      settings_button: => core.ref.settings
+      uninstall_button: Avinstaller
+
+    # These translations are used in the session dropdown menu.
+    header:
+      log_out_button: => core.ref.log_out
+
+    # These translations are used in the modal dialog displayed when loading extensions.
+    loading:
+      title: Vent litt …
+
+    # These translations are used in the navigation bar.
+    nav:
+      appearance_button: Utseende
+      appearance_text: "Juster farger, logo og annet."
+      basics_button: Generelt
+      basics_text: "Velg navn, språk og andre generelle innstillinger."
+      dashboard_button: Oversikt
+      dashboard_text: Informasjon om forumet ditt.
+      extensions_button: Tillegg
+      extensions_text: Legg til funksjoner og gjør forumet til ditt eget.
+      permissions_button: Rettigheter
+      permissions_text: Velg hvem som kan se og gjøre hva.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_renaming_label: Bytte navn på et innlegg
+      allow_post_editing_label: Redigere et innlegg
+      create_heading: Skrive
+      delete_discussions_forever_label: Slette en diskusjon permanent
+      delete_discussions_label: Slette en diskusjon
+      delete_posts_forever_label: Slette et innlegg permanent
+      edit_and_delete_posts_label: Redigere eller slette et innlegg
+      global_heading: Globalt
+      moderate_heading: Moderere
+      new_group_button: Ny gruppe
+      participate_heading: Delta
+      read_heading: Lese
+      rename_discussions_label: Endre overskriften til et innlegg
+      reply_to_discussions_label: Svare på en diskusjon
+      sign_up_label: Registrering
+      start_discussions_label: Starte en diskusjon
+      view_discussions_label: Lese en diskusjon
+
+    # These translations are used in the dropdown menus on the Permissions page.
+    permissions_controls:
+      allow_indefinitely_button: Alltid
+      allow_some_minutes_button: "I {count} minutt|I {count} minutter"
+      allow_ten_minutes_button: I 10 minutter
+      allow_until_reply_button: Til neste svar
+      everyone_button: Alle
+      members_button: => core.group.members
+      signup_closed_button: Lukket
+      signup_open_button: Åpen
+
+    # These translations are used in the Settings modal dialog.
+    settings:
+      submit_button: => core.ref.save_changes
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used in the Change Email modal dialog.
+    change_email:
+      confirmation_message: => core.ref.confirmation_email_sent
+      confirm_password_label: => core.ref.confirm_password
+      dismiss_button: => core.ref.okay
+      incorrect_password_message: Du skrev inn feil passord.
+      submit_button: => core.ref.save_changes
+      title: => core.ref.change_email
+
+    # These translations are used in the Change Password modal dialog.
+    change_password:
+      send_button: Send e-post for å stille om passord.
+      text: Trykk på knappen under og sjekk e-posten din.
+      title: => core.ref.change_password
+
+    # These translations are used by the composer controls.
+    composer:
+      close_tooltip: Lukk
+      exit_full_screen_tooltip: Avslutt fullskjerm
+      full_screen_tooltip: Fullskjerm
+      minimize_tooltip: Minimer
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      body_placeholder: Skriv et innlegg …
+      discard_confirmation: "Du har ikke sendt inn diskusjonen din. Vil du forkaste den?"
+      submit_button: Send inn diskusjon
+      title: => core.ref.start_a_discussion
+      title_placeholder: Overskrift
+
+    # These translations are used by the composer when editing a post.
+    composer_edit:
+      discard_confirmation: "Du har ikke lagret endringene dine. Vil du forkaste dem?"
+      post_link: "Innlegg #{number} i {discussion}"
+      submit_button: => core.ref.save_changes
+
+    # These translations are used by the composer when replying to a discussion.
+    composer_reply:
+      body_placeholder: => core.ref.write_a_reply
+      discard_confirmation: "Du har ikke sendt inn svaret ditt. Vil du forkaste det?"
+      posted_message: Svaret ditt er sendt.
+      submit_button: Send inn svar
+      view_button: Vis
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      cannot_reply_button: Kan ikke svare
+      cannot_reply_text: Du har ikke rettigheter til å svare i denne diskusjonen.
+      delete_button: => core.ref.delete
+      delete_confirmation: "Er du sikker på at du vil slette denne diskusjonen?"
+      delete_forever_button: => core.ref.delete_forever
+      log_in_to_reply_button: Logg inn for å svare
+      rename_button: Endre overskrift
+      rename_text: "Skriv inn en ny overskrift til denne diskusjonen:"
+      reply_button: => core.ref.reply
+      restore_button: => core.ref.restore
+
+    # These translations are used in the discussion list.
+    discussion_list:
+      empty_text: Det ser ikke ut til å være noen diskusjoner her.
+      load_more_button: => core.ref.load_more
+      mark_as_read_tooltip: Merk som lest
+      replied_text: "{username} svarte for {ago}"
+      started_text: "{username} startet diskusjonen for {ago}"
+
+    # These translations are used in the Edit User modal dialog (admin function).
+    edit_user:
+      email_label: => core.ref.email
+      password_label: => core.ref.password
+      submit_button: => core.ref.save_changes
+      username_label: => core.ref.username
+
+    # These translations are used in the Forgot Password modal dialog.
+    forgot_password:
+      dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
+      email_sent_message: Vi har sendt deg en e-post med en lenke du kan følge for å tilbakestille passordet ditt. Sjekk søppelposten din om du ikke har fått den innen et minutt eller to.
+      not_found_message: Det er ikke registrert noen bruker med den e-postadressen.
+      submit_button: Endre passord
+      text: Skriv inn e-postadressen din, så sender vi deg en lenke du kan følge for å tilbakestille passordet ditt.
+      title: Glemt passord
+
+    # These translations are used in the header and session dropdown menu.
+    header:
+      admin_button: Administrasjon
+      log_in_link: => core.ref.log_in
+      log_out_button: => core.ref.log_out
+      profile_button: Profil
+      search_placeholder: Søk
+      settings_button: => core.ref.settings
+      sign_up_link: => core.ref.sign_up
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      all_discussions_link: => core.ref.all_discussions
+      cannot_start_discussion_button: Kan ikke starte diskusjon
+      mark_all_as_read_confirmation: "Er du sikker på at du vil merke alle diskusjoner som lest?"
+      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      refresh_tooltip: Oppdater
+      start_discussion_button: => core.ref.start_a_discussion
+
+    # These translations are used by the sorting control above the discussion list.
+    index_sort:
+      latest_button: Sist aktive
+      newest_button: Nyeste
+      oldest_button: Eldste
+      relevance_button: Relevans
+      top_button: Topp
+
+    # These translations are used in the Log In modal dialog.
+    log_in:
+      forgot_password_link: "Glemt passordet?"
+      invalid_login_message: Feil brukernavn eller passord.
+      password_placeholder: => core.ref.password
+      sign_up_text: "Er du ikke medlem? <a>Registrer deg</a>"
+      submit_button: => core.ref.log_in
+      title: => core.ref.log_in
+      username_or_email_placeholder: Brukernavn eller e-postadresse
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      discussion_renamed_text: "{username} endret overskriften"
+      empty_text: Ingen varsler
+      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      title: => core.ref.notifications
+      tooltip: => core.ref.notifications
+
+    # These translations are used by tooltips displayed for individual posts.
+    post:
+      edited_tooltip: "{username} redigerte innlegget for {ago}"
+      number_tooltip: "Innlegg #{number}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      delete_button: => core.ref.delete
+      delete_forever_button: => core.ref.delete_forever
+      edit_button: => core.ref.edit
+      restore_button: => core.ref.restore
+
+    # These translations are used in the scrubber to the right of the post stream.
+    post_scrubber:
+      now_link: Nå
+      original_post_link: Første innlegg
+      unread_text: "{count} ulest(e)"
+      viewing_text: "{index} av {count} innlegg|{index} av {count} innlegg"
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      discussion_renamed_old_tooltip: 'Den gamle overskriften var: "{old}"'
+      discussion_renamed_text: "{username} endret overskriften til {new}."
+      load_more_button: => core.ref.load_more
+      reply_placeholder: => core.ref.write_a_reply
+      time_lapsed_text: "{period} senere"
+
+    # These translations are used by the search results dropdown list.
+    search:
+      all_discussions_button: 'Søk etter "{query}" i alle diskusjoner'
+      discussions_heading: => core.ref.discussions
+      users_heading: Brukere
+
+    # These translations are used in the Settings page.
+    settings:
+      account_heading: Konto
+      change_email_button: => core.ref.change_email
+      change_password_button: => core.ref.change_password
+      notifications_heading: => core.ref.notifications
+      notify_by_email_heading: => core.ref.email
+      notify_by_web_heading: Web
+      notify_discussion_renamed_label: Noen endrer overskriften til en diskusjon jeg har startet
+      privacy_disclose_online_label: La andre se det når jeg er innlogget
+      privacy_heading: Personvern
+      title: => core.ref.settings
+
+    # These translations are used in the Sign Up modal dialog.
+    sign_up:
+      email_placeholder: => core.ref.email
+      dismiss_button: => core.ref.okay
+      log_in_text: "Er du allerede medlem? <a>Logg inn</a>"
+      password_placeholder: => core.ref.password
+      submit_button: => core.ref.sign_up
+      title: => core.ref.sign_up
+      username_placeholder: => core.ref.username
+      welcome_text: "Velkommen, {username}!"
+
+    # These translations are used in the user profile page and profile popup.
+    user:
+      avatar_remove_button: Slett
+      avatar_upload_button: Last opp
+      avatar_upload_tooltip: Last opp ny avatar
+      bio_placeholder: Skriv noe om deg selv
+      discussions_link: => core.ref.discussions
+      in_discussion_text: "I {discussion}"
+      joined_date_text: "Ble medlem for {ago}"
+      online_text: Innlogget
+      posts_load_more_button: => core.ref.load_more
+      posts_link: Innlegg
+      settings_link: => core.ref.settings
+
+    # These translations are found on the user profile page (admin function).
+    user_controls:
+      button: Valg
+      delete_button: => core.ref.delete
+      delete_confirmation: "Er du sikker på at du vil slette denne brukeren? Alle innleggene hans/hennes blir slettet."
+      edit_button: => core.ref.edit
+
+    # These translations are used in the alert that is shown when a new user has not confirmed their email address.
+    user_email_confirmation:
+      alert_message: => core.ref.confirmation_email_sent
+      resend_button: Send e-post for bekreftelse på nytt
+      sent_message: Sendt
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # These translations are displayed as tooltips for discussion badges.
+    badge:
+      hidden_tooltip: Skjult
+
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[slettet]"
+
+    # These translations are displayed as error messages.
+    error:
+      generic_message: "Oi, noe gikk galt. Last inn siden på nytt og prøv igjen."
+      not_found_message: Fant ikke ressursen.
+      permission_denied_message: Du har ikke tilgang til å gjøre det.
+      rate_limit_exceeded_message: Du går litt for fort fram. Prøv igjen om noen sekunder.
+
+    # These translations are used as suffixes when abbreviating numbers.
+    number_suffix:
+      kilo_text: K
+      mega_text: M
+
+    # These translations are used to punctuate a series of items.
+    series:
+      glue_text: ", "
+      three_text: "{first}, {second} og {third}"
+      two_text: "{first} og {second}"
+
+  # Translations in this namespace are used in views other than Flarum's normal JS client.
+  views:
+
+    # Translations in this namespace are displayed by the basic HTML content loader.
+    content:
+      javascript_disabled_message: Denne siden fungerer best i en moderne nettleser med JavaScript aktivert.
+      load_error_message: Noe gikk galt da fullversjonen av denne siden skulle lastes inn.
+      loading_text: Laster inn …
+
+    # Translations in this namespace are displayed in the basic HTML discussion view.
+    discussion:
+      next_page_button: => core.ref.next_page
+      previous_page_button: Førre side
+
+    # Translations in this namespace are displayed by the basic HTML discussion index.
+    index:
+      all_discussions_heading: => core.ref.all_discussions
+      next_page_button: => core.ref.next_page
+
+    # Translations in this namespace are displayed by the Reset Password interface.
+    reset:
+      confirm_password_label: => core.ref.confirm_password
+      password_label: => core.ref.password
+      submit_button: Still om passord
+      title: => core.ref.reset_your_password
+
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when users register new accounts.
+    activate_account:
+      body: |
+        Hei, {username}!
+
+        Noen (forhåpentligvis deg!) har registrert seg på {forum} med denne e-postadressen.
+
+        Hvis det var deg, følg denne lenken for å aktivere kontoen:
+        {url}
+
+        Hvis det ikke var deg, ignorer denne e-posten.
+      subject: Aktiver kontoen din
+
+    # These translations are used in emails sent when users change their email address.
+    confirm_email:
+      body: |
+        Hei, {username}!
+
+        Noen (forhåpentligvis deg!) har endret e-postdressen sin på {forum} til denne.
+
+        Hvis det var deg, klikk på denne lenken for å bekrefte e-postadressen:
+        {url}
+
+        Hvis det ikke var deg, ignorer denne e-posten.
+      subject: Bekreft ny e-postadresse
+
+    # These translations are used in emails sent when users ask to reset their passwords.
+    reset_password:
+      body: |
+        Hei, {username}!
+
+        Noen (forhåpentligvis deg!) har bedt om å tilbakestille passordet ditt på {forum}.
+
+        Hvis det var deg, klikk på denne lenken for å tilbakestille passordet ditt:
+        {url}
+
+        Hvis du ikke vil tilbakestille passordet ditt, ignorer denne e-posten.
+      subject: => core.ref.reset_your_password
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    all_discussions: Alle diskusjoner
+    change_email: Endre e-postadresse
+    change_password: Endre passord
+    confirm_password: Bekreft passord
+    confirmation_email_sent: "Vi har sendt en bekreftelses-e-post til {email}. Hvis den ikke dukker opp snart, sjekk søppelposten din."
+    delete: Slett
+    delete_forever: Slett permanent
+    discussions: Diskusjoner
+    edit: Rediger
+    email: E-post
+    load_more: Last inn mer
+    log_in: Logg inn
+    log_out: Logg ut
+    mark_all_as_read: Merk alt som lest
+    next_page: Neste side
+    notifications: Varsler
+    okay: OK                                     # Referenced by flarum-tags.yml
+    password: Passord
+    reply: Svar                                  # Referenced by flarum-mentions.yml
+    reset_your_password: Still om passordet ditt
+    restore: Gjenopprett
+    save_changes: Lagre endringer                # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: Innstillinger
+    sign_up: Registrer deg
+    some_others: "{count} annen|{count} andre"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: Start en diskusjon
+    username: Brukernavn
+    write_a_reply: "Skriv et svar …"
+    you: Du                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+
+  ##
+  # GROUP NAMES - These keys are translated at the back end.
+  ##
+
+  # Translations in this namespace are used to translate default group names.
+  group:
+    admin: Administrator
+    admins: Administratorer
+    guest: Gjest
+    guests: Gjester
+    member: Medlem
+    members: Medlemmer
+    mod: Moderator
+    mods: Moderatorer

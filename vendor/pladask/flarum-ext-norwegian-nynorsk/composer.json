@@ -1,0 +1,25 @@
+{
+    "name": "pladask/flarum-ext-norwegian-nynorsk",
+    "type": "flarum-extension",
+    "description": "Norwegian Nynorsk language pack.",
+    "keywords": ["locale", "language", "norwegian", "nynorsk", "no", "nn"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.5"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Norwegian Nynorsk",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#ef2b2d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "nn",
+            "title": "Norsk nynorsk"
+        }
+    }
+}

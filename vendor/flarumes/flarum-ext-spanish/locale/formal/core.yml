@@ -295,10 +295,10 @@ core:
     # These translations are used by the sorting control above the discussion list.
     index_sort:
       latest_button: Lo último
-      newest_button: Más nuevo
-      oldest_button: Más viejo
-      relevance_button: Relevancia
-      top_button: Arriba
+      newest_button: Lo más nuevo
+      oldest_button: Lo más viejo
+      relevance_button: Lo más relevante
+      top_button: Lo más comentado
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -342,7 +342,7 @@ core:
     # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_old_tooltip: 'El título anterior era: "{old}"'
-      discussion_renamed_text: "{username} cambió el titulo a {new}."
+      discussion_renamed_text: "{username} cambió el título a {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} más tarde"

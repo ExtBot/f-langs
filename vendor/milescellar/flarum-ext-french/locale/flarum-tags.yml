@@ -13,7 +13,7 @@ flarum-tags:
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Couleur
+      color_label: => core.ref.color
       delete_tag_button: Supprimer l’étiquette
       delete_tag_confirmation: "Êtes-vous sûr de vouloir supprimer cette étiquette ? Les discussions publiées sous cette étiquette ne seront pas supprimées."
       description_label: Description
@@ -71,6 +71,9 @@ flarum-tags:
     discussion_controls:
       edit_tags_button: Modifier les étiquettes
 
+    header:
+      back_to_tags_tooltip: "Revenir à la liste d’étiquettes"
+
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: Plus…
@@ -79,8 +82,8 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} a ajouté {tagsAdded}."
       added_and_removed_tags_text: "{username} a ajouté {tagsAdded} et a supprimé {tagsRemoved}."
+      added_tags_text: "{username} a ajouté {tagsAdded}."
       removed_tags_text: "{username} a supprimé {tagsRemoved}."
       tags_text: "l’étiquette {tags}|les étiquettes {tags}"
 

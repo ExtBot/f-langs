@@ -17,13 +17,13 @@ flarum-likes:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_liked_text: "{username} এর পোস্টটি ভালো লেগেছে"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "{username} পোস্টে লাইক দিয়েছে"  # Can be pluralized to agree with the number of users!
 
     # These translations are displayed beneath individual posts.
     post:
       like_link: লাইক
-      liked_by_self_text: "{users} লাইক করেছে "  # Can be pluralized to agree with the number of users!
-      liked_by_text: "{users} likes this.|{users} like this."
+      liked_by_self_text: "{users} লাইক দিয়েছেন"  # Can be pluralized to agree with the number of users!
+      liked_by_text: "{users} লাইক দিয়েছেন|{users} লাইক দিয়েছেন"
       others_link: => core.ref.some_others
       unlike_link: আনলাইক
       you_text: => core.ref.you

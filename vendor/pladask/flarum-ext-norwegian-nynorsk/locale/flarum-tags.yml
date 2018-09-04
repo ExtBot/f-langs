@@ -1,0 +1,101 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: Farge
+      delete_tag_button: Slett emneknagg
+      delete_tag_confirmation: "Er du sikker på at du vil slette emneknaggen? Tilhøyrande diskusjonar blir IKKJE sletta."
+      description_label: Beskriving
+      hide_label: Gøym i alle diskusjonar
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Kode
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: Organiser emneknaggar.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: Redigere emneknaggar
+      restrict_by_tag_heading: Avgrens til emneknagg
+      tag_discussions_label: Legge inn emneknagg i ein diskusjon
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " til "
+      required_primary_heading: Lågaste antal primærknaggar
+      required_primary_text: Oppgi lågaste og høgste antal primærknaggar ein diskusjon kan ha.
+      required_secondary_heading: Lågaste antal sekundærknaggar
+      required_secondary_text: Oppgi lågaste og høgste antal sekundærknaggar ein diskusjon kan ha.
+      title: Emneknagginnstillingar
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "Emneknaggar brukast til å kategorisere diskusjonar. Primærknaggar er som tradisjonelle forumkategoriar: Dei kan organiserast i eit hierarki med to nivå. Sekundærknaggar virkar ikkje hierarkisk og er nyttige til mikrokategorisering."
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: Primærknaggar
+      secondary_heading: Sekundærknaggar
+      settings_button: Innstillingar
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "Vel ein primærknagg|Vel {count} primærknaggar"
+      choose_secondary_placeholder: "Vel 1 emneknagg til|Vel {count} emneknaggar til"
+      edit_title: "Rediger emneknaggane til {title}"
+      submit_button: => core.ref.okay
+      title: Vel emneknaggar til diskusjonen din
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: Vel emneknaggar
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: Rediger emneknaggar
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: Meir …
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: Utan emneknagg
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username} la til {tagsAdded}."
+      added_and_removed_tags_text: "{username} la til {tagsAdded} og fjerna {tagsRemoved}."
+      removed_tags_text: "{username} fjerna {tagsRemoved}."
+      tags_text: "{tags} emneknagg|{tags} emneknaggar"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: Sletta
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: Lag emneknagg
+    name: Namn
+    tags: Emneknaggar
