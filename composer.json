@@ -1,7 +1,7 @@
 {
 	"require": {
 		"ahrasis/flarum-ext-malaysian": "*",
-		"cbmainz/flarum-de": "*",
+		"cbmainz/flarum-de": "dev-master",
 		"comocozy/flarum-ext-korean": "*",
 		"csineneo/flarum-ext-traditional-chinese": "*",
 		"eikoninaru/flarum-ext-ukrainian": "*",

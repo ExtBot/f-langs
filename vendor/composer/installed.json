@@ -51,6 +51,52 @@
         ]
     },
     {
+        "name": "cbmainz/flarum-de",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Kakifrucht/flarum-de.git",
+            "reference": "6bf8fdc93580dc362238e40cd079fd848d3573e9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/6bf8fdc93580dc362238e40cd079fd848d3573e9",
+            "reference": "6bf8fdc93580dc362238e40cd079fd848d3573e9",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.7"
+        },
+        "time": "2018-09-03T15:51:18+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Deutsch",
+                "icon": {
+                    "image": "icon.svg",
+                    "backgroundColor": "#00247d",
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                }
+            },
+            "flarum-locale": {
+                "code": "de",
+                "title": "Deutsch"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "German language pack for Flarum and its bundled extensions.",
+        "homepage": "https://github.com/Kakifrucht/flarum-de",
+        "keywords": [
+            "locale"
+        ]
+    },
+    {
         "name": "flabrew/flabrew",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
@@ -195,52 +241,6 @@
             }
         ],
         "description": "Azerbaijan language pack.",
-        "keywords": [
-            "locale"
-        ]
-    },
-    {
-        "name": "cbmainz/flarum-de",
-        "version": "0.7.1",
-        "version_normalized": "0.7.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Kakifrucht/flarum-de.git",
-            "reference": "a64db03cf3656fafb34090b4485442a572e69c1a"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/a64db03cf3656fafb34090b4485442a572e69c1a",
-            "reference": "a64db03cf3656fafb34090b4485442a572e69c1a",
-            "shasum": ""
-        },
-        "require": {
-            "flarum/core": "^0.1.0-beta.7"
-        },
-        "time": "2017-07-23T21:07:22+00:00",
-        "type": "flarum-extension",
-        "extra": {
-            "flarum-extension": {
-                "title": "Deutsch",
-                "icon": {
-                    "image": "icon.svg",
-                    "backgroundColor": "#00247d",
-                    "backgroundSize": "cover",
-                    "backgroundPosition": "center"
-                }
-            },
-            "flarum-locale": {
-                "code": "de",
-                "title": "Deutsch"
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "description": "German language pack for Flarum and its bundled extensions.",
-        "homepage": "https://github.com/Kakifrucht/flarum-de",
         "keywords": [
             "locale"
         ]
