@@ -518,18 +518,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/flarum-ext-english.git",
-            "reference": "afad106eaace9d17f0b20e3316f225a3ec06f3f8"
+            "reference": "cc842317f073535dcced19dec2600ed56c62fdeb"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/flarum-ext-english/zipball/afad106eaace9d17f0b20e3316f225a3ec06f3f8",
-            "reference": "afad106eaace9d17f0b20e3316f225a3ec06f3f8",
+            "url": "https://api.github.com/repos/flarum/flarum-ext-english/zipball/cc842317f073535dcced19dec2600ed56c62fdeb",
+            "reference": "cc842317f073535dcced19dec2600ed56c62fdeb",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-07-20T23:22:30+00:00",
+        "time": "2018-09-21T02:14:32+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
