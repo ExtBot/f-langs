@@ -31,6 +31,7 @@
 		"veriael/flarum-polish": "@dev",
 		"pladask/flarum-ext-norwegian-bokmal": "@dev",
 		"pladask/flarum-ext-norwegian-nynorsk": "@dev",
+		"kryonoglou/flarum-ext-greek": "@dev",
 		"sijad/flarum-ext-persian": "@dev"
 	},
 	"replace": {

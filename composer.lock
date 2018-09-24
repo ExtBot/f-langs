@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3fe76999bbd9dd1e00c265aef9d88677",
+    "content-hash": "2185f46980209b8155b4f7039cb889e9",
     "packages": [
         {
             "name": "ahrasis/flarum-ext-malaysian",
@@ -459,12 +459,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/flarum-ext-english.git",
-                "reference": "53f8a7acb6b6950d7208590a92bd6472e0faf9a0"
+                "reference": "8d2e0f7a6adfb2ddc60fbf4acc000231f559b25a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/flarum-ext-english/zipball/53f8a7acb6b6950d7208590a92bd6472e0faf9a0",
-                "reference": "53f8a7acb6b6950d7208590a92bd6472e0faf9a0",
+                "url": "https://api.github.com/repos/flarum/flarum-ext-english/zipball/8d2e0f7a6adfb2ddc60fbf4acc000231f559b25a",
+                "reference": "8d2e0f7a6adfb2ddc60fbf4acc000231f559b25a",
                 "shasum": ""
             },
             "require": {
@@ -497,7 +497,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2018-09-22T21:56:21+00:00"
+            "time": "2018-09-23T14:27:27+00:00"
         },
         {
             "name": "flarumes/flarum-ext-spanish",
@@ -759,6 +759,62 @@
             "time": "2016-01-14T22:18:11+00:00"
         },
         {
+            "name": "kryonoglou/flarum-ext-greek",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kryonoglou/flarum-ext-greek.git",
+                "reference": "c4f715892a8e06073cc050e560c84748b9719b45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kryonoglou/flarum-ext-greek/zipball/c4f715892a8e06073cc050e560c84748b9719b45",
+                "reference": "c4f715892a8e06073cc050e560c84748b9719b45",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2.x-dev"
+                },
+                "flarum-extension": {
+                    "title": "Greek Language",
+                    "icon": {
+                        "image": "icon.svg",
+                        "backgroundColor": "#00247d",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center"
+                    }
+                },
+                "flarum-locale": {
+                    "code": "el",
+                    "title": "Greek"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "KRYONOGLOU NIKOLAOS",
+                    "email": "kryonoglou@gmail.com"
+                }
+            ],
+            "description": "Greek language pack.",
+            "keywords": [
+                "extension",
+                "flarum",
+                "greek",
+                "locale",
+                "translation"
+            ],
+            "time": "2018-09-20T22:12:14+00:00"
+        },
+        {
             "name": "laptrinhphp/vietnamese",
             "version": "dev-master",
             "source": {
@@ -966,12 +1022,12 @@
             "version": "0.1.0-beta.7.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/metastore-flarum/flarum-l10n-forum.git",
+                "url": "https://gitlab.com/metastore/flarum/flarum-l10n-forum.git",
                 "reference": "11582fa3565b543a20c49f6e5b95a1af3e2331b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/metastore-flarum/flarum-l10n-forum/zipball/11582fa3565b543a20c49f6e5b95a1af3e2331b8",
+                "url": "https://gitlab.com/api/v4/projects/metastore%2Fflarum%2Fflarum-l10n-forum/repository/archive.zip?sha=11582fa3565b543a20c49f6e5b95a1af3e2331b8",
                 "reference": "11582fa3565b543a20c49f6e5b95a1af3e2331b8",
                 "shasum": ""
             },
@@ -1037,12 +1093,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/milescellar/flarum-ext-french.git",
-                "reference": "5b85ae194e8e7624421ef7be82b00598ea45c10e"
+                "reference": "26dabe1aa1f33b43f74c9f36848bd9aedbe14c14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/milescellar/flarum-ext-french/zipball/5b85ae194e8e7624421ef7be82b00598ea45c10e",
-                "reference": "5b85ae194e8e7624421ef7be82b00598ea45c10e",
+                "url": "https://api.github.com/repos/milescellar/flarum-ext-french/zipball/26dabe1aa1f33b43f74c9f36848bd9aedbe14c14",
+                "reference": "26dabe1aa1f33b43f74c9f36848bd9aedbe14c14",
                 "shasum": ""
             },
             "require": {
@@ -1088,7 +1144,7 @@
                 "locale",
                 "translation"
             ],
-            "time": "2018-07-22T17:46:54+00:00"
+            "time": "2018-09-23T12:27:29+00:00"
         },
         {
             "name": "naga0ka/flarum-ext-japanese",
@@ -1676,6 +1732,7 @@
         "veriael/flarum-polish": 20,
         "pladask/flarum-ext-norwegian-bokmal": 20,
         "pladask/flarum-ext-norwegian-nynorsk": 20,
+        "kryonoglou/flarum-ext-greek": 20,
         "sijad/flarum-ext-persian": 20
     },
     "prefer-stable": false,
