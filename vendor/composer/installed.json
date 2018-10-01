@@ -1182,18 +1182,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Nearata/flarum-ext-italian.git",
-            "reference": "0c05c34a6280f204a3a19448dad8075afb3d25f5"
+            "reference": "2e267bf57edc0c0793cb885dc3277bafef2d1ab2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Nearata/flarum-ext-italian/zipball/0c05c34a6280f204a3a19448dad8075afb3d25f5",
-            "reference": "0c05c34a6280f204a3a19448dad8075afb3d25f5",
+            "url": "https://api.github.com/repos/Nearata/flarum-ext-italian/zipball/2e267bf57edc0c0793cb885dc3277bafef2d1ab2",
+            "reference": "2e267bf57edc0c0793cb885dc3277bafef2d1ab2",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.7"
         },
-        "time": "2018-03-07T12:44:31+00:00",
+        "time": "2018-09-30T14:29:15+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
