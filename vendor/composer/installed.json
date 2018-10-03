@@ -1066,18 +1066,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/milescellar/flarum-ext-french.git",
-            "reference": "26dabe1aa1f33b43f74c9f36848bd9aedbe14c14"
+            "reference": "95a1e2b85aa49121f29f197eea418356fa306d8e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/milescellar/flarum-ext-french/zipball/26dabe1aa1f33b43f74c9f36848bd9aedbe14c14",
-            "reference": "26dabe1aa1f33b43f74c9f36848bd9aedbe14c14",
+            "url": "https://api.github.com/repos/milescellar/flarum-ext-french/zipball/95a1e2b85aa49121f29f197eea418356fa306d8e",
+            "reference": "95a1e2b85aa49121f29f197eea418356fa306d8e",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.7"
         },
-        "time": "2018-09-23T12:27:29+00:00",
+        "time": "2018-10-02T18:01:11+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
