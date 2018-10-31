@@ -250,7 +250,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "প্রশ্নটি মুছে ফেলতে চান??"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: উত্তর দিতে লগ ইন করুন
+      log_in_to_reply_button: উত্তর দিতে প্রবেশ করুন
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
@@ -543,7 +543,7 @@ core:
     edit: সম্পাদন
     email: ইমেইল
     load_more: আরো লোড করুন
-    log_in: প্রবেশ
+    log_in: প্রবেশ করুন 
     log_out: প্রস্থান
     mark_all_as_read: পঠিত হিসাবে চিহ্নিত করুন
     next_page: পরবর্তী পৃষ্ঠা

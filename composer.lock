@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2185f46980209b8155b4f7039cb889e9",
+    "content-hash": "06a3371bd1ecf64d656f5539fcdbe1be",
     "packages": [
         {
             "name": "ahrasis/flarum-ext-malaysian",
@@ -658,12 +658,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jubayed/flarum-ext-bengali.git",
-                "reference": "b0eac46b8283acfc81e55b9befdb4720d1148c6e"
+                "reference": "afafd28b2b5bb9141a62177245d269f2473cbe9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jubayed/flarum-ext-bengali/zipball/b0eac46b8283acfc81e55b9befdb4720d1148c6e",
-                "reference": "b0eac46b8283acfc81e55b9befdb4720d1148c6e",
+                "url": "https://api.github.com/repos/jubayed/flarum-ext-bengali/zipball/afafd28b2b5bb9141a62177245d269f2473cbe9e",
+                "reference": "afafd28b2b5bb9141a62177245d269f2473cbe9e",
                 "shasum": ""
             },
             "require": {
@@ -696,7 +696,7 @@
                 "flarum",
                 "locale"
             ],
-            "time": "2017-11-24T09:09:33+00:00"
+            "time": "2018-10-30T13:05:43+00:00"
         },
         {
             "name": "kassius/flarum-brazilian-portuguese",
@@ -1445,55 +1445,6 @@
             "time": "2016-05-09T11:19:48+00:00"
         },
         {
-            "name": "rafo/flarum-ext-azeri",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/rafoabbas/Flarum.git",
-                "reference": "c018bb960ac5f78f080545cfa79d86d9fa5f8d3e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/rafoabbas/Flarum/zipball/c018bb960ac5f78f080545cfa79d86d9fa5f8d3e",
-                "reference": "c018bb960ac5f78f080545cfa79d86d9fa5f8d3e",
-                "shasum": ""
-            },
-            "require": {
-                "flarum/core": "^0.1.0-beta.7"
-            },
-            "type": "flarum-extension",
-            "extra": {
-                "flarum-extension": {
-                    "title": "Azeri",
-                    "icon": {
-                        "image": "icon.svg",
-                        "backgroundColor": "#ff0000",
-                        "backgroundSize": "cover",
-                        "backgroundPosition": "center"
-                    }
-                },
-                "flarum-locale": {
-                    "code": "az",
-                    "title": "Azeri"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rauf Abbas",
-                    "email": "info@kubpro.com"
-                }
-            ],
-            "description": "Azerbaijan language pack.",
-            "keywords": [
-                "locale"
-            ],
-            "time": "2018-07-30T18:43:36+00:00"
-        },
-        {
             "name": "realodix/flarum-ext-indonesian",
             "version": "dev-master",
             "source": {
@@ -1726,7 +1677,6 @@
         "nearata/flarum-ext-italian": 20,
         "nit/flarum-ext-albania": 20,
         "nlssn/flarum-ext-swedish": 20,
-        "rafo/flarum-ext-azeri": 20,
         "realodix/flarum-ext-indonesian": 20,
         "rodymolenaar/flarum-ext-dutch": 20,
         "bmain/flarum-ext-romanian": 20,

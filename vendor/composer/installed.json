@@ -149,57 +149,6 @@
         ]
     },
     {
-        "name": "rafo/flarum-ext-azeri",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/rafoabbas/Flarum.git",
-            "reference": "c018bb960ac5f78f080545cfa79d86d9fa5f8d3e"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/rafoabbas/Flarum/zipball/c018bb960ac5f78f080545cfa79d86d9fa5f8d3e",
-            "reference": "c018bb960ac5f78f080545cfa79d86d9fa5f8d3e",
-            "shasum": ""
-        },
-        "require": {
-            "flarum/core": "^0.1.0-beta.7"
-        },
-        "time": "2018-07-30T18:43:36+00:00",
-        "type": "flarum-extension",
-        "extra": {
-            "flarum-extension": {
-                "title": "Azeri",
-                "icon": {
-                    "image": "icon.svg",
-                    "backgroundColor": "#ff0000",
-                    "backgroundSize": "cover",
-                    "backgroundPosition": "center"
-                }
-            },
-            "flarum-locale": {
-                "code": "az",
-                "title": "Azeri"
-            }
-        },
-        "installation-source": "source",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Rauf Abbas",
-                "email": "info@kubpro.com"
-            }
-        ],
-        "description": "Azerbaijan language pack.",
-        "keywords": [
-            "locale"
-        ]
-    },
-    {
         "name": "cbmainz/flarum-de",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
@@ -725,18 +674,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/jubayed/flarum-ext-bengali.git",
-            "reference": "b0eac46b8283acfc81e55b9befdb4720d1148c6e"
+            "reference": "afafd28b2b5bb9141a62177245d269f2473cbe9e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/jubayed/flarum-ext-bengali/zipball/b0eac46b8283acfc81e55b9befdb4720d1148c6e",
-            "reference": "b0eac46b8283acfc81e55b9befdb4720d1148c6e",
+            "url": "https://api.github.com/repos/jubayed/flarum-ext-bengali/zipball/afafd28b2b5bb9141a62177245d269f2473cbe9e",
+            "reference": "afafd28b2b5bb9141a62177245d269f2473cbe9e",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.7"
         },
-        "time": "2017-11-24T09:09:33+00:00",
+        "time": "2018-10-30T13:05:43+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
