@@ -130,7 +130,8 @@ core:
       delete_discussions_forever_label: Eliminare le discussioni per sempre
       delete_discussions_label: Eliminare le discussioni
       delete_posts_forever_label: Eliminare messaggi per sempre
-      edit_and_delete_posts_label: Modificare e cancellare messaggi
+      delete_posts_label: Cancellare messaggi
+      edit_posts_label: Modificare messaggi
       global_heading: Globale
       moderate_heading: Moderazione
       new_group_button: Nuovo Gruppo
@@ -141,8 +142,9 @@ core:
       sign_up_label: Registrazione
       start_discussions_label: Iniziare una discussione
       view_discussions_label: Leggere le discussioni
-      view_post_ips_label: Visualizzare indirizzi IP del post
+      view_post_ips_label: Visualizzare indirizzi IP del messaggio
       view_user_list_label: Visualizzare la lista utenti
+      view_last_seen_at_label: Vedere l'ultimo accesso di un utente
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -307,7 +309,7 @@ core:
     post:
       edited_text: Modificato
       edited_tooltip: "{username} modificato {ago}"
-      number_tooltip: "Post #{number}"
+      number_tooltip: "Messaggio #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -375,6 +377,7 @@ core:
       in_discussion_text: "In {discussion}"
       joined_date_text: "Si è iscritto {ago}"
       online_text: Online
+      posts_empty_text: Non ci sono messaggi.
       posts_load_more_button: => core.ref.load_more
       posts_link: => core.ref.posts
       settings_link: => core.ref.settings
