@@ -1206,12 +1206,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nearata/flarum-ext-italian.git",
-                "reference": "1aee34cab3c039f87e8c65ae11b0bee34d53135f"
+                "reference": "68bc1d1af6697b44497da25ac76bb46c185b03d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nearata/flarum-ext-italian/zipball/1aee34cab3c039f87e8c65ae11b0bee34d53135f",
-                "reference": "1aee34cab3c039f87e8c65ae11b0bee34d53135f",
+                "url": "https://api.github.com/repos/Nearata/flarum-ext-italian/zipball/68bc1d1af6697b44497da25ac76bb46c185b03d6",
+                "reference": "68bc1d1af6697b44497da25ac76bb46c185b03d6",
                 "shasum": ""
             },
             "require": {
@@ -1239,14 +1239,16 @@
             ],
             "authors": [
                 {
-                    "name": "Nearata"
+                    "name": "William Di Cicco",
+                    "email": "nearata@protonmail.com"
                 }
             ],
             "description": "Italian language pack.",
             "keywords": [
                 "locale"
             ],
-            "time": "2018-11-19T01:58:33+00:00"
+            "abandoned": "nearata/lang-italian",
+            "time": "2018-11-19T02:16:44+00:00"
         },
         {
             "name": "nit/flarum-ext-albania",
