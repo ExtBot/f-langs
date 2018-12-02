@@ -155,18 +155,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Kakifrucht/flarum-de.git",
-            "reference": "84535c060a04eb9bfb4f0ddf21394894e221bdb6"
+            "reference": "54c65f4bee53f26271d59d8e929e2a1f0510f5dc"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/84535c060a04eb9bfb4f0ddf21394894e221bdb6",
-            "reference": "84535c060a04eb9bfb4f0ddf21394894e221bdb6",
+            "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/54c65f4bee53f26271d59d8e929e2a1f0510f5dc",
+            "reference": "54c65f4bee53f26271d59d8e929e2a1f0510f5dc",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-12-01T00:39:47+00:00",
+        "time": "2018-12-01T03:19:34+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
