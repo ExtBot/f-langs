@@ -5,7 +5,7 @@
     "keywords": ["locale"],
     "license": "MIT",
     "require": {
-        "flarum/core": "^0.1.0-beta.7"
+        "flarum/core": "^0.1.0-beta.8"
     },
 	"authors": [
         {
@@ -30,6 +30,9 @@
         "flarum-locale": {
             "code": "it",
             "title": "Italiano"
+        },
+        "flagrow": {
+            "discuss": "https://discuss.flarum.org/d/5160-italian-language-pack"
         }
     }
 }

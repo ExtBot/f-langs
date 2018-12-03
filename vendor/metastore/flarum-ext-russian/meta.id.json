@@ -1,6 +1,7 @@
 {
-	"name": "metastore/flarum-ext-russian",
-	"type": "flarum-extension",
+	"name": "Flarum Russian Language Pack",
+    "type": "extension",
+    "package": "flarum",
 	"description": "Russian language pack for Flarum.",
 	"license": "GPL-3.0-or-later",
 	"homepage": "https://metastore.pro/",
@@ -28,24 +29,6 @@
 		"source": "https://gitlab.com/metastore/flarum/flarum-l10n-forum"
 	},
 	"require": {
-		"flarum/core": "^0.1.0-beta.8"
-	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "0.1.x-dev"
-		},
-		"flarum-extension": {
-			"title": "Русский",
-			"icon": {
-				"image": "icon.svg",
-				"backgroundColor": "#f3f6f9",
-				"backgroundSize": "cover",
-				"backgroundPosition": "center"
-			}
-		},
-		"flarum-locale": {
-			"code": "ru",
-			"title": "Русский"
-		}
+		"flarum": "^0.1.0-beta.8"
 	}
 }

@@ -1,3 +1,5 @@
+// https://github.com/moment/moment/blob/develop/locale/it.js
+
 moment.locale('it', {
     months : 'gennaio_febbraio_marzo_aprile_maggio_giugno_luglio_agosto_settembre_ottobre_novembre_dicembre'.split('_'),
     monthsShort : 'gen_feb_mar_apr_mag_giu_lug_ago_set_ott_nov_dic'.split('_'),
@@ -28,9 +30,12 @@ moment.locale('it', {
         sameElse: 'L'
     },
     relativeTime : {
-        future : 'tra',
+        future : function (s) {
+            return ((/^[0-9].+$/).test(s) ? 'tra' : 'in') + ' ' + s;
+        },
         past : '%s fa',
         s : 'alcuni secondi',
+        ss : '%d secondi',
         m : 'un minuto',
         mm : '%d minuti',
         h : 'un\'ora',
@@ -42,7 +47,7 @@ moment.locale('it', {
         y : 'un anno',
         yy : '%d anni'
     },
-    ordinalParse : /\d{1,2}º/,
+    dayOfMonthOrdinalParse : /\d{1,2}º/,
     ordinal: '%dº',
     week : {
         dow : 1, // Monday is the first day of the week.

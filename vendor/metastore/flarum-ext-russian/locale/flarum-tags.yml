@@ -13,7 +13,7 @@ flarum-tags:
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: "Цвет"
+      color_label: => core.ref.color
       delete_tag_button: "Удалить"
       delete_tag_confirmation: "Вы уверены, что хотите удалить раздел? Дискуссии в этом разделе удалены НЕ будут."
       description_label: "Описание"
@@ -71,6 +71,9 @@ flarum-tags:
     discussion_controls:
       edit_tags_button: "Править разделы"
 
+    header:
+      back_to_tags_tooltip: "Вернуться к списку разделов"
+
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: "Ещё..."
@@ -79,8 +82,8 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} добавил(а) {tagsAdded}."
       added_and_removed_tags_text: "{username} добавил(а) {tagsAdded} и удалил(а) {tagsRemoved}."
+      added_tags_text: "{username} добавил(а) {tagsAdded}."
       removed_tags_text: "{username} удалил(а) {tagsRemoved}."
       tags_text: "раздел {tags}|разделы {tags}"
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "06a3371bd1ecf64d656f5539fcdbe1be",
+    "content-hash": "8e24200e1558aa391b61686435e0aa25",
     "packages": [
         {
             "name": "ahrasis/flarum-ext-malaysian",
@@ -1019,30 +1019,20 @@
         },
         {
             "name": "metastore/flarum-ext-russian",
-            "version": "0.1.0-beta.7.1",
+            "version": "0.1.0-beta.8-1",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/metastore/flarum/flarum-l10n-forum.git",
-                "reference": "11582fa3565b543a20c49f6e5b95a1af3e2331b8"
+                "reference": "0781adb0ea5e85dccf03b952b68275871d3e2ddf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/metastore%2Fflarum%2Fflarum-l10n-forum/repository/archive.zip?sha=11582fa3565b543a20c49f6e5b95a1af3e2331b8",
-                "reference": "11582fa3565b543a20c49f6e5b95a1af3e2331b8",
+                "url": "https://gitlab.com/api/v4/projects/metastore%2Fflarum%2Fflarum-l10n-forum/repository/archive.zip?sha=0781adb0ea5e85dccf03b952b68275871d3e2ddf",
+                "reference": "0781adb0ea5e85dccf03b952b68275871d3e2ddf",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.7"
-            },
-            "suggest": {
-                "flarum/flags": "Разрешает пользователям отмечать сообщения для рассмотрения модератором.",
-                "flarum/likes": "Разрешает пользователям отмечать понравившиеся сообщения.",
-                "flarum/lock": "Закрывает дискуссии и не позволяет добавлять новые сообщения.",
-                "flarum/mentions": "Упоминания и ответы отдельным пользователям.",
-                "flarum/pusher": "Смотреть новые дискуссии и сообщения в режиме реального времени, используя Pusher.",
-                "flarum/sticky": "Прикрепление дискуссий в списке.",
-                "flarum/subscriptions": "Разрешает пользователям наблюдать за дискуссиями и получать уведомления о новых сообщениях.",
-                "flarum/tags": "Структурирование дискуссий по иерархии тегов и категорий."
+                "flarum/core": "^0.1.0-beta.8"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1053,7 +1043,7 @@
                     "title": "Русский",
                     "icon": {
                         "image": "icon.svg",
-                        "backgroundColor": "#ffffff",
+                        "backgroundColor": "#f3f6f9",
                         "backgroundSize": "cover",
                         "backgroundPosition": "center"
                     }
@@ -1085,10 +1075,10 @@
                 "russian",
                 "translation"
             ],
-            "time": "2018-07-19T07:40:58+00:00"
+            "time": "2018-12-02T12:16:17+00:00"
         },
         {
-            "name": "milescellar/flarum-ext-french",
+            "name": "milescellar/lang-french",
             "version": "dev-master",
             "source": {
                 "type": "git",
@@ -1144,7 +1134,6 @@
                 "locale",
                 "translation"
             ],
-            "abandoned": "milescellar/lang-french",
             "time": "2018-11-29T20:39:11+00:00"
         },
         {
@@ -1201,21 +1190,21 @@
             "time": "2018-02-08T01:37:33+00:00"
         },
         {
-            "name": "nearata/flarum-ext-italian",
+            "name": "nearata/lang-italian",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Nearata/flarum-ext-italian.git",
-                "reference": "68bc1d1af6697b44497da25ac76bb46c185b03d6"
+                "url": "https://github.com/Nearata/lang-italian.git",
+                "reference": "d9a83e63deb0c7958ff42b1908c15c52e58e3dd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nearata/flarum-ext-italian/zipball/68bc1d1af6697b44497da25ac76bb46c185b03d6",
-                "reference": "68bc1d1af6697b44497da25ac76bb46c185b03d6",
+                "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/d9a83e63deb0c7958ff42b1908c15c52e58e3dd5",
+                "reference": "d9a83e63deb0c7958ff42b1908c15c52e58e3dd5",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.7"
+                "flarum/core": "^0.1.0-beta.8"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1231,6 +1220,9 @@
                 "flarum-locale": {
                     "code": "it",
                     "title": "Italiano"
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/5160-italian-language-pack"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1247,8 +1239,7 @@
             "keywords": [
                 "locale"
             ],
-            "abandoned": "nearata/lang-italian",
-            "time": "2018-11-19T02:16:44+00:00"
+            "time": "2018-12-01T15:49:02+00:00"
         },
         {
             "name": "nit/flarum-ext-albania",
@@ -1674,9 +1665,9 @@
         "lukaszflorczak/flarum-ext-polish": 20,
         "manaszon/flarum-ext-hungarian": 20,
         "metastore/flarum-ext-russian": 20,
-        "milescellar/flarum-ext-french": 20,
+        "milescellar/lang-french": 20,
         "naga0ka/flarum-ext-japanese": 20,
-        "nearata/flarum-ext-italian": 20,
+        "nearata/lang-italian": 20,
         "nit/flarum-ext-albania": 20,
         "nlssn/flarum-ext-swedish": 20,
         "realodix/flarum-ext-indonesian": 20,

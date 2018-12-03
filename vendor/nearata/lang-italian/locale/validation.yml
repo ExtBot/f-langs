@@ -1,3 +1,5 @@
+# https://github.com/caouecs/Laravel-lang/blob/master/src/it/validation.php
+
 validation:
   accepted: ":attribute deve essere accettato."
   active_url: ":attribute non è un URL valido."
@@ -69,6 +71,7 @@ validation:
   unique: ":attribute è stato già utilizzato."
   uploaded: ":attribute non è stato caricato."
   url: "Il formato del campo :attribute non è valido."
+  uuid: ":attribute deve essere un UUID valido."
 
   attributes:
     username: nome utente

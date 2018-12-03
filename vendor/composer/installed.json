@@ -938,33 +938,23 @@
     },
     {
         "name": "metastore/flarum-ext-russian",
-        "version": "0.1.0-beta.7.1",
-        "version_normalized": "0.1.0.0-beta7.1",
+        "version": "0.1.0-beta.8-1",
+        "version_normalized": "0.1.0.0-beta8-1",
         "source": {
             "type": "git",
             "url": "https://gitlab.com/metastore/flarum/flarum-l10n-forum.git",
-            "reference": "11582fa3565b543a20c49f6e5b95a1af3e2331b8"
+            "reference": "0781adb0ea5e85dccf03b952b68275871d3e2ddf"
         },
         "dist": {
             "type": "zip",
-            "url": "https://gitlab.com/api/v4/projects/metastore%2Fflarum%2Fflarum-l10n-forum/repository/archive.zip?sha=11582fa3565b543a20c49f6e5b95a1af3e2331b8",
-            "reference": "11582fa3565b543a20c49f6e5b95a1af3e2331b8",
+            "url": "https://gitlab.com/api/v4/projects/metastore%2Fflarum%2Fflarum-l10n-forum/repository/archive.zip?sha=0781adb0ea5e85dccf03b952b68275871d3e2ddf",
+            "reference": "0781adb0ea5e85dccf03b952b68275871d3e2ddf",
             "shasum": ""
         },
         "require": {
-            "flarum/core": "^0.1.0-beta.7"
+            "flarum/core": "^0.1.0-beta.8"
         },
-        "suggest": {
-            "flarum/flags": "Разрешает пользователям отмечать сообщения для рассмотрения модератором.",
-            "flarum/likes": "Разрешает пользователям отмечать понравившиеся сообщения.",
-            "flarum/lock": "Закрывает дискуссии и не позволяет добавлять новые сообщения.",
-            "flarum/mentions": "Упоминания и ответы отдельным пользователям.",
-            "flarum/pusher": "Смотреть новые дискуссии и сообщения в режиме реального времени, используя Pusher.",
-            "flarum/sticky": "Прикрепление дискуссий в списке.",
-            "flarum/subscriptions": "Разрешает пользователям наблюдать за дискуссиями и получать уведомления о новых сообщениях.",
-            "flarum/tags": "Структурирование дискуссий по иерархии тегов и категорий."
-        },
-        "time": "2018-07-19T07:40:58+00:00",
+        "time": "2018-12-02T12:16:17+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -974,7 +964,7 @@
                 "title": "Русский",
                 "icon": {
                     "image": "icon.svg",
-                    "backgroundColor": "#ffffff",
+                    "backgroundColor": "#f3f6f9",
                     "backgroundSize": "cover",
                     "backgroundPosition": "center"
                 }
@@ -1009,7 +999,7 @@
         ]
     },
     {
-        "name": "milescellar/flarum-ext-french",
+        "name": "milescellar/lang-french",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "source": {
@@ -1067,8 +1057,7 @@
             "french",
             "locale",
             "translation"
-        ],
-        "abandoned": "milescellar/lang-french"
+        ]
     },
     {
         "name": "naga0ka/flarum-ext-japanese",
@@ -1126,24 +1115,24 @@
         ]
     },
     {
-        "name": "nearata/flarum-ext-italian",
+        "name": "nearata/lang-italian",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/Nearata/flarum-ext-italian.git",
-            "reference": "68bc1d1af6697b44497da25ac76bb46c185b03d6"
+            "url": "https://github.com/Nearata/lang-italian.git",
+            "reference": "d9a83e63deb0c7958ff42b1908c15c52e58e3dd5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Nearata/flarum-ext-italian/zipball/68bc1d1af6697b44497da25ac76bb46c185b03d6",
-            "reference": "68bc1d1af6697b44497da25ac76bb46c185b03d6",
+            "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/d9a83e63deb0c7958ff42b1908c15c52e58e3dd5",
+            "reference": "d9a83e63deb0c7958ff42b1908c15c52e58e3dd5",
             "shasum": ""
         },
         "require": {
-            "flarum/core": "^0.1.0-beta.7"
+            "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-11-19T02:16:44+00:00",
+        "time": "2018-12-01T15:49:02+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -1158,6 +1147,9 @@
             "flarum-locale": {
                 "code": "it",
                 "title": "Italiano"
+            },
+            "flagrow": {
+                "discuss": "https://discuss.flarum.org/d/5160-italian-language-pack"
             }
         },
         "installation-source": "source",
@@ -1174,8 +1166,7 @@
         "description": "Italian language pack.",
         "keywords": [
             "locale"
-        ],
-        "abandoned": "nearata/lang-italian"
+        ]
     },
     {
         "name": "nit/flarum-ext-albania",

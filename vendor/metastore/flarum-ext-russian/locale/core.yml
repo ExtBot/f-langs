@@ -19,13 +19,16 @@ core:
       colored_header_label: "Цветная шапка"
       colors_heading: "Цвета"
       colors_text: "Выберите два цвета для стилизации форума. Первый будет использоваться в качестве цвета подсветки, второй будет использоваться в качестве фона стилевых элементов."
-      custom_header_heading: "Пользовательский заголовок"
-      custom_header_text: "Специальный HTML, который будет отображаться в самом верху страницы над собственным заголовком Flarum."
+      custom_footer_heading: "Нижний колонтитул"
+      custom_footer_text: => core.ref.custom_footer_text
+      custom_header_heading: "Верхний колонтитул"
+      custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: "Пользовательские стили"
       custom_styles_text: "Настройка внешнего вида форума при помощи пользовательского кода LESS/CSS, который переопределяет стандартные стилевые конструкции Flarum."
       dark_mode_label: "Тёмный режим"
       edit_css_button: "Редактировать CSS"
-      edit_header_button: "Редактировать заголовок"
+      edit_footer_button: => core.ref.custom_footer_title
+      edit_header_button: => core.ref.custom_header_title
       enter_hex_message: "Пожалуйста, введите код цвета в HEX-формате."
       favicon_heading: "Favicon"
       favicon_text: "Загрузка изображения, которое будет отображаться в качестве значка форума."
@@ -43,21 +46,15 @@ core:
       home_page_heading: "Главная страница"
       home_page_text: "Выберите страницу, которую пользователи будут видеть при посещении форума. При вводе пользовательских значений, используйте путь относительно корня форума."
       saved_message: "Изменения сохранены."
-      show_language_selector_label: Show language selector
+      show_language_selector_label: "Отображать переключатель языка"
       submit_button: => core.ref.save_changes
       welcome_banner_heading: "Баннер приветствия"
       welcome_banner_text: "Введите текст, который будет отображаться на всех страницах форума. Используйте этот элемент для того, чтобы приветствовать гостей форума."
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "Это <strong>бета-версия</strong> программного обеспечения, разработанная для того, чтобы помочь нам протестировать работоспособность всех функции движка. Бета-версия не должна использоваться на уже работающих сообществах."
-      contributing_text: "Хотите искать ошибки и помогать в разработке? Прочитайте <a>Contributing</a>."
-      extension_text: "Заинтересованы в разработке расширений? Прочитайте <a>Extension</a>."
-      features_text: "Имеются идеи для улучшения функций? Расскажите об этом нам в разделе <a>Features</a>."
-      support_text: "Наши ошибку? Пожалуйста, сообщите об этом нам в разделе <a>Support</a>."
-      troubleshooting_text: "Имеются проблемы? Следуйте инструкциям в <a>Troubleshooting</a>."
-      version_text: "Благодарим за выбор Flarum! Вы используете версию {version}."
-      welcome_text: "Добро пожаловать на Flarum Beta!"
+      clear_cache_button: "Очистить кэш"
+      tools_button: "Инструменты"
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -65,9 +62,15 @@ core:
       submit_button: => core.ref.save_changes
       title: "Редактирование CSS"
 
+    # These translations are used in the Edit Custom Footer modal dialog.
+    edit_footer:
+      customize_text: => core.ref.custom_footer_text
+      submit_button: => core.ref.save_changes
+      title: => core.ref.custom_footer_title
+
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: "Цвет"
+      color_label: => core.ref.color
       delete_button: "Удалить группу"
       delete_confirmation: "Вы уверены, что хотите удалить группу? Пользователи, находящиеся в этой группе, не будут удалены."
       icon_label: "Иконка"
@@ -80,9 +83,9 @@ core:
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: "Специальный HTML, который будет отображаться в самом верху страницы над собственным заголовком Flarum."
+      customize_text: => core.ref.custom_header_text
       submit_button: => core.ref.save_changes
-      title: "Редактировать заголовок"
+      title: => core.ref.custom_header_title
 
     # These translations are used in the email page of the admin interface.
     email:
@@ -131,13 +134,14 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: "Разрешить переименование"
       allow_post_editing_label: "Разрешить править сообщение"
+      allow_renaming_label: "Разрешить переименование"
       create_heading: "Создание"
       delete_discussions_forever_label: "Удалять дискуссии (физически)"
       delete_discussions_label: "Удалять дискуссии"
       delete_posts_forever_label: "Удалять сообщения (физически)"
-      edit_and_delete_posts_label: "Править и удалять сообщения"
+      delete_posts_label: "Удалить сообщения"
+      edit_posts_label: "Править сообщения"
       global_heading: "Глобальные"
       moderate_heading: "Модерация"
       new_group_button: "Новая группа"
@@ -148,6 +152,7 @@ core:
       sign_up_label: "Регистрация"
       start_discussions_label: "Создать дискуссии"
       view_discussions_label: "Читать дискуссию"
+      view_last_seen_at_label: "Смотреть время последнего посещения"
       view_post_ips_label: "Смотреть IP-адреса"
       view_user_list_label: "Смотреть список пользователей"
 
@@ -168,7 +173,7 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: "Удалить"
+      remove_button: => core.ref.remove
       upload_button: "Выбрать изображение..."
 
   # Translations in this namespace are used by the forum user interface.
@@ -176,8 +181,8 @@ core:
 
     # These translations are used in the Change Email modal dialog.
     change_email:
-      confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_placeholder: => core.ref.confirm_password
+      confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
       incorrect_password_message: "Введённый Вами пароль неверный."
       submit_button: => core.ref.save_changes
@@ -195,6 +200,7 @@ core:
       exit_full_screen_tooltip: "Выход из полноэкранного режима"
       full_screen_tooltip: "Развернуть"
       minimize_tooltip: "Свернуть"
+      preview_tooltip: "Пред-просмотр"
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
@@ -339,14 +345,14 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: "Переименовать дискуссию"
       submit_button: => core.ref.rename
+      title: "Переименовать дискуссию"
 
     # These translations are used by the search results dropdown list.
     search:
       all_discussions_button: 'Поиск по запросу: "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: "Пользователи"
+      users_heading: => core.ref.users
 
     # These translations are used in the Settings page.
     settings:
@@ -363,8 +369,8 @@ core:
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
-      email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
       log_in_text: "Уже зарегистрированы? <a>Войти</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
@@ -374,16 +380,16 @@ core:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: "Удалить"
+      avatar_remove_button: => core.ref.remove
       avatar_upload_button: "Загрузить"
       avatar_upload_tooltip: "Загрузить новый аватар"
-      bio_placeholder: "Напишите что-нибудь о себе"
       discussions_link: => core.ref.discussions
       in_discussion_text: 'в "{discussion}"'
       joined_date_text: "Регистрация: {ago}"
       online_text: "В сети"
+      posts_empty_text: "Сообщения отсутствуют."
+      posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
-      posts_link: "Сообщения"
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -406,10 +412,6 @@ core:
     badge:
       hidden_tooltip: "Обсуждение скрыто"
 
-    # These translations are used to modify usernames.
-    username:
-      deleted_text: "[удалён]"
-
     # These translations are displayed as error messages.
     error:
       generic_message: "Упс! Что-то пошло не так. Пожалуйста, обновите страницу и попробуйте ещё раз."
@@ -428,6 +430,10 @@ core:
       three_text: "{first}, {second}, и {third}"
       two_text: "{first} и {second}"
 
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[deleted]"
+
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
@@ -439,19 +445,34 @@ core:
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
-      next_page_button: => core.ref.core.ref.next_page
-      previous_page_button: "Предыдущая страница"
+      next_page_button: => core.ref.next_page
+      previous_page_button: => core.ref.previous_page
+
+    # Translations in this namespace are displayed when Flarum encounters an error.
+    error:
+      403_message: "У Вас нет прав доступа к этой странице."
+      404_message: "Страница по Вашему запросу не найдена."
+      404_return_link: "Вернуться на {forum}"
+      500_message: "Произошла ошибка при попытке загрузить страницу."
+      503_message: "{forum} проходит техническое обслуживание. Спасибо за ожидание!"
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
+      previous_page_button: => core.ref.previous_page
+
+    # Translations in this namespace are displayed by the Log Out confirmation interface.
+    log_out:
+      log_out_button: => core.ref.log_out
+      log_out_confirmation: "Вы уверены, что хотите выйти из {forum}?"
+      title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
-    reset:
-      confirm_password_label: => core.ref.confirm_password
-      password_label: => core.ref.password
-      submit_button: "Сбросить пароль"
+    reset_password:
+      confirm_password_label: "Подтвердить пароль"
+      new_password_label: "Новый пароль"
+      submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
@@ -509,11 +530,16 @@ core:
     all_discussions: "Все дискуссии"
     change_email: "Изменить e-mail"
     change_password: "Изменить пароль"
+    color: "Цвет"                                   # Referenced by flarum-tags.yml
     confirm_password: "Подтвердить пароль"
     confirmation_email_sent: "Мы отправили письмо с подтверждением на адрес {email}. Если Вы не получите письмо в ближайшее время, проверьте папку со спамом."
+    custom_footer_text: "Специальный HTML, который будет отображаться в самой нижней части страницы."
+    custom_footer_title: "Редактировать нижний колонтитул"
+    custom_header_text: "Специальный HTML, который будет отображаться в самой верхней части страницы, над заголовком Flarum."
+    custom_header_title: "Редактировать верхний колонтитул"
     delete: "Удалить"
     delete_forever: "Удалить (физ.)"
-    discussions: "Дискуссии"
+    discussions: "Дискуссии"                        # Referenced by flarum-statistics.yml
     edit: "Править"
     email: "E-mail"
     load_more: "Загрузить ещё"
@@ -524,6 +550,9 @@ core:
     notifications: "Оповещения"
     okay: "OK"                                      # Referenced by flarum-tags.yml
     password: "Пароль"
+    posts: "Сообщения"                              # Referenced by flarum-statistics.yml
+    previous_page: "Предыдущая страница"
+    remove: "Удалить"
     rename: "Переименовать"
     reply: "Ответить"                               # Referenced by flarum-mentions.yml
     reset_your_password: "Сбросить пароль"
@@ -534,6 +563,7 @@ core:
     some_others: "{count} другому|{count} другим"   # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: "Создать дискуссию"
     username: "Имя пользователя"
+    users: "Пользователи"                           # Referenced by flarum-statistics.yml
     write_a_reply: "Написать ответ..."
     you: "Вам"                                      # Referenced by flarum-likes.yml, flarum-mentions.yml
 

@@ -27,6 +27,16 @@ validation:
   exists: "Выбранное значение для :attribute некорректно."
   file: "Поле :attribute должно содержать файл."
   filled: "Поле :attribute обязательно к заполнению."
+  gt:
+    numeric: "The :attribute must be greater than :value."
+    file: "The :attribute must be greater than :value kilobytes."
+    string: "The :attribute must be greater than :value characters."
+    array: "The :attribute must have more than :value items."
+  gte:
+    numeric: "The :attribute must be greater than or equal :value."
+    file: "The :attribute must be greater than or equal :value kilobytes."
+    string: "The :attribute must be greater than or equal :value characters."
+    array: "The :attribute must have :value items or more."
   image: "Поле :attribute должно быть изображением."
   in: "Выбранное значение для :attribute некорректно."
   in_array: "Значение в поле :attribute не существует в :other."
@@ -35,6 +45,16 @@ validation:
   ipv4: "Поле :attribute должно содержать корректный IPv4-адрес."
   ipv6: "Поле :attribute должно содержать корректный IPv6-адрес."
   json: "Поле :attribute должно быть корректной строкой JSON."
+  lt:
+    numeric: "The :attribute must be less than :value."
+    file: "The :attribute must be less than :value kilobytes."
+    string: "The :attribute must be less than :value characters."
+    array: "The :attribute must have less than :value items."
+  lte:
+    numeric: "The :attribute must be less than or equal :value."
+    file: "The :attribute must be less than or equal :value kilobytes."
+    string: "The :attribute must be less than or equal :value characters."
+    array: "The :attribute must not have more than :value items."
   max:
     numeric: "Поле :attribute не может быть больше, чем :max."
     file: "Файл :attribute не может быть больше, чем :max килобайт."
@@ -48,6 +68,7 @@ validation:
     string: "Поле :attribute не может содержать меньше, чем :min символов."
     array: "Массив :attribute не может содержать меньше, чем :min элементов."
   not_in: "Выбранное значение для :attribute некорректно."
+  not_regex: "The :attribute format is invalid."
   numeric: "Поле :attribute должно быть числом."
   present: "Поле :attribute должно присутствовать."
   regex: "Поле :attribute имеет некорректный формат."
@@ -69,6 +90,7 @@ validation:
   unique: "Поле :attribute уже имеет подобное значение."
   uploaded: "Элемент в поле :attribute не удалось загрузить."
   url: "Поле :attribute имеет некорректный формат."
+  uuid: "Поле :attribute должно содержать корректный UUID."
 
   attributes:
     username: "имя пользователя"
