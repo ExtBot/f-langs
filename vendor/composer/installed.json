@@ -467,18 +467,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/lang-english.git",
-            "reference": "504ba127e1908848c7c70684176ef4cc670749a8"
+            "reference": "3ec1647c0860c17aaa74870983c18dd0106fe9d7"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/lang-english/zipball/504ba127e1908848c7c70684176ef4cc670749a8",
-            "reference": "504ba127e1908848c7c70684176ef4cc670749a8",
+            "url": "https://api.github.com/repos/flarum/lang-english/zipball/3ec1647c0860c17aaa74870983c18dd0106fe9d7",
+            "reference": "3ec1647c0860c17aaa74870983c18dd0106fe9d7",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-10-17T03:14:47+00:00",
+        "time": "2018-11-22T06:02:09+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
