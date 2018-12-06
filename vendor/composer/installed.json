@@ -155,18 +155,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Kakifrucht/flarum-de.git",
-            "reference": "54c65f4bee53f26271d59d8e929e2a1f0510f5dc"
+            "reference": "73ead621620404cc146b5583bc211b611323b420"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/54c65f4bee53f26271d59d8e929e2a1f0510f5dc",
-            "reference": "54c65f4bee53f26271d59d8e929e2a1f0510f5dc",
+            "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/73ead621620404cc146b5583bc211b611323b420",
+            "reference": "73ead621620404cc146b5583bc211b611323b420",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-12-01T03:19:34+00:00",
+        "time": "2018-12-05T05:03:30+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -506,7 +506,8 @@
         "description": "English language pack.",
         "keywords": [
             "locale"
-        ]
+        ],
+        "abandoned": "flarum/lang-english"
     },
     {
         "name": "flarumes/flarum-ext-spanish",

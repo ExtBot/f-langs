@@ -115,12 +115,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kakifrucht/flarum-de.git",
-                "reference": "54c65f4bee53f26271d59d8e929e2a1f0510f5dc"
+                "reference": "73ead621620404cc146b5583bc211b611323b420"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/54c65f4bee53f26271d59d8e929e2a1f0510f5dc",
-                "reference": "54c65f4bee53f26271d59d8e929e2a1f0510f5dc",
+                "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/73ead621620404cc146b5583bc211b611323b420",
+                "reference": "73ead621620404cc146b5583bc211b611323b420",
                 "shasum": ""
             },
             "require": {
@@ -151,7 +151,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2018-12-01T03:19:34+00:00"
+            "time": "2018-12-05T05:03:30+00:00"
         },
         {
             "name": "comocozy/flarum-ext-korean",
@@ -497,6 +497,7 @@
             "keywords": [
                 "locale"
             ],
+            "abandoned": "flarum/lang-english",
             "time": "2018-11-22T06:02:09+00:00"
         },
         {
