@@ -48,7 +48,7 @@ flarum-subscriptions:
       following_text: Ser notificado de todas las respuestas.
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: No ser notificado y ocultar esta discusión.
-      not_following_button: Dejar de seguir      #TODO: Check this
+      not_following_button: Dejar de seguir #TODO: Check this
       not_following_text: "Ser notificado sólo cuando te @mencionen."
       notify_alert_tooltip: Recibir una notificación del foro cuando hayan nuevas publicaciones
       notify_email_tooltip: Recibir un e-mail cuando hayan nuevas publicaciones

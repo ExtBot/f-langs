@@ -391,8 +391,9 @@ core:
     # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: => core.ref.remove
-      avatar_upload_button: Upload
-      avatar_upload_tooltip: Upload a new avatar
+      avatar_upload_button: Subir
+      avatar_upload_tooltip: Subir un nuevo avatar
+      bio_placeholder: Escriba algo acerca de usted
       discussions_link: => core.ref.discussions
       in_discussion_text: "En {discussion}"
       joined_date_text: "Se unió {ago}"

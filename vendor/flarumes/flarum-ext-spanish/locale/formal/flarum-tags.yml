@@ -1,8 +1,8 @@
 #
 # This file is part of FlarumES/Spanish.
 # -----------------------------------------------------------------------
-# Copyright © 2015-2017 Toby Zerner and Flarum
-# Copyright © 2015-2017 Johann Rodríguez and Flarum en Español
+# Copyright © 2015-2018 Toby Zerner and Flarum
+# Copyright © 2015-2018 Johann Rodríguez and Flarum en Español
 # -----------------------------------------------------------------------
 # For the full copyright and license information, please view the LICENSE
 # file that was distributed with this source code.
@@ -23,14 +23,14 @@ flarum-tags:
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Color
+      color_label: => core.ref.color
       delete_tag_button: Borrar Etiqueta
       delete_tag_confirmation: "¿Está seguro de que quiere eliminar esta etiqueta? Las discusiones de la etiqueta NO serán eliminadas."
       description_label: Descripción
-      hide_label: Ocultar de la portada #TODO: All Discussions
+      hide_label: Ocultar de la portada          # TODO: All Discussions
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
-      slug_label: Slug #TODO: Slug
+      slug_label: Slug                           # TODO: Slug
       submit_button: => core.ref.save_changes
       title: => flarum-tags.ref.create_tag
 
@@ -67,8 +67,8 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Elija 1 etiqueta principal|Elija {count} etiquetas principales"
-      choose_secondary_placeholder: "Elija 1 etiqueta secundaria|Elija {count} etiquetas secundarias"
+      choose_primary_placeholder: "Elija una etiqueta principal|Elija {count} etiquetas principales"
+      choose_secondary_placeholder: "Elija una etiqueta más|Elija {count} etiquetas más"
       edit_title: "Editar las etiquetas para '{title}'"
       submit_button: => core.ref.okay
       title: Elija las etiquetas para su discusión
@@ -81,6 +81,9 @@ flarum-tags:
     discussion_controls:
       edit_tags_button: Editar etiquetas
 
+    header:
+      back_to_tags_tooltip: Volver a la lista de etiquetas
+
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: Más...
@@ -89,9 +92,9 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} añadió {tagsAdded}."
-      added_and_removed_tags_text: "{username} añadió {tagsAdded} y eliminó {tagsRemoved}."
-      removed_tags_text: "{username} eliminó {tagsRemoved}."
+      added_and_removed_tags_text: "{username} puso {tagsAdded} y quitó {tagsRemoved}."
+      added_tags_text: "{username} puso {tagsAdded}."
+      removed_tags_text: "{username} quitó {tagsRemoved}."
       tags_text: "la etiqueta {tags}|las etiquetas {tags}"
 
   # Translations in this namespace are used by the forum and admin interfaces.

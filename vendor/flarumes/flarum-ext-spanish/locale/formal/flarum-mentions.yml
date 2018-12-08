@@ -1,8 +1,8 @@
 #
 # This file is part of FlarumES/Spanish.
 # -----------------------------------------------------------------------
-# Copyright © 2015-2017 Toby Zerner and Flarum
-# Copyright © 2015-2017 Johann Rodríguez and Flarum en Español
+# Copyright © 2015-2018 Toby Zerner and Flarum
+# Copyright © 2015-2018 Johann Rodríguez and Flarum en Español
 # -----------------------------------------------------------------------
 # For the full copyright and license information, please view the LICENSE
 # file that was distributed with this source code.
@@ -19,18 +19,19 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
+      mention_tooltip: Mencionar a un usuario o publicación
       reply_to_post_text: "Respuesta a #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "{username} respondió a su publicación|{username} respondieron a su publicación"  # Can be pluralized to agree with the number of users!
+      post_mentioned_text: "{username} respondió a su publicación|{username} respondieron a su publicación" # Can be pluralized to agree with the number of users!
       user_mentioned_text: "{username} le mencionó"
 
     # These translations are displayed beneath individual posts.
     post:
-      mentioned_by_self_text: "{users} respondió a esto.|{users} respondieron a esto."  # Can be pluralized to agree with the number of users!
-      mentioned_by_text: "{users} respondió a esto.|{users} respondieron a esto."       # Can be pluralized to agree with the number of users!
+      mentioned_by_self_text: "{users} respondió a esto.|{users} respondieron a esto." # Can be pluralized to agree with the number of users!
+      mentioned_by_text: "{users} respondió a esto.|{users} respondieron a esto."      # Can be pluralized to agree with the number of users!
       others_text: => core.ref.some_others
       quote_button: Citar
       reply_link: => core.ref.reply

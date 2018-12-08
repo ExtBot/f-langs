@@ -1,8 +1,8 @@
 #
 # This file is part of FlarumES/Spanish.
 # -----------------------------------------------------------------------
-# Copyright © 2015-2017 Toby Zerner and Flarum
-# Copyright © 2015-2017 Johann Rodríguez and Flarum en Español
+# Copyright © 2015-2018 Toby Zerner and Flarum
+# Copyright © 2015-2018 Johann Rodríguez and Flarum en Español
 # -----------------------------------------------------------------------
 # For the full copyright and license information, please view the LICENSE
 # file that was distributed with this source code.
@@ -48,7 +48,7 @@ flarum-subscriptions:
       following_text: Ser notificado de todas las respuestas.
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: No ser notificado y ocultar esta discusión.
-      not_following_button: Dejar de seguir #TODO: Check this
+      not_following_button: Dejar de seguir      # TODO: Check this
       not_following_text: "Ser notificado sólo cuando le @mencionen."
       notify_alert_tooltip: Recibir una notificación del foro cuando hayan nuevas publicaciones
       notify_email_tooltip: Recibir un e-mail cuando hayan nuevas publicaciones

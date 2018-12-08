@@ -506,16 +506,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlarumES/Spanish.git",
-                "reference": "9fbf42f5429f5837d5e3562dcd431a9c842086ea"
+                "reference": "8969bee37a8f82080e94c48b883f6520820fde80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlarumES/Spanish/zipball/9fbf42f5429f5837d5e3562dcd431a9c842086ea",
-                "reference": "9fbf42f5429f5837d5e3562dcd431a9c842086ea",
+                "url": "https://api.github.com/repos/FlarumES/Spanish/zipball/8969bee37a8f82080e94c48b883f6520820fde80",
+                "reference": "8969bee37a8f82080e94c48b883f6520820fde80",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.7"
+                "flarum/core": "^0.1.0-beta.8"
             },
             "type": "flarum-extension",
             "extra": {
@@ -550,7 +550,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2018-01-07T23:56:49+00:00"
+            "time": "2018-12-06T16:05:40+00:00"
         },
         {
             "name": "heidar/flarum-ext-swedish",

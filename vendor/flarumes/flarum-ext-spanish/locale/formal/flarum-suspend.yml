@@ -1,8 +1,8 @@
 #
 # This file is part of FlarumES/Spanish.
 # -----------------------------------------------------------------------
-# Copyright © 2015-2017 Toby Zerner and Flarum
-# Copyright © 2015-2017 Johann Rodríguez and Flarum en Español
+# Copyright © 2015-2018 Toby Zerner and Flarum
+# Copyright © 2015-2018 Johann Rodríguez and Flarum en Español
 # -----------------------------------------------------------------------
 # For the full copyright and license information, please view the LICENSE
 # file that was distributed with this source code.
@@ -23,12 +23,16 @@ flarum-suspend:
 
   # Translations in this namespace are used by the forum user interface.
   forum:
+    # These translations are used in the suspension notifications
+    notifications:
+      user_suspended_text: "{username} le ha suspendido durante {timeReadable}"
+      user_unsuspended_text: "{username} le ha quitado la suspensión"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
       indefinitely_label: Suspender indefinidamente
-      limited_time_label: Suspender por tiempo limitado...
       limited_time_days_text: " días"
+      limited_time_label: Suspender por tiempo limitado...
       not_suspended_label: No suspendido
       status_heading: Estado de la suspensión
       submit_button: => core.ref.save_changes

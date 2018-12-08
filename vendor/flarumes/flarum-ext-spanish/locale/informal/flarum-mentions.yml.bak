@@ -25,7 +25,7 @@ flarum-mentions:
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "{username} respondió a tu publicación|{username} respondieron a tu publicación" # Can be pluralized to agree with the number of users!
+      post_mentioned_text: "{username} respondió a tu publicación|{username} respondieron a tu publicación"  # Can be pluralized to agree with the number of users!
       user_mentioned_text: "{username} te mencionó"
 
     # These translations are displayed beneath individual posts.
