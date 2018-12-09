@@ -11,6 +11,7 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
+      mention_tooltip: 提及某人或貼文
       reply_to_post_text: "回覆給 #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".

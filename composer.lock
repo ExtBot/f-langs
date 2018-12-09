@@ -212,16 +212,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Csineneo/flarum-ext-traditional-chinese.git",
-                "reference": "9141d1662efcff292b83bdd0c5f180b8c139fda5"
+                "reference": "9dca8e79beb40c379e93d7597d09e2acc6d64da8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Csineneo/flarum-ext-traditional-chinese/zipball/9141d1662efcff292b83bdd0c5f180b8c139fda5",
-                "reference": "9141d1662efcff292b83bdd0c5f180b8c139fda5",
+                "url": "https://api.github.com/repos/Csineneo/flarum-ext-traditional-chinese/zipball/9dca8e79beb40c379e93d7597d09e2acc6d64da8",
+                "reference": "9dca8e79beb40c379e93d7597d09e2acc6d64da8",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.7"
+                "flarum/core": "^0.1.0-beta.8.1"
             },
             "type": "flarum-extension",
             "extra": {
@@ -257,7 +257,8 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2018-04-25T15:35:16+00:00"
+            "abandoned": "csineneo/lang-traditional-chinese",
+            "time": "2018-12-08T06:52:07+00:00"
         },
         {
             "name": "eikoninaru/flarum-ext-ukrainian",
@@ -1196,12 +1197,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nearata/lang-italian.git",
-                "reference": "d9a83e63deb0c7958ff42b1908c15c52e58e3dd5"
+                "reference": "480909631d19045189c032697d80f3fec75aacd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/d9a83e63deb0c7958ff42b1908c15c52e58e3dd5",
-                "reference": "d9a83e63deb0c7958ff42b1908c15c52e58e3dd5",
+                "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/480909631d19045189c032697d80f3fec75aacd8",
+                "reference": "480909631d19045189c032697d80f3fec75aacd8",
                 "shasum": ""
             },
             "require": {
@@ -1240,7 +1241,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2018-12-01T15:49:02+00:00"
+            "time": "2018-12-08T23:07:21+00:00"
         },
         {
             "name": "nit/flarum-ext-albania",
