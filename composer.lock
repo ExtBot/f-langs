@@ -1024,13 +1024,13 @@
             "version": "0.1.0-beta.8-1",
             "source": {
                 "type": "git",
-                "url": "https://gitlab.com/metastore/flarum/flarum-l10n-forum.git",
-                "reference": "0781adb0ea5e85dccf03b952b68275871d3e2ddf"
+                "url": "https://github.com/factory-04/flarum-l10n-forum.git",
+                "reference": "64c032103cfa367bdd2d0f805cce2fa892fff8b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/metastore%2Fflarum%2Fflarum-l10n-forum/repository/archive.zip?sha=0781adb0ea5e85dccf03b952b68275871d3e2ddf",
-                "reference": "0781adb0ea5e85dccf03b952b68275871d3e2ddf",
+                "url": "https://api.github.com/repos/factory-04/flarum-l10n-forum/zipball/64c032103cfa367bdd2d0f805cce2fa892fff8b9",
+                "reference": "64c032103cfa367bdd2d0f805cce2fa892fff8b9",
                 "shasum": ""
             },
             "require": {
@@ -1077,7 +1077,7 @@
                 "russian",
                 "translation"
             ],
-            "time": "2018-12-02T12:16:17+00:00"
+            "time": "2018-12-13T21:05:26+00:00"
         },
         {
             "name": "milescellar/lang-french",
