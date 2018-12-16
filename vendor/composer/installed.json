@@ -1007,18 +1007,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/milescellar/lang-french.git",
-            "reference": "aa6d33e9bc667dd2acb32b6c76cdd91800ef6951"
+            "reference": "3878d0e7fc2d3bdf8f322dee7619666ca70eed71"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/milescellar/lang-french/zipball/aa6d33e9bc667dd2acb32b6c76cdd91800ef6951",
-            "reference": "aa6d33e9bc667dd2acb32b6c76cdd91800ef6951",
+            "url": "https://api.github.com/repos/milescellar/lang-french/zipball/3878d0e7fc2d3bdf8f322dee7619666ca70eed71",
+            "reference": "3878d0e7fc2d3bdf8f322dee7619666ca70eed71",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-11-29T20:39:11+00:00",
+        "time": "2018-12-15T10:45:28+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1123,18 +1123,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Nearata/lang-italian.git",
-            "reference": "480909631d19045189c032697d80f3fec75aacd8"
+            "reference": "797e671e23af2fd41be7b002a548808ed25a78c3"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/480909631d19045189c032697d80f3fec75aacd8",
-            "reference": "480909631d19045189c032697d80f3fec75aacd8",
+            "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/797e671e23af2fd41be7b002a548808ed25a78c3",
+            "reference": "797e671e23af2fd41be7b002a548808ed25a78c3",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-12-08T23:07:21+00:00",
+        "time": "2018-12-15T14:12:19+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -1281,22 +1281,22 @@
         "source": {
             "type": "git",
             "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-            "reference": "4c5edcf877366a98fc01b0aa5192fa6c39dc5578"
+            "reference": "3dc0a3ca2da209dbb36bd4c9be2b30f56508d92a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/4c5edcf877366a98fc01b0aa5192fa6c39dc5578",
-            "reference": "4c5edcf877366a98fc01b0aa5192fa6c39dc5578",
+            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/3dc0a3ca2da209dbb36bd4c9be2b30f56508d92a",
+            "reference": "3dc0a3ca2da209dbb36bd4c9be2b30f56508d92a",
             "shasum": ""
         },
         "require": {
-            "flarum/core": "^0.1.0-beta.7"
+            "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-05-08T19:23:50+00:00",
+        "time": "2018-12-15T07:40:02+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.3.x-dev"
+                "dev-master": "1.4.x-dev"
             },
             "flarum-extension": {
                 "title": "Indonesian",
