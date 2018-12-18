@@ -256,18 +256,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Csineneo/flarum-ext-traditional-chinese.git",
-            "reference": "9dca8e79beb40c379e93d7597d09e2acc6d64da8"
+            "reference": "9141d1662efcff292b83bdd0c5f180b8c139fda5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Csineneo/flarum-ext-traditional-chinese/zipball/9dca8e79beb40c379e93d7597d09e2acc6d64da8",
-            "reference": "9dca8e79beb40c379e93d7597d09e2acc6d64da8",
+            "url": "https://api.github.com/repos/Csineneo/flarum-ext-traditional-chinese/zipball/9141d1662efcff292b83bdd0c5f180b8c139fda5",
+            "reference": "9141d1662efcff292b83bdd0c5f180b8c139fda5",
             "shasum": ""
         },
         "require": {
-            "flarum/core": "^0.1.0-beta.8.1"
+            "flarum/core": "^0.1.0-beta.7"
         },
-        "time": "2018-12-08T06:52:07+00:00",
+        "time": "2018-04-25T15:35:16+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {

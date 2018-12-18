@@ -15,7 +15,7 @@ flarum-tags:
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: => core.ref.color
+      color_label: 顏色
       delete_tag_button: 刪除節點
       delete_tag_confirmation: "確定要刪除此幾點？此節點下的貼文將不會被刪除。"
       description_label: 說明
@@ -73,9 +73,6 @@ flarum-tags:
     discussion_controls:
       edit_tags_button: 編輯節點
 
-    header:
-      back_to_tags_tooltip: 返回節點列表
-
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: 更多節點...
@@ -84,7 +81,7 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} 新增節點 {tagsAdded}"
+      added_tags_text: "{username} 添加節點 {tagsAdded}"
       added_and_removed_tags_text: "{username} 添加節點 {tagsAdded} 並移除節點 {tagsRemoved}"
       removed_tags_text: "{username} 移除節點 {tagsRemoved}"
       tags_text: "{tags}|{tags}"
