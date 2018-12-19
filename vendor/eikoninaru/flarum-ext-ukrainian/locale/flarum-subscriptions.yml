@@ -1,8 +1,8 @@
 flarum-subscriptions:
 
-  ##
+  ###
   # UNIQUE KEYS - The following keys are used in only one location each.
-  ##
+  ###
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -20,7 +20,7 @@ flarum-subscriptions:
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      following_link: "Дискусії, на які я підписаний"
+      following_link: => flarum-subscriptions.ref.following
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:

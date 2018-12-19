@@ -266,16 +266,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/eikoninaru/flarum-ext-ukrainian.git",
-                "reference": "47921a43af948979bd067088afea2bda38d6510f"
+                "reference": "c9e3ad0539a4ac834cbdd3e74ff581c6bc27d200"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eikoninaru/flarum-ext-ukrainian/zipball/47921a43af948979bd067088afea2bda38d6510f",
-                "reference": "47921a43af948979bd067088afea2bda38d6510f",
+                "url": "https://api.github.com/repos/eikoninaru/flarum-ext-ukrainian/zipball/c9e3ad0539a4ac834cbdd3e74ff581c6bc27d200",
+                "reference": "c9e3ad0539a4ac834cbdd3e74ff581c6bc27d200",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.7"
+                "flarum/core": "^0.1.0-beta.8"
             },
             "type": "flarum-extension",
             "extra": {
@@ -316,7 +316,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2017-11-09T10:11:05+00:00"
+            "time": "2018-12-18T03:33:24+00:00"
         },
         {
             "name": "elite-devs/flarum-ext-arabic",

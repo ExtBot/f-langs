@@ -18,11 +18,10 @@
     ],
     "support": {
         "issues": "https://github.com/eikoninaru/flarum-ext-ukrainian/issues",
-        "source": "https://github.com/eikoninaru/flarum-ext-ukrainian",
         "forum": "https://linuxmint.com.ua/"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.7"
+        "flarum/core": "^0.1.0-beta.8"
     },
     "extra": {
         "branch-alias": {
