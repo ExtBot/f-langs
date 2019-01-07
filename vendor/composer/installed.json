@@ -891,18 +891,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/manaszon/flarum-ext-hungarian.git",
-            "reference": "2b72c00cdb20db54cafeb1548598ef4f893b1f5f"
+            "reference": "cb158270bceb7920a2fc6e7881e87c981a2d5249"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/manaszon/flarum-ext-hungarian/zipball/2b72c00cdb20db54cafeb1548598ef4f893b1f5f",
-            "reference": "2b72c00cdb20db54cafeb1548598ef4f893b1f5f",
+            "url": "https://api.github.com/repos/manaszon/flarum-ext-hungarian/zipball/cb158270bceb7920a2fc6e7881e87c981a2d5249",
+            "reference": "cb158270bceb7920a2fc6e7881e87c981a2d5249",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2019-01-06T01:56:27+00:00",
+        "time": "2019-01-06T02:31:14+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
