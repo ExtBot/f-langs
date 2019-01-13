@@ -6,18 +6,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/ahrasis/flarum-ext-malaysian.git",
-            "reference": "05a06cfc3895af8727143233d4e1a4c472be20ad"
+            "reference": "2cd75360ab3738debc03b366d4ee5e2979baed8f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/ahrasis/flarum-ext-malaysian/zipball/05a06cfc3895af8727143233d4e1a4c472be20ad",
-            "reference": "05a06cfc3895af8727143233d4e1a4c472be20ad",
+            "url": "https://api.github.com/repos/ahrasis/flarum-ext-malaysian/zipball/2cd75360ab3738debc03b366d4ee5e2979baed8f",
+            "reference": "2cd75360ab3738debc03b366d4ee5e2979baed8f",
             "shasum": ""
         },
         "require": {
-            "flarum/core": "^0.1.0-beta.5"
+            "flarum/core": "^0.1.0-beta.8.1"
         },
-        "time": "2016-11-23T01:47:56+00:00",
+        "time": "2019-01-12T17:13:39+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -891,18 +891,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/manaszon/flarum-ext-hungarian.git",
-            "reference": "22671312595a582381099a367217f0e231edc319"
+            "reference": "d6b8028f08474810cfd27c3c6fb1cf0895ec4b2c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/manaszon/flarum-ext-hungarian/zipball/22671312595a582381099a367217f0e231edc319",
-            "reference": "22671312595a582381099a367217f0e231edc319",
+            "url": "https://api.github.com/repos/manaszon/flarum-ext-hungarian/zipball/d6b8028f08474810cfd27c3c6fb1cf0895ec4b2c",
+            "reference": "d6b8028f08474810cfd27c3c6fb1cf0895ec4b2c",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2019-01-10T13:56:39+00:00",
+        "time": "2019-01-12T19:29:25+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
