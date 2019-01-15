@@ -1,56 +1,5 @@
 [
     {
-        "name": "ahrasis/flarum-ext-malaysian",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/ahrasis/flarum-ext-malaysian.git",
-            "reference": "2cd75360ab3738debc03b366d4ee5e2979baed8f"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/ahrasis/flarum-ext-malaysian/zipball/2cd75360ab3738debc03b366d4ee5e2979baed8f",
-            "reference": "2cd75360ab3738debc03b366d4ee5e2979baed8f",
-            "shasum": ""
-        },
-        "require": {
-            "flarum/core": "^0.1.0-beta.8.1"
-        },
-        "time": "2019-01-12T17:13:39+00:00",
-        "type": "flarum-extension",
-        "extra": {
-            "flarum-extension": {
-                "title": "Bahasa Malaysia",
-                "icon": {
-                    "image": "icon.svg",
-                    "backgroundColor": "#00247d",
-                    "backgroundSize": "cover",
-                    "backgroundPosition": "center"
-                }
-            },
-            "flarum-locale": {
-                "code": "my",
-                "title": "Bahasa Malaysia"
-            }
-        },
-        "installation-source": "source",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Hj Ahmad Rasyid Hj Ismail",
-                "email": "ahrasis@gmail.com"
-            }
-        ],
-        "description": "Pakej Bahasa Malaysia",
-        "keywords": [
-            "locale"
-        ]
-    },
-    {
         "name": "flabrew/flabrew",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
@@ -145,6 +94,62 @@
         "description": "Vietnam language pack for Flarum.",
         "homepage": "https://github.com/laptrinhphp/flarum",
         "keywords": [
+            "locale"
+        ]
+    },
+    {
+        "name": "ahrasis/flarum-ext-malaysian",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ahrasis/bahasa-melayu.git",
+            "reference": "3b25dd7cc5c9909e84f21abac10160d35723db36"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ahrasis/bahasa-melayu/zipball/3b25dd7cc5c9909e84f21abac10160d35723db36",
+            "reference": "3b25dd7cc5c9909e84f21abac10160d35723db36",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.8"
+        },
+        "time": "2019-01-14T04:23:16+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Bahasa Melayu",
+                "icon": {
+                    "image": "icon.svg",
+                    "backgroundColor": "#00247d",
+                    "backgroundSize": "cover",
+                    "backgroundPosition": "center"
+                }
+            },
+            "flarum-locale": {
+                "code": "my",
+                "title": "Bahasa Melayu"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Hj Ahmad Rasyid Hj Ismail",
+                "email": "ahrasis@gmail.com",
+                "homepage": "https://flarum.sch.my"
+            }
+        ],
+        "description": "Bahasa Melayu untuk Flarum v0.1.0-beta.8 ke atas",
+        "keywords": [
+            "Malaysia",
+            "Melayu",
+            "bahasa",
+            "flarum",
             "locale"
         ]
     },
@@ -891,18 +896,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/manaszon/flarum-ext-hungarian.git",
-            "reference": "d6b8028f08474810cfd27c3c6fb1cf0895ec4b2c"
+            "reference": "35ce4eb2132ca461776860d8ad4a6938d680f97e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/manaszon/flarum-ext-hungarian/zipball/d6b8028f08474810cfd27c3c6fb1cf0895ec4b2c",
-            "reference": "d6b8028f08474810cfd27c3c6fb1cf0895ec4b2c",
+            "url": "https://api.github.com/repos/manaszon/flarum-ext-hungarian/zipball/35ce4eb2132ca461776860d8ad4a6938d680f97e",
+            "reference": "35ce4eb2132ca461776860d8ad4a6938d680f97e",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2019-01-12T19:29:25+00:00",
+        "time": "2019-01-14T23:58:44+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
