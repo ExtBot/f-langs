@@ -1202,12 +1202,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nearata/lang-italian.git",
-                "reference": "797e671e23af2fd41be7b002a548808ed25a78c3"
+                "reference": "5eb42224a4da9bde5f5018584e666ee99fe142cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/797e671e23af2fd41be7b002a548808ed25a78c3",
-                "reference": "797e671e23af2fd41be7b002a548808ed25a78c3",
+                "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/5eb42224a4da9bde5f5018584e666ee99fe142cc",
+                "reference": "5eb42224a4da9bde5f5018584e666ee99fe142cc",
                 "shasum": ""
             },
             "require": {
@@ -1246,7 +1246,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2018-12-15T14:12:19+00:00"
+            "time": "2019-01-26T16:23:35+00:00"
         },
         {
             "name": "nit/flarum-ext-albania",
