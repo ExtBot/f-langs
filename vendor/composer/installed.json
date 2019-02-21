@@ -473,18 +473,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/flarum/lang-english.git",
-            "reference": "3ec1647c0860c17aaa74870983c18dd0106fe9d7"
+            "reference": "e66508927373b9a3ba067cf0250ec41e1df531ac"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/flarum/lang-english/zipball/3ec1647c0860c17aaa74870983c18dd0106fe9d7",
-            "reference": "3ec1647c0860c17aaa74870983c18dd0106fe9d7",
+            "url": "https://api.github.com/repos/flarum/lang-english/zipball/e66508927373b9a3ba067cf0250ec41e1df531ac",
+            "reference": "e66508927373b9a3ba067cf0250ec41e1df531ac",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-11-22T06:02:09+00:00",
+        "time": "2018-12-15T10:57:05+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1653,19 +1653,19 @@
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/sijad/flarum-ext-persian.git",
-            "reference": "15dbe1ba69280014624e2a5fffa76617af413442"
+            "url": "https://github.com/persianfla/flarum-ext-persian.git",
+            "reference": "362b106eda465b5f47437b089f9fe5067937bc69"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sijad/flarum-ext-persian/zipball/15dbe1ba69280014624e2a5fffa76617af413442",
-            "reference": "15dbe1ba69280014624e2a5fffa76617af413442",
+            "url": "https://api.github.com/repos/persianfla/flarum-ext-persian/zipball/362b106eda465b5f47437b089f9fe5067937bc69",
+            "reference": "362b106eda465b5f47437b089f9fe5067937bc69",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.5"
         },
-        "time": "2018-05-27T07:31:10+00:00",
+        "time": "2018-06-01T10:51:23+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -1685,7 +1685,7 @@
         "installation-source": "source",
         "autoload": {
             "psr-4": {
-                "Sijad\\Persian\\": "src/"
+                "PersianFla\\Persian\\": "src/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",

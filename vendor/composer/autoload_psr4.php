@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Sijad\\Persian\\' => array($vendorDir . '/sijad/flarum-ext-persian/src'),
+    'PersianFla\\Persian\\' => array($vendorDir . '/sijad/flarum-ext-persian/src'),
 );
