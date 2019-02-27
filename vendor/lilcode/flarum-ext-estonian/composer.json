@@ -1,14 +1,14 @@
 {
-	"name": "lilcode/flarum-ext-estonian",
+	"name": "rxnniiee/flarum-ext-estonian",
 	"type": "flarum-extension",
 	"minimum-stability" : "beta",
 	"description": "Estonian language pack.",
-	"homepage": "https://github.com/lilcode/flarum-ext-estonian",
+	"homepage": "https://github.com/rxnniiee/flarum-ext-estonian",
 	"keywords": ["locale", "language", "multilanguage"],
 	"license": "MIT",
 	"support": {
-        "issues": "https://github.com/lilcode/flarum-ext-estonian/issues",
-        "source": "https://github.com/lilcode/flarum-ext-estonian"
+        "issues": "https://github.com/rxnniiee/flarum-ext-estonian/issues",
+        "source": "https://github.com/rxnniiee/flarum-ext-estonian"
     },
 	"require": {
 		"flarum/core": "^0.1.0-beta.7"

@@ -790,19 +790,19 @@
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/lilcode/flarum-ext-estonian.git",
-            "reference": "4ec856d5c494169d874f6241f787eef96ee57b10"
+            "url": "https://github.com/rxnniiee/flarum-ext-estonian.git",
+            "reference": "db03e3aa456e7f30b191319a070f1e904b83b123"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/lilcode/flarum-ext-estonian/zipball/4ec856d5c494169d874f6241f787eef96ee57b10",
-            "reference": "4ec856d5c494169d874f6241f787eef96ee57b10",
+            "url": "https://api.github.com/repos/rxnniiee/flarum-ext-estonian/zipball/db03e3aa456e7f30b191319a070f1e904b83b123",
+            "reference": "db03e3aa456e7f30b191319a070f1e904b83b123",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.7"
         },
-        "time": "2017-12-13T15:14:05+00:00",
+        "time": "2019-02-26T15:01:44+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -828,12 +828,13 @@
             "MIT"
         ],
         "description": "Estonian language pack.",
-        "homepage": "https://github.com/lilcode/flarum-ext-estonian",
+        "homepage": "https://github.com/rxnniiee/flarum-ext-estonian",
         "keywords": [
             "language",
             "locale",
             "multilanguage"
-        ]
+        ],
+        "abandoned": "flarum-ext-estonian"
     },
     {
         "name": "lukaszflorczak/flarum-ext-polish",
