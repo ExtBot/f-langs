@@ -317,18 +317,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/eikoninaru/flarum-ext-ukrainian.git",
-            "reference": "c9e3ad0539a4ac834cbdd3e74ff581c6bc27d200"
+            "reference": "953a13da95be0c92a1a506e01e8df3e3e3f66904"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/eikoninaru/flarum-ext-ukrainian/zipball/c9e3ad0539a4ac834cbdd3e74ff581c6bc27d200",
-            "reference": "c9e3ad0539a4ac834cbdd3e74ff581c6bc27d200",
+            "url": "https://api.github.com/repos/eikoninaru/flarum-ext-ukrainian/zipball/953a13da95be0c92a1a506e01e8df3e3e3f66904",
+            "reference": "953a13da95be0c92a1a506e01e8df3e3e3f66904",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2018-12-18T03:33:24+00:00",
+        "time": "2019-03-06T23:01:32+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
