@@ -1278,7 +1278,8 @@
             "flarum",
             "locale",
             "translation"
-        ]
+        ],
+        "abandoned": true
     },
     {
         "name": "realodix/flarum-ext-indonesian",
