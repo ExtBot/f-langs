@@ -1555,12 +1555,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/persianfla/flarum-ext-persian.git",
-                "reference": "362b106eda465b5f47437b089f9fe5067937bc69"
+                "reference": "38ebe5dc24be598a653eda1bc14212c51897f310"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/persianfla/flarum-ext-persian/zipball/362b106eda465b5f47437b089f9fe5067937bc69",
-                "reference": "362b106eda465b5f47437b089f9fe5067937bc69",
+                "url": "https://api.github.com/repos/persianfla/flarum-ext-persian/zipball/38ebe5dc24be598a653eda1bc14212c51897f310",
+                "reference": "38ebe5dc24be598a653eda1bc14212c51897f310",
                 "shasum": ""
             },
             "require": {
@@ -1603,7 +1603,7 @@
                 "locale"
             ],
             "abandoned": "persianfla/flarum-ext-persian",
-            "time": "2018-06-01T10:51:23+00:00"
+            "time": "2019-03-30T08:36:17+00:00"
         },
         {
             "name": "veriael/flarum-polish",
