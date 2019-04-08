@@ -3,9 +3,25 @@
 Paket bahasa Indonesia untuk melokalisasi Flarum dan beberapa ekstensi yang [didukung](#extensi-yang-didukung).
 
 ## Informasi
-**Stable**: [v1.4.1](https://github.com/realodix/flarum-lang-indonesian/archive/1.4.1.zip) | **Unstable**: [v1.4.x-dev](https://github.com/realodix/flarum-ext-indonesian/archive/master.zip) | **License**: [MIT](https://poser.pugx.org/realodix/flarum-ext-indonesian/license)
+[![Latest Stable Version](https://poser.pugx.org/realodix/flarum-ext-indonesian/v/stable)](https://github.com/realodix/flarum-ext-indonesian)
+[![Latest Unstable Version](https://poser.pugx.org/realodix/flarum-ext-indonesian/v/unstable)](https://github.com/realodix/flarum-ext-indonesian/archive/master.zip)
+[![License](https://poser.pugx.org/realodix/flarum-ext-indonesian/license)](https://github.com/realodix/flarum-ext-indonesian/blob/master/LICENSE)
 
 **Requires**: Flarum v0.1.0 Beta 8 | **Compatible up to**: Flarum v0.1.0-beta.8.1
+
+### Extensi Yang Didukung
+Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
+
+- [flagrow/byobu](https://github.com/flagrow/byobu) v0.2.2
+- [flagrow/split](https://github.com/flagrow/split) v0.3.2
+- [flagrow/upload](https://github.com/flagrow/upload) v0.7.1
+- [FriendsOfFlarum/pages](https://github.com/FriendsOfFlarum/pages) v0.2.2
+- [FriendsOfFlarum/secure-https](https://github.com/FriendsOfFlarum/secure-https) v0.1.0
+- [FriendsOfFlarum/user-bio](https://github.com/FriendsOfFlarum/user-bio) v0.1.2
+- [MichaelBelgium/flarum-discussion-views](https://github.com/MichaelBelgium/flarum-discussion-views) v0.1.0-beta.8
+- [MichaelBelgium/mybb_to_flarum](https://github.com/MichaelBelgium/mybb_to_flarum) v3.0-beta.3
+- [ReFlar/level-ranks](https://github.com/ReFlar/level-ranks) v1.2.1
+- [ReFlar/polls](https://github.com/ReFlar/polls) v1.3.2
 
 ### Cara Menggunakan
 Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah terinstall di komputer Anda, lalu ikuti langkah berikut ini:
