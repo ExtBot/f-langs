@@ -12,6 +12,9 @@ Paket bahasa Indonesia untuk melokalisasi Flarum dan beberapa ekstensi yang [did
 ### Extensi Yang Didukung
 Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
+- [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.8
+- [flagrow/ads](https://github.com/flagrow/ads) v0.2.0-beta.1
+- [flagrow/bazaar](https://github.com/flagrow/bazaar) v0.3.9
 - [flagrow/byobu](https://github.com/flagrow/byobu) v0.2.2
 - [flagrow/split](https://github.com/flagrow/split) v0.3.2
 - [flagrow/upload](https://github.com/flagrow/upload) v0.7.1
@@ -22,6 +25,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [MichaelBelgium/mybb_to_flarum](https://github.com/MichaelBelgium/mybb_to_flarum) v3.0-beta.3
 - [ReFlar/level-ranks](https://github.com/ReFlar/level-ranks) v1.2.1
 - [ReFlar/polls](https://github.com/ReFlar/polls) v1.3.2
+- [wiwatsrt/flarum-ext-best-answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.2.1
 
 ### Cara Menggunakan
 Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah terinstall di komputer Anda, lalu ikuti langkah berikut ini:
