@@ -1,6 +1,6 @@
 ## Indonesia Language Pack for [Flarum](http://flarum.org/)
 
-Paket bahasa Indonesia untuk melokalisasi Flarum dan beberapa ekstensi yang [didukung](#extensi-yang-didukung).
+Paket bahasa Indonesia untuk Flarum dan beberapa ekstensi yang [didukung](#extensi-yang-didukung).
 
 ## Informasi
 [![Latest Stable Version](https://poser.pugx.org/realodix/flarum-ext-indonesian/v/stable)](https://github.com/realodix/flarum-ext-indonesian)
@@ -12,12 +12,14 @@ Paket bahasa Indonesia untuk melokalisasi Flarum dan beberapa ekstensi yang [did
 ### Extensi Yang Didukung
 Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
-- [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.8
+- [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.8.1
 - [flagrow/ads](https://github.com/flagrow/ads) v0.2.0-beta.1
-- [flagrow/bazaar](https://github.com/flagrow/bazaar) v0.3.9
-- [flagrow/byobu](https://github.com/flagrow/byobu) v0.2.2
+- [flagrow/bazaar](https://github.com/flagrow/bazaar) v0.3.10
+- [flagrow/byobu](https://github.com/flagrow/byobu) v0.3.0-beta
 - [flagrow/split](https://github.com/flagrow/split) v0.3.2
 - [flagrow/upload](https://github.com/flagrow/upload) v0.7.1
+- [FriendsOfFlarum/formatting](https://github.com/FriendsOfFlarum/formatting) v0.1.2
+- [FriendsOfFlarum/merge-discussions](https://github.com/FriendsOfFlarum/merge-discussions) v0.2.0
 - [FriendsOfFlarum/pages](https://github.com/FriendsOfFlarum/pages) v0.2.2
 - [FriendsOfFlarum/secure-https](https://github.com/FriendsOfFlarum/secure-https) v0.1.0
 - [FriendsOfFlarum/user-bio](https://github.com/FriendsOfFlarum/user-bio) v0.1.2

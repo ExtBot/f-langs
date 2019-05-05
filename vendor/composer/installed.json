@@ -1047,7 +1047,7 @@
                 "discuss": "https://discuss.flarum.org/d/615-french-language-pack"
             }
         },
-        "installation-source": "dist",
+        "installation-source": "source",
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
@@ -1288,18 +1288,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-            "reference": "0aa8211fed66110c92140623ded91ea094bacff2"
+            "reference": "7b24f14cc0f5b6ff9782325e70d5ddaefd6ba97f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/0aa8211fed66110c92140623ded91ea094bacff2",
-            "reference": "0aa8211fed66110c92140623ded91ea094bacff2",
+            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/7b24f14cc0f5b6ff9782325e70d5ddaefd6ba97f",
+            "reference": "7b24f14cc0f5b6ff9782325e70d5ddaefd6ba97f",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2019-04-08T11:28:40+00:00",
+        "time": "2019-05-04T20:18:45+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
