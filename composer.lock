@@ -1091,12 +1091,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/milescellar/lang-french.git",
-                "reference": "6d88c698b2b251b9d0b9558fdf13eba3bf545585"
+                "reference": "7e0a9c1f886393308e14e300cc1e037d4a31ea57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/milescellar/lang-french/zipball/6d88c698b2b251b9d0b9558fdf13eba3bf545585",
-                "reference": "6d88c698b2b251b9d0b9558fdf13eba3bf545585",
+                "url": "https://api.github.com/repos/milescellar/lang-french/zipball/7e0a9c1f886393308e14e300cc1e037d4a31ea57",
+                "reference": "7e0a9c1f886393308e14e300cc1e037d4a31ea57",
                 "shasum": ""
             },
             "require": {
@@ -1142,7 +1142,7 @@
                 "locale",
                 "translation"
             ],
-            "time": "2019-03-27T13:59:52+00:00"
+            "time": "2019-05-12T09:42:56+00:00"
         },
         {
             "name": "naga0ka/flarum-ext-japanese",
