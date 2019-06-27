@@ -1013,18 +1013,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/milescellar/lang-french.git",
-            "reference": "a9b73fae94ba9168a2d9d8f06e6b6f2c5554f956"
+            "reference": "adf3479ab43171e692fcedf452e1485ffce449a0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/milescellar/lang-french/zipball/a9b73fae94ba9168a2d9d8f06e6b6f2c5554f956",
-            "reference": "a9b73fae94ba9168a2d9d8f06e6b6f2c5554f956",
+            "url": "https://api.github.com/repos/milescellar/lang-french/zipball/adf3479ab43171e692fcedf452e1485ffce449a0",
+            "reference": "adf3479ab43171e692fcedf452e1485ffce449a0",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.8"
         },
-        "time": "2019-05-27T17:14:58+00:00",
+        "time": "2019-06-26T14:38:58+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
