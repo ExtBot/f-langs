@@ -1004,7 +1004,8 @@
             "localization",
             "russian",
             "translation"
-        ]
+        ],
+        "abandoned": "marketplace/flarum-l10n-core-russian"
     },
     {
         "name": "milescellar/lang-french",
