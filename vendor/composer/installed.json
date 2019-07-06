@@ -160,18 +160,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Kakifrucht/flarum-de.git",
-            "reference": "fd01c1632936f763f0ffea5ce03ce44acf700088"
+            "reference": "c67149ee4cabfc9caaef8fda7ff09476a52cf85b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/fd01c1632936f763f0ffea5ce03ce44acf700088",
-            "reference": "fd01c1632936f763f0ffea5ce03ce44acf700088",
+            "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/c67149ee4cabfc9caaef8fda7ff09476a52cf85b",
+            "reference": "c67149ee4cabfc9caaef8fda7ff09476a52cf85b",
             "shasum": ""
         },
         "require": {
-            "flarum/core": "^0.1.0-beta.8.1"
+            "flarum/core": "^0.1.0-beta.9"
         },
-        "time": "2019-06-17T21:01:35+00:00",
+        "time": "2019-07-05T23:20:17+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -1014,22 +1014,22 @@
         "source": {
             "type": "git",
             "url": "https://github.com/milescellar/lang-french.git",
-            "reference": "adf3479ab43171e692fcedf452e1485ffce449a0"
+            "reference": "0907d7883976c8bd8d2b6be05cea4123aff25d40"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/milescellar/lang-french/zipball/adf3479ab43171e692fcedf452e1485ffce449a0",
-            "reference": "adf3479ab43171e692fcedf452e1485ffce449a0",
+            "url": "https://api.github.com/repos/milescellar/lang-french/zipball/0907d7883976c8bd8d2b6be05cea4123aff25d40",
+            "reference": "0907d7883976c8bd8d2b6be05cea4123aff25d40",
             "shasum": ""
         },
         "require": {
-            "flarum/core": "^0.1.0-beta.8"
+            "flarum/core": "^0.1.0-beta.9"
         },
-        "time": "2019-06-26T14:38:58+00:00",
+        "time": "2019-07-05T11:49:16+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.2.x-dev"
+                "dev-master": "1.3.x-dev"
             },
             "flarum-extension": {
                 "title": "French",
