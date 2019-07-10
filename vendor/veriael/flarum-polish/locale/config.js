@@ -9,19 +9,19 @@ function processRelativeTime(number, withoutSuffix, key, isFuture) {
     'd': ['jeden dzień', 'jeden dzień'],
     'dd': [number + ' dni', number + ' dni'],
     'M': ['jeden miesiąc', 'jeden miesiąc'],
-    'MM': [number + ' miesiąc', number + ' miesięcy'],
+    'MM': [number + ' miesiące', number + ' miesięcy'],
     'y': ['jeden rok', 'jeden rok'],
-    'yy': [number + ' rok', number + ' lat']
+    'yy': [number + ' lata', number + ' lat']
   };
   return withoutSuffix ? format[key][0] : format[key][1];
 };
 
-moment.locale('de', {
+moment.locale('pl', {
   months : 'styczeń_luty_marzec_kwiecień_maj_czerwiec_lipiec_sierpień_wrzesień_październik_listopad_grudzień'.split('_'),
-  monthsShort : 'STY._LUT._MAR_KWI._MAJ_CZE_LIP_SIE._WRZ._PAŹ._LIS._GRU.'.split('_'),
-  weekdays : 'poniedziałek_wtorek_środa_czwartek_piątek_sobota_niedziela'.split('_'),
-  weekdaysShort : 'pon._wt._śr._czw._pt._sob._niedz.'.split('_'),
-  weekdaysMin : 'pn_wt_śr_cz_pt_sb_nd'.split('_'),
+  monthsShort : 'STY_LUT_MAR_KWI_MAJ_CZE_LIP_SIE_WRZ_PAŹ_LIS_GRU'.split('_'),
+  weekdays : 'niedziela_poniedziałek_wtorek_środa_czwartek_piątek_sobota'.split('_'),
+  weekdaysShort : 'niedz._pon._wt._śr._czw._pt._sob.'.split('_'),
+  weekdaysMin : 'ni._pn._wt._śr._cz._pt._sb.'.split('_'),
   longDateFormat : {
     LT: 'HH:mm',
     LTS: 'HH:mm:ss',
@@ -36,16 +36,16 @@ moment.locale('de', {
     nextDay: '[Jutro o] LT',
     nextWeek: 'dddd [o] LT',
     lastDay: '[Wczoraj o] LT',
-    lastWeek: '[W ostatnim tygodniu] dddd [o] LT'
+    lastWeek: '[Ostatnio] dddd [o] LT'
   },
   relativeTime : {
-    future : 'w %s',
+    future : 'w ciągu %s',
     past : '%s temu',
     s : 'kilka sekund',
     m : processRelativeTime,
-    mm : '%d minut(y)',
+    mm : '%d minuty',
     h : processRelativeTime,
-    hh : '%d godzin(y)',
+    hh : '%d godziny',
     d : processRelativeTime,
     dd : processRelativeTime,
     M : processRelativeTime,

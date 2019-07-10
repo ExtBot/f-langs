@@ -1,4 +1,4 @@
-﻿# Windows
+# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
@@ -43,3 +43,4 @@ Temporary Items
 composer.phar
 
 vendor
+.idea

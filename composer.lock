@@ -1611,24 +1611,24 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Veriael/flarum-polish.git",
-                "reference": "d5961357ac092fdb9f1a1c1a02a13724db3bff7b"
+                "url": "https://github.com/Veriael/flarum-pl.git",
+                "reference": "19cd71c0d6f7bbe79645bdd80488f1f77c72b93b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Veriael/flarum-polish/zipball/d5961357ac092fdb9f1a1c1a02a13724db3bff7b",
-                "reference": "d5961357ac092fdb9f1a1c1a02a13724db3bff7b",
+                "url": "https://api.github.com/repos/Veriael/flarum-pl/zipball/19cd71c0d6f7bbe79645bdd80488f1f77c72b93b",
+                "reference": "19cd71c0d6f7bbe79645bdd80488f1f77c72b93b",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.7"
+                "flarum/core": "^0.1.0-beta.9"
             },
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
-                    "title": "Jezyk polski",
+                    "title": "Język Polski",
                     "icon": {
-                        "image": "icon.png",
+                        "image": "icon.svg",
                         "backgroundColor": "#00247d",
                         "backgroundSize": "cover",
                         "backgroundPosition": "center"
@@ -1643,13 +1643,12 @@
             "license": [
                 "MIT"
             ],
-            "description": "Polska paczka jezykowa.",
-            "homepage": "https://github.com/Veriael/flarum-polish",
+            "description": "Polish language pack for Flarum, and all extensions it provides by default.",
+            "homepage": "https://github.com/Veriael/flarum-pl",
             "keywords": [
                 "locale"
             ],
-            "abandoned": true,
-            "time": "2017-09-10T17:28:16+00:00"
+            "time": "2019-07-09T13:43:45+00:00"
         }
     ],
     "packages-dev": [],

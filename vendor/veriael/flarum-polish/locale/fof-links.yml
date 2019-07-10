@@ -1,4 +1,4 @@
-sijad-links:
+fof-links:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -10,25 +10,25 @@ sijad-links:
     # These strings are used in the Edit Link modal dialog.
     edit_link:
       delete_link_button: Usuń link
-      delete_link_confirmation: "Czy jesteś pewien, że chcesz usunąć ten link?"
+      delete_link_confirmation: "Czy na pewno chcesz usunąć ten link?"
       internal_link: "Czy jest to link wewnątrz Flarum?"
       open_newtab: "Otwórz link w nowej karcie"
       submit_button: => core.ref.save_changes
-      title: => sijad-links.ref.create_link
-      title_label: => sijad-links.ref.title
-      title_placeholder: => sijad-links.ref.title
-      url_label: => sijad-links.ref.url
-      url_placeholder: => sijad-links.ref.url
+      title: => fof-links.ref.create_link
+      title_label: => fof-links.ref.title
+      title_placeholder: => fof-links.ref.title
+      url_label: => fof-links.ref.url
+      url_placeholder: => fof-links.ref.url
 
     # These strings are used in the Links page.
     links:
       about_text: Zarządzaj głównymi linkami menu.
-      create_button: => sijad-links.ref.create_link
-      links: => sijad-links.ref.links
+      create_button: => fof-links.ref.create_link
+      links: => fof-links.ref.links
 
     # These strings are used in the navigation bar.
     nav:
-      links_button: => sijad-links.ref.links
+      links_button: => fof-links.ref.links
       links_text: Zarządzaj głównymi elementami menu nawigacji.
 
   # Strings in this namespace are referenced by two or more unique keys.
@@ -36,4 +36,4 @@ sijad-links:
     create_link: Utwórz link
     links: Linki
     title: Tytuł
-    url: Adres
+    url: Url
