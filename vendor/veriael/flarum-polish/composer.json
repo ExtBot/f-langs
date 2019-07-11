@@ -12,7 +12,7 @@
         "flarum-extension": {
             "title": "Język Polski",
             "icon": {
-                "image": "icon.svg",
+                "image": "icon.png",
                 "backgroundColor": "#00247d",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"

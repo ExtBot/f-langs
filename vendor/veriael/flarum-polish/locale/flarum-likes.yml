@@ -25,7 +25,7 @@ flarum-likes:
       liked_by_self_text: "{users} lubi to."  # Can be pluralized to agree with the number of users!
       liked_by_text: "{users} polubili to.|{users} lubią to."
       others_link: => core.ref.some_others
-      unlike_link: Przestań lubieć
+      unlike_link: Przestań lubić
       you_text: => core.ref.you
 
     # These translations are used by the Users Who Like This modal dialog.

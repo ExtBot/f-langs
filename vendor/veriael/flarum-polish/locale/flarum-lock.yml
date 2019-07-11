@@ -29,8 +29,8 @@ flarum-lock:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} zamknął dyskusję."
-      discussion_unlocked_text: "{username} otworzył dyskusję."
+      discussion_locked_text: "{username} zamknął tę dyskusję."
+      discussion_unlocked_text: "{username} otworzył tę dyskusję."
 
     # These translations are used in the Settings page.
     settings:

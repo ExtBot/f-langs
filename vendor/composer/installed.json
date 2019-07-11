@@ -1452,24 +1452,24 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Veriael/flarum-pl.git",
-            "reference": "19cd71c0d6f7bbe79645bdd80488f1f77c72b93b"
+            "reference": "254ff3bc7064483fb0e3791e61448b18982af93e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Veriael/flarum-pl/zipball/19cd71c0d6f7bbe79645bdd80488f1f77c72b93b",
-            "reference": "19cd71c0d6f7bbe79645bdd80488f1f77c72b93b",
+            "url": "https://api.github.com/repos/Veriael/flarum-pl/zipball/254ff3bc7064483fb0e3791e61448b18982af93e",
+            "reference": "254ff3bc7064483fb0e3791e61448b18982af93e",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.9"
         },
-        "time": "2019-07-09T13:43:45+00:00",
+        "time": "2019-07-10T08:04:52+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
                 "title": "Język Polski",
                 "icon": {
-                    "image": "icon.svg",
+                    "image": "icon.png",
                     "backgroundColor": "#00247d",
                     "backgroundSize": "cover",
                     "backgroundPosition": "center"

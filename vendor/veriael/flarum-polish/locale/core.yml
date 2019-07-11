@@ -235,7 +235,7 @@ core:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Nie można odpowiadać
+      cannot_reply_button: Zablokowane
       cannot_reply_text: Nie masz uprawnień wymaganych, aby odpowiadać w tej dyskusji.
       delete_button: => core.ref.delete
       delete_confirmation: "Czy na pewno chcesz usunąć tę dyskusję?"
