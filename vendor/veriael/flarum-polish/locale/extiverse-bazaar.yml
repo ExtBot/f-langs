@@ -63,7 +63,7 @@ bazaar:
                     Your authorization against our flagrow.io api failed. Possibly an unstable internet connection is causing this.
                     Please refresh the page once your connection stabilised. If the problem persists, please get in touch with us.
             button:
-                more: "Więcej, załadowano stronę {current} z {total}"
+                more: "Załaduj więcej (aktualnie strona {current} z {total})"
                 install: Instaluj
                 uninstall: Odinstaluj
                 enable: Włącz

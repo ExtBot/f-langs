@@ -1,4 +1,4 @@
-flagrow-byobu:
+fof-byobu:
     forum:
         badges:
             is_private:
@@ -45,6 +45,10 @@ flagrow-byobu:
             settings:
                 # block_pd: Block private discussions
                 block_pd: Blokir diskusi pribadi
+
+            #byobu_link: Private Discussions
+            byobu_link: Diskusi Pribadi
+
     admin:
         permission:
             # create_private_discussions_with_users: Create private discussions with users
@@ -57,3 +61,7 @@ flagrow-byobu:
             edit_user_recipients: Edit user yang mengambil bagian dalam diskusi pribadi
             # edit_group_recipients: Edit groups partaking in private discussions
             edit_group_recipients: Edit group yang mengambil bagian dalam diskusi pribadi
+
+        settings:
+            # byobu_users_page_label: Add private discussions to user page
+            byobu_users_page_label: Tambahkan diskusi pribadi ke halaman user

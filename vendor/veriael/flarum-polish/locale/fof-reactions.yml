@@ -10,7 +10,7 @@ fof-reactions:
         react_posts_label: Reaguj na posty
 
     nav:
-      desc: Dodawaj niestandardowe reakcje i zmieniaj ustawienia
+      desc: Dodawaj niestandardowe reakcje na posty i zmieniaj ich ustawienia.
 
     page:
       reactions:

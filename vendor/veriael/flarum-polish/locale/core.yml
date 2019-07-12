@@ -193,7 +193,7 @@ core:
       confirm_password_placeholder: => core.ref.confirm_password
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
-      incorrect_password_message: Hasło, które wpisałeś, jest nieprawidłowe.
+      incorrect_password_message: Wpisane hasło jest nieprawidłowe.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
@@ -240,7 +240,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "Czy na pewno chcesz usunąć tę dyskusję?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Zaloguj się, by odpowiedzieć
+      log_in_to_reply_button: Zaloguj się
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
@@ -390,12 +390,12 @@ core:
     # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: => core.ref.remove
-      avatar_upload_button: Przyślij
+      avatar_upload_button: Wyślij
       avatar_upload_tooltip: Przyślij swój nowy avatar
       discussions_link: => core.ref.discussions
       in_discussion_text: "W {discussion}"
-      joined_date_text: "Dołączył {ago}"
-      online_text: Online
+      joined_date_text: "Dołączył(a) {ago}"
+      online_text: Aktywny teraz
       posts_empty_text: Wygląda na to, że nie ma tu żadnych postów.
       posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
