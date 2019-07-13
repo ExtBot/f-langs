@@ -1204,16 +1204,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nearata/lang-italian.git",
-                "reference": "f41bf0be30ae0bad4d280301819bf9c1765c8435"
+                "reference": "01c10c64d10c9c4e1701c299ddd62d5ba6e5f4db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/f41bf0be30ae0bad4d280301819bf9c1765c8435",
-                "reference": "f41bf0be30ae0bad4d280301819bf9c1765c8435",
+                "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/01c10c64d10c9c4e1701c299ddd62d5ba6e5f4db",
+                "reference": "01c10c64d10c9c4e1701c299ddd62d5ba6e5f4db",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.8"
+                "flarum/core": "^0.1.0-beta.9"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1248,7 +1248,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2019-04-17T18:37:14+00:00"
+            "time": "2019-07-12T16:28:04+00:00"
         },
         {
             "name": "nit/flarum-ext-albania",
@@ -1453,12 +1453,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "8e498d519dc94acc0e85781a321c8a6ea1f720c3"
+                "reference": "b8e8cee3e24358bd78dd39b8943502d576e36efe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/8e498d519dc94acc0e85781a321c8a6ea1f720c3",
-                "reference": "8e498d519dc94acc0e85781a321c8a6ea1f720c3",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/b8e8cee3e24358bd78dd39b8943502d576e36efe",
+                "reference": "b8e8cee3e24358bd78dd39b8943502d576e36efe",
                 "shasum": ""
             },
             "require": {
@@ -1467,7 +1467,7 @@
             "type": "flarum-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4.x-dev"
+                    "dev-master": "1.5.x-dev"
                 },
                 "flarum-extension": {
                     "title": "Indonesian",
@@ -1497,7 +1497,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2019-07-11T18:18:17+00:00"
+            "time": "2019-07-12T04:14:14+00:00"
         },
         {
             "name": "rodymolenaar/flarum-ext-dutch",
@@ -1612,12 +1612,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Veriael/flarum-pl.git",
-                "reference": "89545d56f44feea24ac1196c7f3034493135d615"
+                "reference": "82b7c55625a581375a763c595307ce9197e63876"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Veriael/flarum-pl/zipball/89545d56f44feea24ac1196c7f3034493135d615",
-                "reference": "89545d56f44feea24ac1196c7f3034493135d615",
+                "url": "https://api.github.com/repos/Veriael/flarum-pl/zipball/82b7c55625a581375a763c595307ce9197e63876",
+                "reference": "82b7c55625a581375a763c595307ce9197e63876",
                 "shasum": ""
             },
             "require": {
@@ -1626,7 +1626,7 @@
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
-                    "title": "Język Polski",
+                    "title": "Język polski",
                     "icon": {
                         "image": "icon.png",
                         "backgroundColor": "#00247d",
@@ -1648,7 +1648,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2019-07-11T08:28:15+00:00"
+            "time": "2019-07-12T19:57:23+00:00"
         }
     ],
     "packages-dev": [],
