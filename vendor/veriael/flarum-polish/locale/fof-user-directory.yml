@@ -1,7 +1,7 @@
 fof-user-directory:
     forum:
         search:
-            users_heading: 'Przeszukaj wszystkich użytkowników, szukając "{query}"'
+            users_heading: 'Przejrzyj wszystkich użytkowników, szukając "{query}"'
         page:
             nav: Baza użytkowników
             sort:

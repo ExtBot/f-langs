@@ -200,7 +200,7 @@ core:
     # These translations are used in the Change Password modal dialog.
     change_password:
       send_button: Wyślij email resetujący hasło
-      text: Kliknij przycisk poniżej i sprawdź swój email w poszukiwaniu linka, który umożliwi ci zmianę hasła.
+      text: Kliknij przycisk poniżej i sprawdź swój email w poszukiwaniu linku, który umożliwi ci zmianę hasła.
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
@@ -359,7 +359,7 @@ core:
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Przeszukaj wszystkie dyskusje szukając: "{query}"'
+      all_discussions_button: 'Przejrzyj wszystkie dyskusje, szukając: "{query}"'
       discussions_heading: => core.ref.discussions
       users_heading: => core.ref.users
 
