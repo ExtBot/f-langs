@@ -1612,12 +1612,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Veriael/flarum-pl.git",
-                "reference": "91a128f1f35ff5b6b405b4fb11ad34b1710d9a3a"
+                "reference": "5fcbce78ebac859b8d6f0879ea883025a7195851"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Veriael/flarum-pl/zipball/91a128f1f35ff5b6b405b4fb11ad34b1710d9a3a",
-                "reference": "91a128f1f35ff5b6b405b4fb11ad34b1710d9a3a",
+                "url": "https://api.github.com/repos/Veriael/flarum-pl/zipball/5fcbce78ebac859b8d6f0879ea883025a7195851",
+                "reference": "5fcbce78ebac859b8d6f0879ea883025a7195851",
                 "shasum": ""
             },
             "require": {
@@ -1648,7 +1648,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2019-07-15T19:48:05+00:00"
+            "time": "2019-08-22T14:57:19+00:00"
         }
     ],
     "packages-dev": [],

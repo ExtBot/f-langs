@@ -31,9 +31,9 @@ core:
       edit_header_button: => core.ref.custom_header_title
       enter_hex_message: Wprowadź proszę kod koloru hex.
       favicon_heading: Favicon
-      favicon_text: Wyślij zdjęcie, które zostanie wyświetlone jako ikona forum na zakładce w przeglądarce.
+      favicon_text: Wyślij obrazek, który będzie wyświetlany jako ikona forum na zakładce w przeglądarce.
       logo_heading: Logo
-      logo_text: Wyślij zdjęcie, które będzie wyświetlane zamiast nazwy forum.
+      logo_text: Wyślij obrazek, który będzie wyświetlany zamiast nazwy forum.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -129,17 +129,17 @@ core:
     # These translations are used in the navigation bar.
     nav:
       appearance_button: Wygląd
-      appearance_text: "Dostosuj kolory, loga i inne zmienne używane w celu zapewnienia odpowiedniego wyglądu twojego forum."
+      appearance_text: "Dostosuj kolory, loga i inne zmienne, używane w celu zapewnienia odpowiedniego wyglądu twojego forum."
       basics_button: Podstawy
-      basics_text: "Zmień nazwę forum, język, i inne podstawowe ustawienia."
+      basics_text: "Zmień nazwę forum, jego język i inne podstawowe ustawienia."
       dashboard_button: Tablica
       dashboard_text: Twoje forum jak na dłoni.
       email_button: => core.ref.email
       email_text: "Konfiguruj ustawienia email swojego forum."
       extensions_button: Rozszerzenia
-      extensions_text: Dodaj więcej funkcjonalności swojemu forum i spraw, aby było jak twoje własne.
+      extensions_text: Dodaj więcej funkcjonalności swojemu forum i spraw, że będzie jak twoje własne.
       permissions_button: Uprawnienia
-      permissions_text: Skonfiguruj kto i co może zobaczyć, zrobić.
+      permissions_text: Skonfiguruj kto i co może zobaczyć, lub zrobić.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -183,7 +183,7 @@ core:
     # These translations are used in image upload buttons.
     upload_image:
       remove_button: => core.ref.remove
-      upload_button: Dodaj obrazek...
+      upload_button: Dodaj obrazek
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -299,11 +299,11 @@ core:
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Ostatnie
+      latest_button: Ostatnio aktywne
       newest_button: Najnowsze
       oldest_button: Najstarsze
-      relevance_button: Najbardziej odpowiednie
-      top_button: Najlepsze
+      relevance_button: Najbardziej trafne
+      top_button: Najbardziej aktywne
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -395,7 +395,7 @@ core:
       discussions_link: => core.ref.discussions
       in_discussion_text: "W {discussion}"
       joined_date_text: "Dołączył(a) {ago}"
-      online_text: Aktywny teraz
+      online_text: Dostępny teraz
       posts_empty_text: Wygląda na to, że nie ma tu żadnych postów.
       posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
@@ -544,9 +544,9 @@ core:
     color: Kolor                                 # Referenced by flarum-tags.yml
     confirm_password: Potwierdź hasło
     confirmation_email_sent: "Wysłaliśmy email z potwierdzeniem do {email}. Jeśli wkrótce nie dotrze, sprawdź folder ze spamem."
-    custom_footer_text: Dodaj HTML do wyświetlenia na samym dole strony.
+    custom_footer_text: Dodaj kod HTML do wyświetlenia na samym dole strony.
     custom_footer_title: Edytuj niestandardową stopkę
-    custom_header_text: "Dodaj HTML do wyświetlenia na samej górze strony, nad własnym nagłówkiem Flarum."
+    custom_header_text: "Dodaj kod HTML do wyświetlenia na samej górze strony, nad nagłówkiem własnym Flarum."
     custom_header_title: Edytuj niestandardowy nagłówek
     delete: Usuń
     delete_forever: Usuń na zawsze
