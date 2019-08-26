@@ -8,14 +8,14 @@
 - Wszystkie tłumaczenia forum,
 - Tłumaczenia panelu administratora (ACP),
 - Tłumaczenia wszystkich domyślnych rozszerzeń dostarczanych wraz z instalacją Flarum,
-- Kilka tłumaczeń dla rozszerzeń społeczności, z listą w [dyskusji na forum Flarum](https://discuss.flarum.org/d/6548-j-zyk-polski-polish-language-extension).
+- Wiele tłumaczeń rozszerzeń społeczności, z listą w [dyskusji na forum Flarum](https://discuss.flarum.org/d/6548-j-zyk-polski-polish-language-extension).
 
 **EN** Polish language pack for Flarum. Contains:
 
 - All forum translations,
 - Admin control panel (ACP) translations,
 - Translations of all default extensions provided with Flarum installation,
-- Some community extensions translations with list provided in [Flarum Community discussion](https://discuss.flarum.org/d/6548-j-zyk-polski-polish-language-extension).
+- Many community extensions translations with list provided in [Flarum Community discussion](https://discuss.flarum.org/d/6548-j-zyk-polski-polish-language-extension).
 
 ### Instalacja / Installing
 

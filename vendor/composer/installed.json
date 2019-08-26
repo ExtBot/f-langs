@@ -1289,18 +1289,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-            "reference": "f98d0c45313bea8af89c97fc2ec7d3694515bc6c"
+            "reference": "fda043ef1bc48087e3e2c9ab3dfb6c5129667eab"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/f98d0c45313bea8af89c97fc2ec7d3694515bc6c",
-            "reference": "f98d0c45313bea8af89c97fc2ec7d3694515bc6c",
+            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/fda043ef1bc48087e3e2c9ab3dfb6c5129667eab",
+            "reference": "fda043ef1bc48087e3e2c9ab3dfb6c5129667eab",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.9"
         },
-        "time": "2019-08-24T12:02:13+00:00",
+        "time": "2019-08-25T15:09:05+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1452,18 +1452,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Veriael/flarum-pl.git",
-            "reference": "5fcbce78ebac859b8d6f0879ea883025a7195851"
+            "reference": "7dd83d4729298e85440dcd344e641a703d8af31e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Veriael/flarum-pl/zipball/5fcbce78ebac859b8d6f0879ea883025a7195851",
-            "reference": "5fcbce78ebac859b8d6f0879ea883025a7195851",
+            "url": "https://api.github.com/repos/Veriael/flarum-pl/zipball/7dd83d4729298e85440dcd344e641a703d8af31e",
+            "reference": "7dd83d4729298e85440dcd344e641a703d8af31e",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.9"
         },
-        "time": "2019-08-22T14:57:19+00:00",
+        "time": "2019-08-25T12:51:00+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
