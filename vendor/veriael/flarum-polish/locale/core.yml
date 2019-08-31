@@ -162,7 +162,7 @@ core:
       start_discussions_label: Rozpoczynaj dyskusje
       view_discussions_label: Przeglądaj dyskusje
       view_last_seen_at_label: Zobacz, kiedy użytkownik był ostatnio aktywny
-      view_post_ips_label: Zobacz adres IP, z którego był napisany post
+      view_post_ips_label: Zobacz adres IP, z którego został napisany post
       view_user_list_label: Zobacz listę użytkowników
 
     # These translations are used in the dropdown menus on the Permissions page.
@@ -250,8 +250,8 @@ core:
       empty_text: Wygląda na to, że nie ma tu żadnych dyskusji.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Oznacz jako przeczytane
-      replied_text: "{username} odpowiedział {ago}"
-      started_text: "{username} rozpoczął {ago}"
+      replied_text: "{username} odpowiedział(a) {ago}"
+      started_text: "{username} utworzył(a) {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -318,7 +318,7 @@ core:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} zmienił tytuł dyskusji"
+      discussion_renamed_text: "{username} zmienił(a) tytuł dyskusji"
       empty_text: Brak powiadomień
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
@@ -347,7 +347,7 @@ core:
     # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_old_tooltip: 'Stary tytuł brzmiał: "{old}"'
-      discussion_renamed_text: "{username} zmienił tytuł dyskusji na {new}."
+      discussion_renamed_text: "{username} zmienił(a) tytuł dyskusji na {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} później"
@@ -501,7 +501,7 @@ core:
 
         Ktoś (oby ty!) zarejestrował się na {forum} używając tego adresu email.
 
-        Jeśli byłeś to ty, kliknij proszę poniższy link, a twoje konto zostanie aktywowane:
+        Jeśli to to ty, kliknij proszę poniższy link, a twoje konto zostanie aktywowane:
         {url}
 
         Jeśli nie rejestrowałeś się na naszym forum, zignoruj proszę tego maila.
