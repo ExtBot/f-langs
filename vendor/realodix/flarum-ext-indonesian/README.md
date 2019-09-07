@@ -26,6 +26,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [friendsofflarum/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.1
 - [friendsofflarum/pages](https://github.com/friendsofflarum/pages) v0.2.7
 - [friendsofflarum/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.1.4
+- [friendsofflarum/reactions](https://github.com/friendsofflarum/reactions) v0.1.0
 - [friendsofflarum/secure-https](https://github.com/friendsofflarum/secure-https) v0.1.0
 - [friendsofflarum/spamblock](https://github.com/friendsofflarum/spamblock) v0.2.1
 - [friendsofflarum/split](https://github.com/friendsofflarum/split) v0.4.3
@@ -33,6 +34,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [friendsofflarum/upload](https://github.com/friendsofflarum/upload) v0.7.1
 - [friendsofflarum/user-bio](https://github.com/friendsofflarum/user-bio) v0.1.2
 - [friendsofflarum/username-request](https://github.com/friendsofflarum/username-request) v0.1.3
+- [kilowhat/flarum-ext-mailing](https://github.com/kilowhat/flarum-ext-mailing) v0.1.1
 - [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v0.1.0-beta.8.2
 - [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v0.1.0-beta-8-5
 - [michaelbelgium/mybb_to_flarum](https://github.com/michaelbelgium/mybb_to_flarum) v4.0

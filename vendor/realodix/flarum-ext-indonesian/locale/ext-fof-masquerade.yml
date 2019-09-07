@@ -29,8 +29,10 @@ fof-masquerade:
             # delete-field: Delete field
             delete-field: Hapus field
         permissions:
-            have-profile: Have masquerade profile
-            view-profile: View masquerade profile
+            # have-profile: Have masquerade profile
+            have-profile: Membuat masquerade profile
+            # view-profile: View masquerade profile
+            view-profile: Melihat masquerade profile
         menu:
             description: >
                 Konfigurasikan field untuk profil pengguna.
@@ -55,7 +57,7 @@ fof-masquerade:
             # validation: Validation
             validation: Validasi
             validation-help: >
-                Check the supported <a>Laravel validation rules</a>. Eg:
+                Periksa <a>aturan validasi Laravel</a> yang didukung. Eg:
                 "string|min:5" or "url".
             prefix: Field prefix
             prefix-help: >
