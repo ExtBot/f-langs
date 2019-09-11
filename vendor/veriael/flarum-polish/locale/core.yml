@@ -566,7 +566,7 @@ core:
     posts: Posty                                 # Referenced by flarum-statistics.yml
     previous_page: Poprzednia strona
     remove: Usuń
-    rename: Zmień nazwę
+    rename: Zmień tytuł
     reply: Odpowiedz                                 # Referenced by flarum-mentions.yml
     reset_your_password: Zresetuj swoje hasło
     restore: Przywróć

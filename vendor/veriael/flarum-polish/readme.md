@@ -1,7 +1,9 @@
-# Polish Language Extension
+# Język polski [Polish Language Extension]
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Veriael/flarum-pl/blob/master/LICENSE) [![Latest Stable Version](https://img.shields.io/packagist/v/Veriael/flarum-polish.svg)](https://github.com/Veriael/flarum-pl)
 [![Packagist](https://img.shields.io/packagist/dt/veriael/flarum-polish.svg)](https://packagist.org/packages/veriael/flarum-polish)
+
+>**KOMPATYBILNY Z BETĄ 9 [FLARUM](https://flarum.org)! / FLARUM BETA 9 COMPATIBLE!**
 
 **PL** Polska paczka językowa Flarum. Zawiera:
 
@@ -24,13 +26,14 @@ composer require veriael/flarum-polish
 ```
 
 ### Aktualizowanie / Updating
-
 ```bash
-composer update veriael/flarum-polish
+composer remove veriael/flarum-polish
+composer require veriael/flarum-polish
 ```
+
 Następnie wyłączyć i włączyć / Then re-enable
 
-### Włączenie
+### Jak włączyć?
 
 Aby włączyć, wystarczy udać się do panelu administratora, po lewej kliknąć zakładkę "Extensions" i odnaleźć wśród innych rozszerzeń "Język Polski", po czym go zaznaczyć.
 
@@ -39,7 +42,7 @@ Możemy wybrać język polski z listy w prawym górnym rogu forum...
 ...albo ustawiamy język polski jako domyślny dla naszego forum:
 Wchodzimy w "Podstawy", później znajdujemy "Domyślny język", wybieramy z listy "Język polski" i zatwierdzamy.
 
-
+#
 ### Przydatne linki / Useful links
 
 - [on flarum community](https://discuss.flarum.org/d/6548-j-zyk-polski-polish-language-extension)

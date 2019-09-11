@@ -1449,18 +1449,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Veriael/flarum-pl.git",
-            "reference": "910176e39aa4d1a7de1f31441eb3f8a80cd9a3c2"
+            "reference": "30ac42265409c1ee30c0d38b8d2d64ed918bf2aa"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Veriael/flarum-pl/zipball/910176e39aa4d1a7de1f31441eb3f8a80cd9a3c2",
-            "reference": "910176e39aa4d1a7de1f31441eb3f8a80cd9a3c2",
+            "url": "https://api.github.com/repos/Veriael/flarum-pl/zipball/30ac42265409c1ee30c0d38b8d2d64ed918bf2aa",
+            "reference": "30ac42265409c1ee30c0d38b8d2d64ed918bf2aa",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.9"
         },
-        "time": "2019-08-30T11:27:14+00:00",
+        "time": "2019-09-10T15:29:20+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
