@@ -302,7 +302,7 @@ core:
       # discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
       discard_confirmation: "Artikel yang Anda tulis belum Anda posting. Apakah Anda ingin membuangnya?"
       # submit_button: Post Discussion
-      submit_button: Post
+      submit_button: Publikasikan Diskusi
       title: => core.ref.start_a_discussion
       # title_placeholder: Discussion Title
       title_placeholder: Judul Diskusi
@@ -359,7 +359,7 @@ core:
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
       # activate_button: Activate User
-      activate_button: Actifkan User
+      activate_button: Aktifkan User
       email_heading: => core.ref.email
       email_label: => core.ref.email
       # groups_heading: Groups
@@ -413,7 +413,7 @@ core:
       mark_all_as_read_confirmation: "Anda yakin ingin menandai semua diskusi sudah terbaca?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       # refresh_tooltip: Refresh
-      refresh_tooltip: Segarkan Halaman
+      refresh_tooltip: Refresh Halaman
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
