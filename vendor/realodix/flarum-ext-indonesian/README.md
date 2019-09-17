@@ -9,8 +9,23 @@ Paket bahasa Indonesia untuk Flarum dan beberapa ekstensi yang [didukung](#exten
 
 **Requires**: Flarum 0.1.0-beta.9 | **Compatible up to**: Flarum 0.1.0-beta.9
 
+### Cara Memasang
+Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah terinstall di komputer Anda, lalu ikuti langkah berikut ini:
+
+1. Jalankan perintah ini pada folder Anda menginstall Flarum
+
+       composer require realodix/flarum-ext-indonesian:1.5.x
+
+    Jika Anda ingin menginstall versi tidak stabil, maka jalankan perintah ini
+
+       composer require realodix/flarum-ext-indonesian:1.5.x-dev
+
+2. Masuk ke halamam admin Flarum, klik **Extensions**, lalu centang **Indonesian**.
+
+Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara mandiri paket bahasa Indonesia (tanpa mempengaruhi paket lainnya). Perhatikan bahwa karena paket bahasa Indonesia akan ditambahkan sebagai dependensi Flarum, maka akan secara otomatis diperbarui ketika Anda memperbarui Flarum dan dependensinya melalui Composer.
+
 ### Extensi Yang Didukung
-Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
+Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
 - [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.8.1
 - [extiverse/bazaar](https://github.com/extiverse/bazaar) v0.4.0
@@ -25,6 +40,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [friendsofflarum/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.3
 - [friendsofflarum/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.1
 - [friendsofflarum/pages](https://github.com/friendsofflarum/pages) v0.2.7
+- [friendsofflarum/polls](https://github.com/friendsofflarum/polls) v0.1.1
 - [friendsofflarum/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.1.4
 - [friendsofflarum/reactions](https://github.com/friendsofflarum/reactions) v0.1.0
 - [friendsofflarum/secure-https](https://github.com/friendsofflarum/secure-https) v0.1.0
@@ -33,6 +49,7 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [friendsofflarum/subscribed](https://github.com/friendsofflarum/subscribed) v0.1.0
 - [friendsofflarum/upload](https://github.com/friendsofflarum/upload) v0.7.1
 - [friendsofflarum/user-bio](https://github.com/friendsofflarum/user-bio) v0.1.2
+- [friendsofflarum/user-directory](https://github.com/friendsofflarum/user-directory) v0.3.3
 - [friendsofflarum/username-request](https://github.com/friendsofflarum/username-request) v0.1.3
 - [kilowhat/flarum-ext-mailing](https://github.com/kilowhat/flarum-ext-mailing) v0.1.1
 - [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v0.1.0-beta.8.2
@@ -42,27 +59,10 @@ Ketika Anda menginstall salah satu atau semua dari ekstensi di bawah ini, maka s
 - [reflar/level-ranks](https://github.com/reflar/level-ranks) v1.2.1
 - [wiwatsrt/flarum-ext-best-answer](https://github.com/wiwatsrt/flarum-ext-best-answer) v0.2.4
 
-### Cara Menggunakan
-Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah terinstall di komputer Anda, lalu ikuti langkah berikut ini:
-
-1. Jalankan perintah ini pada folder Anda menginstall Flarum
-
-       composer require realodix/flarum-ext-indonesian
-
-    Jika Anda ingin menginstall versi tidak stabil, maka jalankan perintah ini
-
-       composer require realodix/flarum-ext-indonesian dev-master
-
-2. Masuk ke halamam admin Flarum, klik **Extensions**, lalu centang **Indonesian**.
-
-Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara mandiri paket bahasa Indonesia (tanpa mempengaruhi paket lainnya). Perhatikan bahwa karena paket bahasa Indonesia akan ditambahkan sebagai dependensi Flarum, maka akan secara otomatis diperbarui ketika Anda memperbarui Flarum dan dependensinya melalui Composer.
-
-
 ### Catatan
 - Sejauh ini sudah hampir 100% diterjemahkan.
 - Beberapa kalimat diterjemahkan dengan bahasa tidak baku. Sebagai contoh kata _password_ tetap Saya tulis _password_ (harusnya kata sandi), dan kata _upload_ tetap Saya tulis _upload_ (harusnya unggah).
 - Teks bahasa Inggris masih ada dalam bentuk komentar yaml, diharapkan Anda bisa dengan mudah membantu Saya untuk mengkoreksi terjemahan yang sudah ada.
-
 
 ## Berkontribusi
 Terima kasih banyak untuk Anda yang ingin berkontribusi. Saya sangat menghargai komitmen Anda. Menggunakan paket bahasa sudah merupakan dukungan besar, tetapi cara terbaik lainnya untuk berkontribusi adalah:

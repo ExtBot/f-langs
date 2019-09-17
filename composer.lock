@@ -120,16 +120,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kakifrucht/flarum-de.git",
-                "reference": "c67149ee4cabfc9caaef8fda7ff09476a52cf85b"
+                "reference": "a6a59cc8a8c2ea496cbc3b804548398e58263596"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/c67149ee4cabfc9caaef8fda7ff09476a52cf85b",
-                "reference": "c67149ee4cabfc9caaef8fda7ff09476a52cf85b",
+                "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/a6a59cc8a8c2ea496cbc3b804548398e58263596",
+                "reference": "a6a59cc8a8c2ea496cbc3b804548398e58263596",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.9"
+                "flarum/core": "^0.1.0-beta.10"
             },
             "type": "flarum-extension",
             "extra": {
@@ -156,7 +156,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2019-07-05T23:20:17+00:00"
+            "time": "2019-09-16T22:18:13+00:00"
         },
         {
             "name": "comocozy/flarum-ext-korean",
@@ -1453,12 +1453,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "675e77f0d15628e57fe01a4cd8cd069b948d56a4"
+                "reference": "4764c93b5df9a5416deff9e583c70bcb53ac2064"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/675e77f0d15628e57fe01a4cd8cd069b948d56a4",
-                "reference": "675e77f0d15628e57fe01a4cd8cd069b948d56a4",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/4764c93b5df9a5416deff9e583c70bcb53ac2064",
+                "reference": "4764c93b5df9a5416deff9e583c70bcb53ac2064",
                 "shasum": ""
             },
             "require": {
@@ -1466,6 +1466,9 @@
             },
             "type": "flarum-extension",
             "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5.x-dev"
+                },
                 "flarum-extension": {
                     "title": "Indonesian",
                     "icon": {
@@ -1492,9 +1495,13 @@
             ],
             "description": "Indonesian language pack.",
             "keywords": [
-                "locale"
+                "flarum",
+                "flarum-extension",
+                "indonesia",
+                "indonesian-language",
+                "translation"
             ],
-            "time": "2019-09-15T08:12:17+00:00"
+            "time": "2019-09-16T19:10:22+00:00"
         },
         {
             "name": "rodymolenaar/flarum-ext-dutch",
@@ -1609,16 +1616,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Veriael/flarum-pl.git",
-                "reference": "30ac42265409c1ee30c0d38b8d2d64ed918bf2aa"
+                "reference": "4556f0f40a06f0c7140c906c17b7b454d5340003"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Veriael/flarum-pl/zipball/30ac42265409c1ee30c0d38b8d2d64ed918bf2aa",
-                "reference": "30ac42265409c1ee30c0d38b8d2d64ed918bf2aa",
+                "url": "https://api.github.com/repos/Veriael/flarum-pl/zipball/4556f0f40a06f0c7140c906c17b7b454d5340003",
+                "reference": "4556f0f40a06f0c7140c906c17b7b454d5340003",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.9"
+                "flarum/core": "^0.1.0-beta.10"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1645,7 +1652,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2019-09-10T15:29:20+00:00"
+            "time": "2019-09-16T14:23:36+00:00"
         }
     ],
     "packages-dev": [],

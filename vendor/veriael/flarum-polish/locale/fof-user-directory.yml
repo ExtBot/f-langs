@@ -6,7 +6,7 @@ fof-user-directory:
             nav: Baza użytkowników
             sort:
                 relevance: Stosowność
-                default: Domyślne
+                default: Domyślnie
                 username_az: Nazwa (A-Z)
                 username_za: Nazwa (Z-A)
                 newest: Od najnowszych

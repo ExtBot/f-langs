@@ -151,6 +151,7 @@ core:
       delete_posts_forever_label: Usuwaj posty na zawsze
       delete_posts_label: Usuwaj posty
       edit_posts_label: Edytuj posty
+      edit_users_label: Edytuj użytkowników
       global_heading: Globalnie
       moderate_heading: Moderuj
       new_group_button: Nowa grupa
