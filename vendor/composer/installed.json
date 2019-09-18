@@ -1289,23 +1289,20 @@
         "source": {
             "type": "git",
             "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-            "reference": "4764c93b5df9a5416deff9e583c70bcb53ac2064"
+            "reference": "8cbc83cdfc4a83c7d5c9e3b756f3c375987b3728"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/4764c93b5df9a5416deff9e583c70bcb53ac2064",
-            "reference": "4764c93b5df9a5416deff9e583c70bcb53ac2064",
+            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/8cbc83cdfc4a83c7d5c9e3b756f3c375987b3728",
+            "reference": "8cbc83cdfc4a83c7d5c9e3b756f3c375987b3728",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.9"
         },
-        "time": "2019-09-16T19:10:22+00:00",
+        "time": "2019-09-17T12:25:35+00:00",
         "type": "flarum-extension",
         "extra": {
-            "branch-alias": {
-                "dev-master": "1.5.x-dev"
-            },
             "flarum-extension": {
                 "title": "Indonesian",
                 "icon": {
@@ -1456,18 +1453,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Veriael/flarum-pl.git",
-            "reference": "4556f0f40a06f0c7140c906c17b7b454d5340003"
+            "reference": "e28c5397e4f43a7baceaabb406deaa917ee7a20a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Veriael/flarum-pl/zipball/4556f0f40a06f0c7140c906c17b7b454d5340003",
-            "reference": "4556f0f40a06f0c7140c906c17b7b454d5340003",
+            "url": "https://api.github.com/repos/Veriael/flarum-pl/zipball/e28c5397e4f43a7baceaabb406deaa917ee7a20a",
+            "reference": "e28c5397e4f43a7baceaabb406deaa917ee7a20a",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.10"
         },
-        "time": "2019-09-16T14:23:36+00:00",
+        "time": "2019-09-17T09:10:44+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
