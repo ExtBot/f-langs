@@ -90,7 +90,7 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       addresses_heading: Adresy
-      driver_heading: Wybierz driver
+      driver_heading: Wybierz sterownik
       driver_label: Driver
       from_label: Nadawca
       heading: => core.ref.email
@@ -129,15 +129,15 @@ core:
     # These translations are used in the navigation bar.
     nav:
       appearance_button: Wygląd
-      appearance_text: "Dostosuj kolory, loga i inne zmienne, używane w celu zapewnienia odpowiedniego wyglądu twojego forum."
+      appearance_text: "Dostosuj kolory, logo i inne zmienne, pozwalające na jak najlepsze, wizualne dostosowanie twojego forum."
       basics_button: Podstawy
-      basics_text: "Zmień nazwę forum, jego język i inne podstawowe ustawienia."
+      basics_text: "Zmień nazwę forum, jego język i dostosuj inne podstawowe ustawienia."
       dashboard_button: Tablica
       dashboard_text: Twoje forum jak na dłoni.
       email_button: => core.ref.email
-      email_text: "Konfiguruj ustawienia email swojego forum."
+      email_text: "Konfiguruj ustawienia wysyłki maili swojego forum."
       extensions_button: Rozszerzenia
-      extensions_text: Dodaj więcej funkcjonalności swojemu forum i spraw, że będzie jak twoje własne.
+      extensions_text: Dodaj więcej funkcjonalności swojemu forum i spraw, że bez problemu sprosta twoim oczekiwaniom.
       permissions_button: Uprawnienia
       permissions_text: Skonfiguruj kto i co może zobaczyć, lub zrobić.
 

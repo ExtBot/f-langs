@@ -10,7 +10,7 @@ reflar-doorman:
     invalid_doorkey: Kod zaproszenia, który wprowadziłeś jest nieprawidłowy.
     doorkey_required: Musisz wprowadzić kod zaproszenia
     nav:
-      desc: Twórz kody zaproszenia, po wpisaniu których podczas rejestracji, użytkownicy zostaną przypisani do danej grupy
+      desc: Twórz kody zaproszenia, pozwalające na ograniczenie rejestracji, czy automatyczne przypisywanie nowych użytkowników do grup.
     page:
       title: Doorman
       doorkey:
