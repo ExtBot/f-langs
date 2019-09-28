@@ -421,12 +421,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itayganor/flabrew.git",
-                "reference": "063430a3a3cfff9ecc7dce57857d7b43222f115e"
+                "reference": "4993ddf6e16abc5735c24605f3cdd8ecd4b2c392"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itayganor/flabrew/zipball/063430a3a3cfff9ecc7dce57857d7b43222f115e",
-                "reference": "063430a3a3cfff9ecc7dce57857d7b43222f115e",
+                "url": "https://api.github.com/repos/itayganor/flabrew/zipball/4993ddf6e16abc5735c24605f3cdd8ecd4b2c392",
+                "reference": "4993ddf6e16abc5735c24605f3cdd8ecd4b2c392",
                 "shasum": ""
             },
             "require": {
@@ -457,7 +457,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2017-09-25T08:10:12+00:00"
+            "time": "2019-09-27T21:24:18+00:00"
         },
         {
             "name": "flarum/flarum-ext-english",
