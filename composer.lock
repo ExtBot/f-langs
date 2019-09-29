@@ -421,24 +421,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itayganor/flabrew.git",
-                "reference": "4993ddf6e16abc5735c24605f3cdd8ecd4b2c392"
+                "reference": "fe705821e60f42221fb6869728e93e62bcd37f0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itayganor/flabrew/zipball/4993ddf6e16abc5735c24605f3cdd8ecd4b2c392",
-                "reference": "4993ddf6e16abc5735c24605f3cdd8ecd4b2c392",
+                "url": "https://api.github.com/repos/itayganor/flabrew/zipball/fe705821e60f42221fb6869728e93e62bcd37f0d",
+                "reference": "fe705821e60f42221fb6869728e93e62bcd37f0d",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.7"
+                "flarum/core": "^0.1.0-beta.10"
             },
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
-                    "title": "השפה העברית",
+                    "title": "Flabrew",
                     "icon": {
                         "image": "logo.png",
-                        "backgroundColor": "#212121",
+                        "backgroundColor": "#2e53e7",
                         "backgroundSize": "cover",
                         "backgroundPosition": "center"
                     }
@@ -452,12 +452,18 @@
             "license": [
                 "MIT"
             ],
-            "description": "תרגום רשמי לעברית.",
+            "authors": [
+                {
+                    "name": "Itay Ganor",
+                    "role": "Developer"
+                }
+            ],
+            "description": "תרגום רשמי לעברית",
             "homepage": "https://github.com/itayganor/flabrew",
             "keywords": [
                 "locale"
             ],
-            "time": "2019-09-27T21:24:18+00:00"
+            "time": "2019-09-28T19:26:48+00:00"
         },
         {
             "name": "flarum/flarum-ext-english",
