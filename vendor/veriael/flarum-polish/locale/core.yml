@@ -315,7 +315,7 @@ core:
       sign_up_text: "Nie masz jeszcze konta? <a>Zarejestruj się</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Nazwa lub email
+      username_or_email_placeholder: Nazwa użytkownika lub email
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
