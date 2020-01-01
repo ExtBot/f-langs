@@ -1098,21 +1098,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/milescellar/lang-french.git",
-                "reference": "bf1eb129f7129d290892186be29a6e572955123a"
+                "reference": "04c845853e9b23ddfcc160c972be4c26410b45de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/milescellar/lang-french/zipball/bf1eb129f7129d290892186be29a6e572955123a",
-                "reference": "bf1eb129f7129d290892186be29a6e572955123a",
+                "url": "https://api.github.com/repos/milescellar/lang-french/zipball/04c845853e9b23ddfcc160c972be4c26410b45de",
+                "reference": "04c845853e9b23ddfcc160c972be4c26410b45de",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.10"
+                "flarum/core": "^0.1.0-beta.11"
             },
             "type": "flarum-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4.x-dev"
+                    "dev-master": "1.5.x-dev"
                 },
                 "flarum-extension": {
                     "title": "French",
@@ -1126,9 +1126,6 @@
                 "flarum-locale": {
                     "code": "fr",
                     "title": "Français"
-                },
-                "flagrow": {
-                    "discuss": "https://discuss.flarum.org/d/615-french-language-pack"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1149,7 +1146,7 @@
                 "locale",
                 "translation"
             ],
-            "time": "2019-09-18T16:18:26+00:00"
+            "time": "2019-12-31T14:54:08+00:00"
         },
         {
             "name": "naga0ka/flarum-ext-japanese",
