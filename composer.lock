@@ -1360,16 +1360,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pladask/flarum-ext-norwegian-bokmal.git",
-                "reference": "fdc2ef194c03f4a81b44caec6edc3984e66c719d"
+                "reference": "2e1947f539541df3d0664fbfc8b2d7f7bb4b5717"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pladask/flarum-ext-norwegian-bokmal/zipball/fdc2ef194c03f4a81b44caec6edc3984e66c719d",
-                "reference": "fdc2ef194c03f4a81b44caec6edc3984e66c719d",
+                "url": "https://api.github.com/repos/pladask/flarum-ext-norwegian-bokmal/zipball/2e1947f539541df3d0664fbfc8b2d7f7bb4b5717",
+                "reference": "2e1947f539541df3d0664fbfc8b2d7f7bb4b5717",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.5"
+                "flarum/core": "^0.1.0-beta.9"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1400,7 +1400,7 @@
                 "no",
                 "norwegian"
             ],
-            "time": "2016-05-09T11:20:11+00:00"
+            "time": "2020-01-01T15:31:01+00:00"
         },
         {
             "name": "pladask/flarum-ext-norwegian-nynorsk",
