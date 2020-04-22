@@ -1505,18 +1505,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-            "reference": "c1cf14e3d5b637c603059aa17710cd5826215294"
+            "reference": "f7190145956876f5281bbaabcfa91dac829fb657"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/c1cf14e3d5b637c603059aa17710cd5826215294",
-            "reference": "c1cf14e3d5b637c603059aa17710cd5826215294",
+            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/f7190145956876f5281bbaabcfa91dac829fb657",
+            "reference": "f7190145956876f5281bbaabcfa91dac829fb657",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.12"
         },
-        "time": "2020-04-18T07:50:32+00:00",
+        "time": "2020-04-21T21:23:46+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
