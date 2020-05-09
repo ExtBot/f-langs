@@ -118,18 +118,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Kakifrucht/flarum-de.git",
-            "reference": "045463b32b0f47a4509754ee00eaaf95615e56e5"
+            "reference": "5e5759422dc0ee32137e2b74111b31aa11d2aa77"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/045463b32b0f47a4509754ee00eaaf95615e56e5",
-            "reference": "045463b32b0f47a4509754ee00eaaf95615e56e5",
+            "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/5e5759422dc0ee32137e2b74111b31aa11d2aa77",
+            "reference": "5e5759422dc0ee32137e2b74111b31aa11d2aa77",
             "shasum": ""
         },
         "require": {
-            "flarum/core": "^0.1.0-beta.12"
+            "flarum/core": "^0.1.0-beta.13"
         },
-        "time": "2020-03-05T05:19:10+00:00",
+        "time": "2020-05-08T03:48:05+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -1505,18 +1505,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-            "reference": "fc180e71bd7c1d3f3f2c4815f8132ac99f5482b6"
+            "reference": "395da672646cd573d3228c11c410ec06b8daa828"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/fc180e71bd7c1d3f3f2c4815f8132ac99f5482b6",
-            "reference": "fc180e71bd7c1d3f3f2c4815f8132ac99f5482b6",
+            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/395da672646cd573d3228c11c410ec06b8daa828",
+            "reference": "395da672646cd573d3228c11c410ec06b8daa828",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.12"
         },
-        "time": "2020-05-07T06:05:20+00:00",
+        "time": "2020-05-08T22:37:26+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
