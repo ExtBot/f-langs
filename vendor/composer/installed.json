@@ -1133,19 +1133,19 @@
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/milescellar/lang-french.git",
-            "reference": "b8e173a20db61c1ff178adef6dcbe60ea705a312"
+            "url": "https://github.com/qiaeru/lang-french.git",
+            "reference": "40f7f9152035efeb76faf17cf881ee4d994b97f1"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/milescellar/lang-french/zipball/b8e173a20db61c1ff178adef6dcbe60ea705a312",
-            "reference": "b8e173a20db61c1ff178adef6dcbe60ea705a312",
+            "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/40f7f9152035efeb76faf17cf881ee4d994b97f1",
+            "reference": "40f7f9152035efeb76faf17cf881ee4d994b97f1",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.13"
         },
-        "time": "2020-05-04T12:36:02+00:00",
+        "time": "2020-05-22T21:17:24+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1172,8 +1172,8 @@
         ],
         "authors": [
             {
-                "name": "Miles Cellar",
-                "email": "milescellar@protonmail.com"
+                "name": "Qiaeru",
+                "email": "qiaeru@protonmail.com"
             }
         ],
         "description": "French language pack for Flarum and its bundled extensions.",
@@ -1183,7 +1183,8 @@
             "french",
             "locale",
             "translation"
-        ]
+        ],
+        "abandoned": "qiaeru/lang-french"
     },
     {
         "name": "naga0ka/flarum-ext-japanese",
@@ -1505,18 +1506,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-            "reference": "395da672646cd573d3228c11c410ec06b8daa828"
+            "reference": "67a3b6948528148694219a3af9ee2f686c42eb29"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/395da672646cd573d3228c11c410ec06b8daa828",
-            "reference": "395da672646cd573d3228c11c410ec06b8daa828",
+            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/67a3b6948528148694219a3af9ee2f686c42eb29",
+            "reference": "67a3b6948528148694219a3af9ee2f686c42eb29",
             "shasum": ""
         },
         "require": {
-            "flarum/core": "^0.1.0-beta.12"
+            "flarum/core": "^0.1.0-beta.13"
         },
-        "time": "2020-05-08T22:37:26+00:00",
+        "time": "2020-05-22T10:23:23+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {

@@ -7,8 +7,8 @@ Paket bahasa Indonesia untuk Flarum dan beberapa ekstensi yang [didukung](#exten
 [![Latest Unstable Version](https://poser.pugx.org/realodix/flarum-ext-indonesian/v/unstable)](https://github.com/realodix/flarum-ext-indonesian/archive/master.zip)
 [![License](https://poser.pugx.org/realodix/flarum-ext-indonesian/license)](https://github.com/realodix/flarum-ext-indonesian/blob/master/LICENSE)
 
-**Requires**: [Flarum v0.1.0-beta.12](https://github.com/flarum/core/releases/tag/v0.1.0-beta.12) <br>
-**Compatible up to**: [Flarum v0.1.0-beta.12](https://github.com/flarum/core/releases/tag/v0.1.0-beta.12)
+**Requires**: [Flarum v0.1.0-beta.13](https://github.com/flarum/lang-english/releases/tag/v0.1.0-beta.13) <br>
+**Compatible up to**: [Flarum v0.1.0-beta.13](https://github.com/flarum/lang-english/releases/tag/v0.1.0-beta.13)
 
 ### Cara Memasang
 Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah terinstall di komputer Anda, lalu ikuti langkah berikut ini:
@@ -39,7 +39,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.1.3
 - [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.1.0-beta
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v0.1.5
-- [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.1.5
+- [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.1.6
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.1.0-beta.2
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v0.1.4
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v0.1.1
@@ -61,7 +61,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.3.3
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v0.2.0
 - [kilowhat/flarum-ext-mailing](https://github.com/kilowhat/flarum-ext-mailing) v0.2.1
-- [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v3.2.0
+- [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v4.0.0
 - [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v2.1.6
 - [michaelbelgium/mybb_to_flarum](https://github.com/michaelbelgium/mybb_to_flarum) v4.1
 - [oaklinq/flarum-ext-reply2see](https://github.com/oaklinq/flarum-ext-reply2see) v0.1.2
