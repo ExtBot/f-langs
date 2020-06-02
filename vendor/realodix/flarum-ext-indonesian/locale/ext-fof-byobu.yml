@@ -86,6 +86,10 @@ fof-byobu:
             pd_added_text: "{username} menambahkan Anda ke diskusi pribadi"
             # pd_added_label: "Someone adds me to an existing private discussion"
             pd_added_label: "Seseorang menambahkan Saya ke diskusi pribadi yang sudah ada"
+            # pd_made_public_label: "A private discussion is made public"
+            pd_made_public_label: "Diskusi pribadi dipublikasikan"
+            # pd_made_public_text: "{username} made the discussion public"
+            pd_made_public_text: "{username} menjadikan diskusi tersebut publik"
 
         confirm:
             # make_public: This will make this private discussion visible to everyone. Consider if this is the correct action before proceeding.
@@ -112,7 +116,7 @@ fof-byobu:
             # use_tag_slug: Specify the slug of the tag to force all private discussions into
             use_tag_slug: Tentukan tag untuk memaksa semua diskusi pribadi
             # use_tag_slug_help: Leave blank to allow users to select their own tag, applies to newly created private discussions only
-            use_tag_slug_help: Biarkan kosong untuk memungkinkan pengguna memilih tag mereka sendiri, hanya berlaku untuk diskusi pribadi yang baru dibuat
+            use_tag_slug_help: Biarkan kosong untuk memungkinkan user memilih tag mereka sendiri, hanya berlaku untuk diskusi pribadi yang baru dibuat
 
     notifications:
         private_discussion_created:
@@ -120,10 +124,13 @@ fof-byobu:
             title: "[forum-name] Diskusi pribadi baru"
         private_discussion_replied:
             # title: "[Private Discussion] user posted in a private discussion"
-            title: "[Diskusi Pribadi] user memposting dalam diskusi pribadi"
+            title: "[Diskusi Pribadi] Seseorang memposting dalam diskusi pribadi"
         recipient_removed:
             # title: "[Private Discussion] user left the discussion"
-            title: "[Diskusi Pribadi] user meninggalkan diskusi"
+            title: "[Diskusi Pribadi] Seseorang meninggalkan diskusi"
         private_discussion_added:
             # title: "[Private Discussion] user added you to a private discussion"
-            title: "[Diskusi Pribadi] user menambahkan Anda ke diskusi pribadi"
+            title: "[Diskusi Pribadi] Seseorang menambahkan Anda ke diskusi pribadi"
+        made_public:
+            # title: "[Private Discussion] user made the discussion public"
+            title: "[Diskusi Pribadi] Seseorang membuat diskusi publik"
