@@ -36,7 +36,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [flarumite/flarum-decontaminator](https://github.com/flarumite/flarum-decontaminator) v0.1.4
 - [fof/ads](https://github.com/friendsofflarum/ads) v0.2.4
 - [fof/analytics](https://github.com/friendsofflarum/analytics) v0.8.0
-- [fof/byobu](https://github.com/friendsofflarum/byobu) v0.5.4
+- [fof/byobu](https://github.com/friendsofflarum/byobu) v0.5.6
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.1.3
 - [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.1.2
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v0.1.5
@@ -63,6 +63,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.3.3
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v0.2.0
 - [kilowhat/flarum-ext-mailing](https://github.com/kilowhat/flarum-ext-mailing) v0.2.1
+- [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.1.10
 - [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v4.0.0
 - [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v2.1.6
 - [michaelbelgium/mybb_to_flarum](https://github.com/michaelbelgium/mybb_to_flarum) v4.1
