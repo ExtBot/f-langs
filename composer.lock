@@ -716,12 +716,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kassius/flarum-brazilian-portuguese.git",
+                "url": "https://github.com/iacchus/flarum-brazilian-portuguese.git",
                 "reference": "c9ebffa1e6e0b78406c401132ac082b05e499c13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kassius/flarum-brazilian-portuguese/zipball/c9ebffa1e6e0b78406c401132ac082b05e499c13",
+                "url": "https://api.github.com/repos/iacchus/flarum-brazilian-portuguese/zipball/c9ebffa1e6e0b78406c401132ac082b05e499c13",
                 "reference": "c9ebffa1e6e0b78406c401132ac082b05e499c13",
                 "shasum": ""
             },
@@ -776,7 +776,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kryonoglou/flarum-ext-greek.git",
+                "url": "git@github.com:kryonoglou/flarum-ext-greek.git",
                 "reference": "c4f715892a8e06073cc050e560c84748b9719b45"
             },
             "dist": {
