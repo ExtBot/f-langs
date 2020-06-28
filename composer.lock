@@ -1208,12 +1208,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nearata/lang-italian.git",
-                "reference": "1f042fd982a5fc17499a4bb24056d8e8ce65fdb9"
+                "reference": "2f85ac3b309a8bb389824a2ba304ca72c3e81775"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/1f042fd982a5fc17499a4bb24056d8e8ce65fdb9",
-                "reference": "1f042fd982a5fc17499a4bb24056d8e8ce65fdb9",
+                "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/2f85ac3b309a8bb389824a2ba304ca72c3e81775",
+                "reference": "2f85ac3b309a8bb389824a2ba304ca72c3e81775",
                 "shasum": ""
             },
             "require": {
@@ -1251,7 +1251,7 @@
                 "italian",
                 "locale"
             ],
-            "time": "2020-06-25T20:51:52+00:00"
+            "time": "2020-06-27T13:05:02+00:00"
         },
         {
             "name": "nit/flarum-ext-albania",
@@ -1456,12 +1456,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "5bd7f0eec0617b647ebf719ffa79310b92e80bc2"
+                "reference": "0b00796280952fc5e5f4084d36585f1ed3121af5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/5bd7f0eec0617b647ebf719ffa79310b92e80bc2",
-                "reference": "5bd7f0eec0617b647ebf719ffa79310b92e80bc2",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/0b00796280952fc5e5f4084d36585f1ed3121af5",
+                "reference": "0b00796280952fc5e5f4084d36585f1ed3121af5",
                 "shasum": ""
             },
             "require": {
@@ -1501,7 +1501,7 @@
                 "indonesian-language",
                 "translation"
             ],
-            "time": "2020-06-22T06:16:43+00:00"
+            "time": "2020-06-27T19:50:34+00:00"
         },
         {
             "name": "rodymolenaar/flarum-ext-dutch",
