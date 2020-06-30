@@ -670,12 +670,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jubayed/flarum-ext-bengali.git",
+                "url": "https://github.com/hmjubayed/flarum-ext-bengali.git",
                 "reference": "afafd28b2b5bb9141a62177245d269f2473cbe9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jubayed/flarum-ext-bengali/zipball/afafd28b2b5bb9141a62177245d269f2473cbe9e",
+                "url": "https://api.github.com/repos/hmjubayed/flarum-ext-bengali/zipball/afafd28b2b5bb9141a62177245d269f2473cbe9e",
                 "reference": "afafd28b2b5bb9141a62177245d269f2473cbe9e",
                 "shasum": ""
             },
