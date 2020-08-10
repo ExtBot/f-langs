@@ -1134,18 +1134,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/qiaeru/lang-french.git",
-            "reference": "034f6558f777b7f13ad81e55511773b0556c8af0"
+            "reference": "5190fd581861e7f6334ae87315684c6826b92f62"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/034f6558f777b7f13ad81e55511773b0556c8af0",
-            "reference": "034f6558f777b7f13ad81e55511773b0556c8af0",
+            "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/5190fd581861e7f6334ae87315684c6826b92f62",
+            "reference": "5190fd581861e7f6334ae87315684c6826b92f62",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.14"
         },
-        "time": "2020-07-13T18:37:46+00:00",
+        "time": "2020-08-08T13:09:29+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1173,7 +1173,8 @@
         "authors": [
             {
                 "name": "Qiaeru",
-                "email": "qiaeru@protonmail.com"
+                "email": "qiaeru@protonmail.com",
+                "homepage": "https://www.qiaeru.com"
             }
         ],
         "description": "French language pack for Flarum and its bundled extensions.",

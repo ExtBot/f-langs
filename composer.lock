@@ -1098,12 +1098,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/qiaeru/lang-french.git",
-                "reference": "034f6558f777b7f13ad81e55511773b0556c8af0"
+                "reference": "5190fd581861e7f6334ae87315684c6826b92f62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/034f6558f777b7f13ad81e55511773b0556c8af0",
-                "reference": "034f6558f777b7f13ad81e55511773b0556c8af0",
+                "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/5190fd581861e7f6334ae87315684c6826b92f62",
+                "reference": "5190fd581861e7f6334ae87315684c6826b92f62",
                 "shasum": ""
             },
             "require": {
@@ -1135,7 +1135,8 @@
             "authors": [
                 {
                     "name": "Qiaeru",
-                    "email": "qiaeru@protonmail.com"
+                    "email": "qiaeru@protonmail.com",
+                    "homepage": "https://www.qiaeru.com"
                 }
             ],
             "description": "French language pack for Flarum and its bundled extensions.",
@@ -1147,7 +1148,7 @@
                 "translation"
             ],
             "abandoned": "qiaeru/lang-french",
-            "time": "2020-07-13T18:37:46+00:00"
+            "time": "2020-08-08T13:09:29+00:00"
         },
         {
             "name": "naga0ka/flarum-ext-japanese",
