@@ -1457,12 +1457,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "0b00796280952fc5e5f4084d36585f1ed3121af5"
+                "reference": "ad527c3d528017f1b4e20ba323848c102ef58d8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/0b00796280952fc5e5f4084d36585f1ed3121af5",
-                "reference": "0b00796280952fc5e5f4084d36585f1ed3121af5",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/ad527c3d528017f1b4e20ba323848c102ef58d8f",
+                "reference": "ad527c3d528017f1b4e20ba323848c102ef58d8f",
                 "shasum": ""
             },
             "require": {
@@ -1502,7 +1502,7 @@
                 "indonesian-language",
                 "translation"
             ],
-            "time": "2020-06-27T19:50:34+00:00"
+            "time": "2020-08-14T06:42:13+00:00"
         },
         {
             "name": "rodymolenaar/flarum-ext-dutch",

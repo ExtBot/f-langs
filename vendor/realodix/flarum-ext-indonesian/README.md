@@ -28,12 +28,11 @@ Perintah yang sama (pada langkah 1) dapat digunakan untuk memperbarui secara man
 ### Extensi Yang Didukung
 Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di bawah ini, maka semua kalimat pada ekstensi tersebut akan ikut diterjemahkan ke dalam bahasa Indonesia.
 
-- [askvortsov1/flarum-categories](https://github.com/askvortsov1/flarum-categories) v0.2.6
-- [askvortsov1/flarum-moderator-warnings](https://github.com/askvortsov1/flarum-moderator-warnings) v0.1.5 
+- [askvortsov1/flarum-categories](https://github.com/askvortsov1/flarum-categories) v1.0.4
+- [askvortsov1/flarum-moderator-warnings](https://github.com/askvortsov1/flarum-moderator-warnings) v0.2.4 
 - [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.8.2
 - [extiverse/bazaar](https://github.com/extiverse/bazaar) v0.4.1
 - [flagrow/users-list](https://github.com/flagrow/users-list) v0.1.2
-- [flarumite/flarum-decontaminator](https://github.com/flarumite/flarum-decontaminator) v0.1.4
 - [fof/ads](https://github.com/friendsofflarum/ads) v0.2.4
 - [fof/analytics](https://github.com/friendsofflarum/analytics) v0.9.1
 - [fof/byobu](https://github.com/friendsofflarum/byobu) v0.5.6
@@ -62,7 +61,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/user-bio](https://github.com/friendsofflarum/user-bio) v0.2.0
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.3.3
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v0.2.0
-- [kilowhat/flarum-ext-mailing](https://github.com/kilowhat/flarum-ext-mailing) v0.2.1
+- [kilowhat/flarum-ext-mailing](https://github.com/kilowhat/flarum-ext-mailing) v0.2.3
 - [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.1.11
 - [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v4.0.0
 - [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v2.1.6
