@@ -39,7 +39,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.1.3
 - [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.1.2
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v0.1.6
-- [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.1.12
+- [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.1.13
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.1.0-beta.2
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v0.1.5
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v0.2.0
@@ -48,6 +48,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.4
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.3
 - [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v0.2.5
+- [fof/nightmode](https://github.com/friendsofflarum/nightmode) v0.5.0
 - [fof/pages](https://github.com/friendsofflarum/pages) v0.4.0
 - [fof/polls](https://github.com/friendsofflarum/polls) v0.1.2
 - [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.2.1
@@ -62,7 +63,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.3.4
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v0.2.0
 - [kilowhat/flarum-ext-mailing](https://github.com/kilowhat/flarum-ext-mailing) v0.2.3
-- [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.1.16
+- [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.2.3
 - [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v4.0.1
 - [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v2.1.6
 - [michaelbelgium/mybb_to_flarum](https://github.com/michaelbelgium/mybb_to_flarum) v5.1
