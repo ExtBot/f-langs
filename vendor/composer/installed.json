@@ -1350,18 +1350,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/nlssn/flarum-ext-swedish.git",
-            "reference": "b1626fef44482948a9a235dd74913d379aa52e4a"
+            "reference": "5c16f719df17dfe8ebf676307aa6d1d463d48341"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/nlssn/flarum-ext-swedish/zipball/b1626fef44482948a9a235dd74913d379aa52e4a",
-            "reference": "b1626fef44482948a9a235dd74913d379aa52e4a",
+            "url": "https://api.github.com/repos/nlssn/flarum-ext-swedish/zipball/5c16f719df17dfe8ebf676307aa6d1d463d48341",
+            "reference": "5c16f719df17dfe8ebf676307aa6d1d463d48341",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.7"
         },
-        "time": "2018-05-09T13:10:53+00:00",
+        "time": "2019-03-24T17:05:56+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -1398,7 +1398,7 @@
             "locale",
             "translation"
         ],
-        "abandoned": true
+        "abandoned": "https://github.com/taddis/flarum-extensions-swedish"
     },
     {
         "name": "pladask/flarum-ext-norwegian-bokmal",

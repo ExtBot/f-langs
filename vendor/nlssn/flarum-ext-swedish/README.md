@@ -1,3 +1,6 @@
+## Note
+This project is abandoned as of 2019-03-24 and I will not be working on it any further.
+
 ## flarum-ext-swedish
 A Swedish language extension for [Flarum](http://flarum.org/).
 
