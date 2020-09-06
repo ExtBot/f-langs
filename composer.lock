@@ -776,7 +776,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kryonoglou/flarum-ext-greek.git",
+                "url": "git@github.com:kryonoglou/flarum-ext-greek.git",
                 "reference": "c4f715892a8e06073cc050e560c84748b9719b45"
             },
             "dist": {
