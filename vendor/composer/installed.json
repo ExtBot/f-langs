@@ -800,7 +800,7 @@
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "git@github.com:kryonoglou/flarum-ext-greek.git",
+            "url": "https://github.com/kryonoglou/flarum-ext-greek.git",
             "reference": "c4f715892a8e06073cc050e560c84748b9719b45"
         },
         "dist": {
@@ -1249,18 +1249,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Nearata/lang-italian.git",
-            "reference": "198bc554842a6c1cac7c8831f12a654cc002493c"
+            "reference": "b78fcd92f0298b6e659bf41b95eb94ea506ad966"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/198bc554842a6c1cac7c8831f12a654cc002493c",
-            "reference": "198bc554842a6c1cac7c8831f12a654cc002493c",
+            "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/b78fcd92f0298b6e659bf41b95eb94ea506ad966",
+            "reference": "b78fcd92f0298b6e659bf41b95eb94ea506ad966",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.13"
         },
-        "time": "2020-09-01T20:59:47+00:00",
+        "time": "2020-09-19T16:28:07+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
