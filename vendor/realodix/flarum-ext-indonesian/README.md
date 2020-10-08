@@ -37,13 +37,13 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/analytics](https://github.com/friendsofflarum/analytics) v0.9.1
 - [fof/byobu](https://github.com/friendsofflarum/byobu) v0.5.6
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.1.3
-- [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.1.2
+- [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.1.3
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v0.1.6
 - [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.1.13
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.1.0-beta.2
 - [fof/formatting](https://github.com/friendsofflarum/formatting) v0.1.5
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v0.2.0
-- [fof/gamification](https://github.com/friendsofflarum/gamification) v0.2.4
+- [fof/gamification](https://github.com/friendsofflarum/gamification) v0.2.6
 - [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v0.5.0
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.4
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.3.3
@@ -52,7 +52,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/pages](https://github.com/friendsofflarum/pages) v0.4.0
 - [fof/polls](https://github.com/friendsofflarum/polls) v0.1.2
 - [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.2.1
-- [fof/reactions](https://github.com/friendsofflarum/reactions) v0.2.4
+- [fof/reactions](https://github.com/friendsofflarum/reactions) v0.3.4
 - [fof/secure-https](https://github.com/friendsofflarum/secure-https) v0.1.0
 - [fof/spamblock](https://github.com/friendsofflarum/spamblock) v0.2.2
 - [fof/split](https://github.com/friendsofflarum/split) v0.4.4
@@ -65,7 +65,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [kilowhat/flarum-ext-mailing](https://github.com/kilowhat/flarum-ext-mailing) v0.2.3
 - [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.2.3
 - [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v4.0.1
-- [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v2.1.6
+- [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v3.1.0
 - [michaelbelgium/mybb_to_flarum](https://github.com/michaelbelgium/mybb_to_flarum) v5.1
 - [oaklinq/flarum-ext-reply2see](https://github.com/oaklinq/flarum-ext-reply2see) v0.1.2
 - [reflar/level-ranks](https://github.com/reflar/level-ranks) v1.2.2
