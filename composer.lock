@@ -1098,21 +1098,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/qiaeru/lang-french.git",
-                "reference": "5190fd581861e7f6334ae87315684c6826b92f62"
+                "reference": "4d457765f67f06931ea52d87149ab154c717ce5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/5190fd581861e7f6334ae87315684c6826b92f62",
-                "reference": "5190fd581861e7f6334ae87315684c6826b92f62",
+                "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/4d457765f67f06931ea52d87149ab154c717ce5c",
+                "reference": "4d457765f67f06931ea52d87149ab154c717ce5c",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.14"
+                "flarum/core": "^0.1.0-beta.15"
             },
             "type": "flarum-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8.x-dev"
+                    "dev-master": "1.9.x-dev"
                 },
                 "flarum-extension": {
                     "title": "French",
@@ -1148,7 +1148,7 @@
                 "translation"
             ],
             "abandoned": "qiaeru/lang-french",
-            "time": "2020-08-08T13:09:29+00:00"
+            "time": "2020-10-22T12:35:12+00:00"
         },
         {
             "name": "naga0ka/flarum-ext-japanese",
@@ -1209,12 +1209,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nearata/lang-italian.git",
-                "reference": "086a4d67bf34254b2232b9e463128aa8458fc4cc"
+                "reference": "6b350550ee01c557dfdfae9bbb4ab6c3f343f04d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/086a4d67bf34254b2232b9e463128aa8458fc4cc",
-                "reference": "086a4d67bf34254b2232b9e463128aa8458fc4cc",
+                "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/6b350550ee01c557dfdfae9bbb4ab6c3f343f04d",
+                "reference": "6b350550ee01c557dfdfae9bbb4ab6c3f343f04d",
                 "shasum": ""
             },
             "require": {
@@ -1252,7 +1252,7 @@
                 "italian",
                 "locale"
             ],
-            "time": "2020-10-20T21:33:19+00:00"
+            "time": "2020-10-22T13:49:35+00:00"
         },
         {
             "name": "nit/flarum-ext-albania",
@@ -1457,16 +1457,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "5676ec10a7527fdace297c3c7c2ca284cbb8f3bd"
+                "reference": "b7c2a7d314f71e0ec69157be51d1c8923794c6c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/5676ec10a7527fdace297c3c7c2ca284cbb8f3bd",
-                "reference": "5676ec10a7527fdace297c3c7c2ca284cbb8f3bd",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/b7c2a7d314f71e0ec69157be51d1c8923794c6c3",
+                "reference": "b7c2a7d314f71e0ec69157be51d1c8923794c6c3",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.13"
+                "flarum/core": "^0.1.0-beta.14"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1502,7 +1502,7 @@
                 "indonesian-language",
                 "translation"
             ],
-            "time": "2020-10-07T12:29:26+00:00"
+            "time": "2020-10-22T19:39:04+00:00"
         },
         {
             "name": "rodymolenaar/flarum-ext-dutch",
