@@ -1134,18 +1134,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/qiaeru/lang-french.git",
-            "reference": "4d457765f67f06931ea52d87149ab154c717ce5c"
+            "reference": "fff243f4e0f0c9dfecb77a7f6be4305ea00ec085"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/4d457765f67f06931ea52d87149ab154c717ce5c",
-            "reference": "4d457765f67f06931ea52d87149ab154c717ce5c",
+            "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/fff243f4e0f0c9dfecb77a7f6be4305ea00ec085",
+            "reference": "fff243f4e0f0c9dfecb77a7f6be4305ea00ec085",
             "shasum": ""
         },
         "require": {
-            "flarum/core": "^0.1.0-beta.15"
+            "flarum/core": "^0.1.0-beta.15-dev"
         },
-        "time": "2020-10-22T12:35:12+00:00",
+        "time": "2020-10-24T12:46:02+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1507,18 +1507,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-            "reference": "b7c2a7d314f71e0ec69157be51d1c8923794c6c3"
+            "reference": "338b5b45cf71ac950059ac4c62e8a694c1569b89"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/b7c2a7d314f71e0ec69157be51d1c8923794c6c3",
-            "reference": "b7c2a7d314f71e0ec69157be51d1c8923794c6c3",
+            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/338b5b45cf71ac950059ac4c62e8a694c1569b89",
+            "reference": "338b5b45cf71ac950059ac4c62e8a694c1569b89",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.14"
         },
-        "time": "2020-10-22T19:39:04+00:00",
+        "time": "2020-10-24T17:37:24+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
