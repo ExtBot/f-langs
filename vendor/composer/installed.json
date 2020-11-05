@@ -1249,18 +1249,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Nearata/lang-italian.git",
-            "reference": "6b350550ee01c557dfdfae9bbb4ab6c3f343f04d"
+            "reference": "c77f666e2599aad68f370c0a91cf79e9fe9a2756"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/6b350550ee01c557dfdfae9bbb4ab6c3f343f04d",
-            "reference": "6b350550ee01c557dfdfae9bbb4ab6c3f343f04d",
+            "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/c77f666e2599aad68f370c0a91cf79e9fe9a2756",
+            "reference": "c77f666e2599aad68f370c0a91cf79e9fe9a2756",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.14"
         },
-        "time": "2020-10-22T13:49:35+00:00",
+        "time": "2020-11-04T12:09:03+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
