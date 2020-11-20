@@ -10,7 +10,7 @@ If you're looking for French translations of third-party extensions for Flarum, 
 
 Includes the following French locales compatible with:
 
-- [Flarum 0.1.0 Beta 15 (Development Version)](https://github.com/flarum/core)
+- [Flarum 0.1.0 Beta 14](https://github.com/flarum/core)
   - Bundled extensions:
     - [Akismet](https://github.com/flarum/akismet)
     - [Approval](https://github.com/flarum/approval)
@@ -31,7 +31,7 @@ Includes the following French locales compatible with:
     - [Twitter Login](https://github.com/flarum/auth-twitter)
   - Bundled libraries:
     - [Laravel's Validation Rules 6.18.35](https://github.com/laravel/laravel)
-    - [Moment.js 2.25.1](https://github.com/moment/moment)
+    - [Day.js 1.9.6](https://github.com/iamkun/dayjs)
 
 Released under the MIT license. Please see [the license terms](https://github.com/qiaeru/lang-french/blob/master/LICENSE).
 

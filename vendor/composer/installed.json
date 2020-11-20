@@ -118,18 +118,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Kakifrucht/flarum-de.git",
-            "reference": "49714ea225adee6454ec8468bec0f5fb17b3bf78"
+            "reference": "e30d58e1e70af42c783f5830a151fada460c0992"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/49714ea225adee6454ec8468bec0f5fb17b3bf78",
-            "reference": "49714ea225adee6454ec8468bec0f5fb17b3bf78",
+            "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/e30d58e1e70af42c783f5830a151fada460c0992",
+            "reference": "e30d58e1e70af42c783f5830a151fada460c0992",
             "shasum": ""
         },
         "require": {
-            "flarum/core": "^0.1.0-beta.13"
+            "flarum/core": "^0.1.0-beta.14"
         },
-        "time": "2020-07-09T18:14:03+00:00",
+        "time": "2020-11-20T02:09:12+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -155,7 +155,8 @@
         "homepage": "https://github.com/Kakifrucht/flarum-de",
         "keywords": [
             "locale"
-        ]
+        ],
+        "abandoned": "kakifrucht/flarum-de"
     },
     {
         "name": "comocozy/flarum-ext-korean",
@@ -1134,22 +1135,22 @@
         "source": {
             "type": "git",
             "url": "https://github.com/qiaeru/lang-french.git",
-            "reference": "1cb58a70bc2172175842ad5ec47db19f55001f8c"
+            "reference": "50369656f9574e2d803e2165dd5b1a35c80e1f46"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/1cb58a70bc2172175842ad5ec47db19f55001f8c",
-            "reference": "1cb58a70bc2172175842ad5ec47db19f55001f8c",
+            "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/50369656f9574e2d803e2165dd5b1a35c80e1f46",
+            "reference": "50369656f9574e2d803e2165dd5b1a35c80e1f46",
             "shasum": ""
         },
         "require": {
-            "flarum/core": "^0.1.0-beta.15"
+            "flarum/core": "^0.1.0-beta.14"
         },
-        "time": "2020-11-08T08:49:38+00:00",
+        "time": "2020-11-19T16:39:58+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.9.x-dev"
+                "dev-master": "1.8.x-dev"
             },
             "flarum-extension": {
                 "title": "French",
@@ -1507,12 +1508,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-            "reference": "89333ee7489252241a8c4fb80baff159b8ebee9f"
+            "reference": "fa933c800782f5340afdfa9bcf6919e20dc22df1"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/89333ee7489252241a8c4fb80baff159b8ebee9f",
-            "reference": "89333ee7489252241a8c4fb80baff159b8ebee9f",
+            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/fa933c800782f5340afdfa9bcf6919e20dc22df1",
+            "reference": "fa933c800782f5340afdfa9bcf6919e20dc22df1",
             "shasum": ""
         },
         "require": {
@@ -1521,7 +1522,7 @@
         "conflict": {
             "fof/upload": "<0.11"
         },
-        "time": "2020-11-15T10:35:05+00:00",
+        "time": "2020-11-18T14:53:36+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
