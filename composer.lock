@@ -1099,12 +1099,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/qiaeru/lang-french.git",
-                "reference": "119d7b3bb7b9795cb698a0ce9826316b6a89e9cc"
+                "reference": "c42499333f22fadb99601aa19efe156ee944f2f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/119d7b3bb7b9795cb698a0ce9826316b6a89e9cc",
-                "reference": "119d7b3bb7b9795cb698a0ce9826316b6a89e9cc",
+                "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/c42499333f22fadb99601aa19efe156ee944f2f9",
+                "reference": "c42499333f22fadb99601aa19efe156ee944f2f9",
                 "shasum": ""
             },
             "require": {
@@ -1149,7 +1149,7 @@
                 "translation"
             ],
             "abandoned": "qiaeru/lang-french",
-            "time": "2020-11-23T15:55:42+00:00"
+            "time": "2020-11-24T20:18:53+00:00"
         },
         {
             "name": "naga0ka/flarum-ext-japanese",
