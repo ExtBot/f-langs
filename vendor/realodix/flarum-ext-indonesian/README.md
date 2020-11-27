@@ -49,10 +49,10 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [extiverse/bazaar](https://github.com/extiverse/bazaar) v0.4.1
 - [flagrow/users-list](https://github.com/flagrow/users-list) v0.1.2
 - [fof/ads](https://github.com/friendsofflarum/ads) v0.2.4
-- [fof/analytics](https://github.com/friendsofflarum/analytics) v0.10.0
+- [fof/analytics](https://github.com/friendsofflarum/analytics) v0.10.1
 - [fof/byobu](https://github.com/friendsofflarum/byobu) v0.5.6
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.2.0
-- [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.1.3
+- [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.1.2
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v0.1.6
 - [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.2.0
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.1.0-beta.3
@@ -65,7 +65,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v0.3.0
 - [fof/nightmode](https://github.com/friendsofflarum/nightmode) v0.6.0
 - [fof/pages](https://github.com/friendsofflarum/pages) v0.5.0
-- [fof/polls](https://github.com/friendsofflarum/polls) v0.1.3
+- [fof/polls](https://github.com/friendsofflarum/polls) v0.2.0
 - [fof/prevent-necrobumping](https://github.com/friendsofflarum/prevent-necrobumping) v0.3.0
 - [fof/reactions](https://github.com/friendsofflarum/reactions) v0.4.2
 - [fof/secure-https](https://github.com/friendsofflarum/secure-https) v0.2.1
@@ -73,7 +73,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/split](https://github.com/friendsofflarum/split) v0.5.0
 - [fof/stopforumspam](https://github.com/friendsofflarum/stopforumspam) v0.2.2
 - [fof/subscribed](https://github.com/friendsofflarum/subscribed) v0.3.0
-- [fof/upload](https://github.com/friendsofflarum/upload) v0.11
+- [fof/upload](https://github.com/friendsofflarum/upload) v0.11.1
 - [fof/user-bio](https://github.com/friendsofflarum/user-bio) v0.3.1
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.3.4
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v0.3.0
