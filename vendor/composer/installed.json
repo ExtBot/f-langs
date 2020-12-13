@@ -1250,22 +1250,27 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Nearata/lang-italian.git",
-            "reference": "c77f666e2599aad68f370c0a91cf79e9fe9a2756"
+            "reference": "78fa0ff037240317292d93e29228f83bf65f395d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/c77f666e2599aad68f370c0a91cf79e9fe9a2756",
-            "reference": "c77f666e2599aad68f370c0a91cf79e9fe9a2756",
+            "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/78fa0ff037240317292d93e29228f83bf65f395d",
+            "reference": "78fa0ff037240317292d93e29228f83bf65f395d",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.14"
         },
-        "time": "2020-11-04T12:09:03+00:00",
+        "time": "2020-12-11T14:54:19+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
                 "title": "Italian",
+                "category": "language",
+                "info": {
+                    "website": "https://discuss.flarum.org/d/5160",
+                    "support": "https://github.com/Nearata/lang-italian/issues"
+                },
                 "icon": {
                     "image": "icon.svg",
                     "backgroundColor": "#00247d",
@@ -1508,12 +1513,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-            "reference": "f9e43bf5f598cdd8ee7676c065fa99111cdadaa3"
+            "reference": "4f46d1aa2ba535ac12f6b3c50fc04a5b53142fc2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/f9e43bf5f598cdd8ee7676c065fa99111cdadaa3",
-            "reference": "f9e43bf5f598cdd8ee7676c065fa99111cdadaa3",
+            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/4f46d1aa2ba535ac12f6b3c50fc04a5b53142fc2",
+            "reference": "4f46d1aa2ba535ac12f6b3c50fc04a5b53142fc2",
             "shasum": ""
         },
         "require": {
@@ -1523,7 +1528,7 @@
             "fof/doorman": "<0.2.0",
             "fof/upload": "<0.11"
         },
-        "time": "2020-12-09T11:34:18+00:00",
+        "time": "2020-12-12T21:34:49+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
