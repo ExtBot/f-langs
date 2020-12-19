@@ -1250,18 +1250,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Nearata/lang-italian.git",
-            "reference": "78fa0ff037240317292d93e29228f83bf65f395d"
+            "reference": "f9e4691ed3d58ad11e301483d8b210241fc83cd7"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/78fa0ff037240317292d93e29228f83bf65f395d",
-            "reference": "78fa0ff037240317292d93e29228f83bf65f395d",
+            "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/f9e4691ed3d58ad11e301483d8b210241fc83cd7",
+            "reference": "f9e4691ed3d58ad11e301483d8b210241fc83cd7",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.14"
         },
-        "time": "2020-12-11T14:54:19+00:00",
+        "time": "2020-12-18T16:23:43+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -1513,22 +1513,31 @@
         "source": {
             "type": "git",
             "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-            "reference": "80215ef669cc0961698e97f58333165c8a4edc48"
+            "reference": "ef96c28029bd92ee106e7939f1d42a6b9b4d5f92"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/80215ef669cc0961698e97f58333165c8a4edc48",
-            "reference": "80215ef669cc0961698e97f58333165c8a4edc48",
+            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/ef96c28029bd92ee106e7939f1d42a6b9b4d5f92",
+            "reference": "ef96c28029bd92ee106e7939f1d42a6b9b4d5f92",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.14"
         },
         "conflict": {
+            "fof/analytics": "<0.11.0",
+            "fof/custom-footer": "<0.3.0",
+            "fof/discussion-language": "<0.3.0",
             "fof/doorman": "<0.2.0",
+            "fof/forum-statistics-widget": "<0.4.0",
+            "fof/gamification": "<0.4.0",
+            "fof/nightmode": "<0.7.0",
+            "fof/pages": "<0.6.0",
+            "fof/reactions": "<0.5.0",
+            "fof/secure-https": "<0.3.0",
             "fof/upload": "<0.11"
         },
-        "time": "2020-12-13T20:00:24+00:00",
+        "time": "2020-12-18T21:04:38+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
