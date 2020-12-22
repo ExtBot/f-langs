@@ -423,7 +423,8 @@
         "description": "Turkish language pack.",
         "keywords": [
             "locale"
-        ]
+        ],
+        "abandoned": "tolgaaaltas/flarum-lang-turkish"
     },
     {
         "name": "flabrew/flabrew",
