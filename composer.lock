@@ -272,16 +272,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/eikoninaru/flarum-ext-ukrainian.git",
-                "reference": "bd66936f0d87a3bc14bbbc318a17c11e95c237c5"
+                "reference": "00c9f37dcaaed6a3dbf41923b2d6f0302a3bbefb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eikoninaru/flarum-ext-ukrainian/zipball/bd66936f0d87a3bc14bbbc318a17c11e95c237c5",
-                "reference": "bd66936f0d87a3bc14bbbc318a17c11e95c237c5",
+                "url": "https://api.github.com/repos/eikoninaru/flarum-ext-ukrainian/zipball/00c9f37dcaaed6a3dbf41923b2d6f0302a3bbefb",
+                "reference": "00c9f37dcaaed6a3dbf41923b2d6f0302a3bbefb",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.13"
+                "flarum/core": "^0.1.0-beta.15"
             },
             "type": "flarum-extension",
             "extra": {
@@ -308,13 +308,17 @@
             ],
             "authors": [
                 {
-                    "name": "sizonov_stas",
+                    "name": "Stanislav Syzonov",
                     "email": "root@linuxmint.com.ua",
-                    "homepage": "https://linuxmint.com.ua/"
+                    "homepage": "https://www.linuxmint.com.ua/"
                 },
                 {
                     "name": "Igor Kiselyuk",
                     "homepage": "http://netishin.com.ua/"
+                },
+                {
+                    "name": "Dmytro Shovchko",
+                    "homepage": "https://github.com/dshovchko"
                 }
             ],
             "description": "Ukrainian language pack for Flarum.",
@@ -322,7 +326,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2020-07-29T22:50:37+00:00"
+            "time": "2021-01-02T01:32:44+00:00"
         },
         {
             "name": "elite-devs/flarum-ext-arabic",
