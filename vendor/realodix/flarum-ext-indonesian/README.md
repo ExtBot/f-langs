@@ -52,7 +52,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/analytics](https://github.com/friendsofflarum/analytics) v0.11.0
 - [fof/byobu](https://github.com/friendsofflarum/byobu) v0.6.0
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.3.0
-- [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.3.1
+- [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.3.2
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v0.3.0
 - [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.3.1
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.3.0
@@ -75,7 +75,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/split](https://github.com/friendsofflarum/split) v0.6.0
 - [fof/stopforumspam](https://github.com/friendsofflarum/stopforumspam) v0.2.2
 - [fof/subscribed](https://github.com/friendsofflarum/subscribed) v0.4.1
-- [fof/upload](https://github.com/friendsofflarum/upload) v0.12.0
+- [fof/upload](https://github.com/friendsofflarum/upload) v0.12.1
 - [fof/user-bio](https://github.com/friendsofflarum/user-bio) v0.4.1
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.5.0
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v0.4.0
