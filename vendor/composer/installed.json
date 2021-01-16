@@ -1260,18 +1260,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Nearata/lang-italian.git",
-            "reference": "4677954b8b499218c0b0b2d4559ef16ebd59cd17"
+            "reference": "6c0cbf068044a19f147c7e40bc802968179cad9c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/4677954b8b499218c0b0b2d4559ef16ebd59cd17",
-            "reference": "4677954b8b499218c0b0b2d4559ef16ebd59cd17",
+            "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/6c0cbf068044a19f147c7e40bc802968179cad9c",
+            "reference": "6c0cbf068044a19f147c7e40bc802968179cad9c",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.15"
         },
-        "time": "2020-12-23T13:45:42+00:00",
+        "time": "2021-01-12T21:51:03+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -1523,18 +1523,19 @@
         "source": {
             "type": "git",
             "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-            "reference": "265102e31e9a2e046b2d778029f5b3b1364d31e5"
+            "reference": "61e8c382901959ddddf887925e52d6c2508a910c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/265102e31e9a2e046b2d778029f5b3b1364d31e5",
-            "reference": "265102e31e9a2e046b2d778029f5b3b1364d31e5",
+            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/61e8c382901959ddddf887925e52d6c2508a910c",
+            "reference": "61e8c382901959ddddf887925e52d6c2508a910c",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.14"
         },
         "conflict": {
+            "clarkwinkelmann/flarum-ext-follow-tags-prompt": "<0.2.0",
             "fof/analytics": "<0.11.0",
             "fof/byobu": "<0.6.0",
             "fof/custom-footer": "<0.3.0",
@@ -1549,7 +1550,7 @@
             "fof/secure-https": "<0.3.0",
             "fof/upload": "<0.11"
         },
-        "time": "2021-01-05T23:42:41+00:00",
+        "time": "2021-01-14T22:56:00+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
