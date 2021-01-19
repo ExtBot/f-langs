@@ -272,12 +272,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/eikoninaru/flarum-ext-ukrainian.git",
-                "reference": "c2cff3e299c40650e3b94ca24306ad471d0a7b0e"
+                "reference": "e1bbd7759c627baf9ac58b940fa828580e9db210"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eikoninaru/flarum-ext-ukrainian/zipball/c2cff3e299c40650e3b94ca24306ad471d0a7b0e",
-                "reference": "c2cff3e299c40650e3b94ca24306ad471d0a7b0e",
+                "url": "https://api.github.com/repos/eikoninaru/flarum-ext-ukrainian/zipball/e1bbd7759c627baf9ac58b940fa828580e9db210",
+                "reference": "e1bbd7759c627baf9ac58b940fa828580e9db210",
                 "shasum": ""
             },
             "require": {
@@ -326,7 +326,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2021-01-03T14:17:50+00:00"
+            "time": "2021-01-17T10:25:14+00:00"
         },
         {
             "name": "elite-devs/flarum-ext-arabic",
@@ -1473,12 +1473,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "61e8c382901959ddddf887925e52d6c2508a910c"
+                "reference": "0e00711c0bce7f0e3bae3ebdfcc7530f64ef45fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/61e8c382901959ddddf887925e52d6c2508a910c",
-                "reference": "61e8c382901959ddddf887925e52d6c2508a910c",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/0e00711c0bce7f0e3bae3ebdfcc7530f64ef45fc",
+                "reference": "0e00711c0bce7f0e3bae3ebdfcc7530f64ef45fc",
                 "shasum": ""
             },
             "require": {
@@ -1534,7 +1534,7 @@
                 "indonesian-language",
                 "translation"
             ],
-            "time": "2021-01-14T22:56:00+00:00"
+            "time": "2021-01-18T11:17:54+00:00"
         },
         {
             "name": "rodymolenaar/flarum-ext-dutch",
