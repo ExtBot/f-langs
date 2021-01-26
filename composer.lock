@@ -120,21 +120,26 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kakifrucht/flarum-de.git",
-                "reference": "49fd1aab122178f1b25ebbbfea2325a296a1b4dc"
+                "reference": "0542252a5fc5c49276737362b096e992342d8908"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/49fd1aab122178f1b25ebbbfea2325a296a1b4dc",
-                "reference": "49fd1aab122178f1b25ebbbfea2325a296a1b4dc",
+                "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/0542252a5fc5c49276737362b096e992342d8908",
+                "reference": "0542252a5fc5c49276737362b096e992342d8908",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.14"
+                "flarum/core": "^0.1.0-beta.15"
             },
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
                     "title": "Deutsch",
+                    "category": "language",
+                    "info": {
+                        "website": "https://github.com/Kakifrucht/flarum-de",
+                        "support": "https://discuss.flarum.org/d/2648"
+                    },
                     "icon": {
                         "image": "icon.svg",
                         "backgroundColor": "#00247d",
@@ -157,7 +162,7 @@
                 "locale"
             ],
             "abandoned": "kakifrucht/flarum-de",
-            "time": "2020-11-30T18:14:14+00:00"
+            "time": "2021-01-25T02:43:27+00:00"
         },
         {
             "name": "comocozy/flarum-ext-korean",
@@ -1473,16 +1478,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "540e0a87485c5e02850b31dcfe2e4323241e2697"
+                "reference": "9896ff88c6a5470be9361674d4a8a1b979872f27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/540e0a87485c5e02850b31dcfe2e4323241e2697",
-                "reference": "540e0a87485c5e02850b31dcfe2e4323241e2697",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/9896ff88c6a5470be9361674d4a8a1b979872f27",
+                "reference": "9896ff88c6a5470be9361674d4a8a1b979872f27",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.14"
+                "flarum/core": "^0.1.0-beta.15"
             },
             "conflict": {
                 "clarkwinkelmann/flarum-ext-follow-tags-prompt": "<0.2.0",
@@ -1500,7 +1505,8 @@
                 "fof/pages": "<0.6.0",
                 "fof/reactions": "<0.5.0",
                 "fof/secure-https": "<0.3.0",
-                "fof/upload": "<0.11"
+                "fof/upload": "<0.11",
+                "fof/username-request": "<0.4.1"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1536,7 +1542,7 @@
                 "indonesian-language",
                 "translation"
             ],
-            "time": "2021-01-20T21:58:40+00:00"
+            "time": "2021-01-25T13:08:32+00:00"
         },
         {
             "name": "rodymolenaar/flarum-ext-dutch",

@@ -3,12 +3,12 @@
 Paket bahasa Indonesia untuk Flarum dan beberapa ekstensi yang [didukung](#extensi-yang-didukung).
 
 ## Informasi
-[![Latest Stable Version](https://poser.pugx.org/realodix/flarum-ext-indonesian/v/stable)](https://packagist.org/packages/realodix/flarum-ext-indonesian)
+[![GitHub tag](https://img.shields.io/github/tag/realodix/flarum-ext-indonesian.svg)](https://GitHub.com/realodix/flarum-ext-indonesian/tags/)
 [![Latest Unstable Version](https://poser.pugx.org/realodix/flarum-ext-indonesian/v/unstable)](https://github.com/realodix/flarum-ext-indonesian/archive/master.zip)
 [![License](https://poser.pugx.org/realodix/flarum-ext-indonesian/license)](https://github.com/realodix/flarum-ext-indonesian/blob/master/LICENSE)
 
-**Requires**: [Flarum v0.1.0-beta.14](https://github.com/flarum/lang-english/releases/tag/v0.1.0-beta.14) <br>
-**Compatible up to**: [Flarum v0.1.0-beta.14](https://github.com/flarum/lang-english/releases/tag/v0.1.0-beta.14)
+**Requires**: [Flarum v0.1.0-beta.15](https://github.com/flarum/lang-english/releases/tag/v0.1.0-beta.14) <br>
+**Compatible up to**: [Flarum v0.1.0-beta.15](https://github.com/flarum/lang-english/releases/tag/v0.1.0-beta.14)
 
 ### Cara Memasang
 Flarum mengandalkan [Composer](https://getcomposer.org/) untuk mengelola dependensi dan ekstensi. Paket bahasa Indonesia tersedia di [Packagist](https://packagist.org/packages/realodix/flarum-ext-indonesian) dan dapat dikelola dengan cara di bawah ini. Pastikan Composer sudah terinstall di komputer Anda, lalu ikuti langkah berikut ini:
@@ -79,7 +79,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/upload](https://github.com/friendsofflarum/upload) v0.12.2
 - [fof/user-bio](https://github.com/friendsofflarum/user-bio) v0.4.2
 - [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.5.0
-- [fof/username-request](https://github.com/friendsofflarum/username-request) v0.4.0
+- [fof/username-request](https://github.com/friendsofflarum/username-request) v0.4.1
 - [jslirola/flarum-ext-login2seeplus](https://github.com/jslirola/flarum-ext-login2seeplus) v0.1.7
 - [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.2.13
 - [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v5.0.0
