@@ -120,12 +120,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kakifrucht/flarum-de.git",
-                "reference": "0542252a5fc5c49276737362b096e992342d8908"
+                "reference": "824e7494d49ffadd271234bf1d67b37e2e03f5b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/0542252a5fc5c49276737362b096e992342d8908",
-                "reference": "0542252a5fc5c49276737362b096e992342d8908",
+                "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/824e7494d49ffadd271234bf1d67b37e2e03f5b2",
+                "reference": "824e7494d49ffadd271234bf1d67b37e2e03f5b2",
                 "shasum": ""
             },
             "require": {
@@ -134,15 +134,11 @@
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
-                    "title": "Deutsch",
+                    "title": "German",
                     "category": "language",
-                    "info": {
-                        "website": "https://github.com/Kakifrucht/flarum-de",
-                        "support": "https://discuss.flarum.org/d/2648"
-                    },
                     "icon": {
                         "image": "icon.svg",
-                        "backgroundColor": "#00247d",
+                        "backgroundColor": "#ffffff",
                         "backgroundSize": "cover",
                         "backgroundPosition": "center"
                     }
@@ -162,7 +158,7 @@
                 "locale"
             ],
             "abandoned": "kakifrucht/flarum-de",
-            "time": "2021-01-25T02:43:27+00:00"
+            "time": "2021-01-28T01:50:27+00:00"
         },
         {
             "name": "comocozy/flarum-ext-korean",
@@ -1478,12 +1474,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "9896ff88c6a5470be9361674d4a8a1b979872f27"
+                "reference": "835020d390b11bd73ebd3fe3d91e84a29e7b8cf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/9896ff88c6a5470be9361674d4a8a1b979872f27",
-                "reference": "9896ff88c6a5470be9361674d4a8a1b979872f27",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/835020d390b11bd73ebd3fe3d91e84a29e7b8cf0",
+                "reference": "835020d390b11bd73ebd3fe3d91e84a29e7b8cf0",
                 "shasum": ""
             },
             "require": {
@@ -1501,6 +1497,7 @@
                 "fof/formatting": "<0.3.1",
                 "fof/forum-statistics-widget": "<0.4.0",
                 "fof/gamification": "<0.4.0",
+                "fof/moderator-notes": "<0.4.1",
                 "fof/nightmode": "<0.7.0",
                 "fof/pages": "<0.6.0",
                 "fof/reactions": "<0.5.0",
@@ -1542,7 +1539,7 @@
                 "indonesian-language",
                 "translation"
             ],
-            "time": "2021-01-25T13:08:32+00:00"
+            "time": "2021-01-26T10:14:31+00:00"
         },
         {
             "name": "rodymolenaar/flarum-ext-dutch",
