@@ -118,18 +118,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Kakifrucht/flarum-de.git",
-            "reference": "824e7494d49ffadd271234bf1d67b37e2e03f5b2"
+            "reference": "8ae6a8da29e359c9099f11d8be9c6cde46cd1214"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/824e7494d49ffadd271234bf1d67b37e2e03f5b2",
-            "reference": "824e7494d49ffadd271234bf1d67b37e2e03f5b2",
+            "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/8ae6a8da29e359c9099f11d8be9c6cde46cd1214",
+            "reference": "8ae6a8da29e359c9099f11d8be9c6cde46cd1214",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.15"
         },
-        "time": "2021-01-28T01:50:27+00:00",
+        "time": "2021-02-02T06:34:08+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -151,6 +151,13 @@
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabian Prieto Wunderlich",
+                "email": "prieto@wunderlich.pw",
+                "role": "Translator"
+            }
         ],
         "description": "German language pack for Flarum and its bundled extensions.",
         "homepage": "https://github.com/Kakifrucht/flarum-de",
@@ -1524,12 +1531,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-            "reference": "835020d390b11bd73ebd3fe3d91e84a29e7b8cf0"
+            "reference": "81f125e8b6b985300be8cc1a05aa244c31bee650"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/835020d390b11bd73ebd3fe3d91e84a29e7b8cf0",
-            "reference": "835020d390b11bd73ebd3fe3d91e84a29e7b8cf0",
+            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/81f125e8b6b985300be8cc1a05aa244c31bee650",
+            "reference": "81f125e8b6b985300be8cc1a05aa244c31bee650",
             "shasum": ""
         },
         "require": {
@@ -1555,7 +1562,7 @@
             "fof/upload": "<0.11",
             "fof/username-request": "<0.4.1"
         },
-        "time": "2021-01-26T10:14:31+00:00",
+        "time": "2021-01-30T10:40:47+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
