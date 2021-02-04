@@ -120,12 +120,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kakifrucht/flarum-de.git",
-                "reference": "8ae6a8da29e359c9099f11d8be9c6cde46cd1214"
+                "reference": "a51c8ae17023e475c4e6b1bb0753d5c84f52f92b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/8ae6a8da29e359c9099f11d8be9c6cde46cd1214",
-                "reference": "8ae6a8da29e359c9099f11d8be9c6cde46cd1214",
+                "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/a51c8ae17023e475c4e6b1bb0753d5c84f52f92b",
+                "reference": "a51c8ae17023e475c4e6b1bb0753d5c84f52f92b",
                 "shasum": ""
             },
             "require": {
@@ -165,7 +165,7 @@
                 "locale"
             ],
             "abandoned": "kakifrucht/flarum-de",
-            "time": "2021-02-02T06:34:08+00:00"
+            "time": "2021-02-03T05:35:57+00:00"
         },
         {
             "name": "comocozy/flarum-ext-korean",
@@ -1481,12 +1481,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "81f125e8b6b985300be8cc1a05aa244c31bee650"
+                "reference": "1b6ee7ef378cb14ddfcfd4ade56d9bd74e930f8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/81f125e8b6b985300be8cc1a05aa244c31bee650",
-                "reference": "81f125e8b6b985300be8cc1a05aa244c31bee650",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/1b6ee7ef378cb14ddfcfd4ade56d9bd74e930f8b",
+                "reference": "1b6ee7ef378cb14ddfcfd4ade56d9bd74e930f8b",
                 "shasum": ""
             },
             "require": {
@@ -1546,7 +1546,7 @@
                 "indonesian-language",
                 "translation"
             ],
-            "time": "2021-01-30T10:40:47+00:00"
+            "time": "2021-02-03T12:22:08+00:00"
         },
         {
             "name": "rodymolenaar/flarum-ext-dutch",
