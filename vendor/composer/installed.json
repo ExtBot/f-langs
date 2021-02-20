@@ -1148,18 +1148,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/qiaeru/lang-french.git",
-            "reference": "2941755693a4155a904bf4626dcab1b475c826da"
+            "reference": "9296eb08442be9c7b388c90faf5b819f84c20ba4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/2941755693a4155a904bf4626dcab1b475c826da",
-            "reference": "2941755693a4155a904bf4626dcab1b475c826da",
+            "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/9296eb08442be9c7b388c90faf5b819f84c20ba4",
+            "reference": "9296eb08442be9c7b388c90faf5b819f84c20ba4",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.15"
         },
-        "time": "2021-02-16T22:12:12+00:00",
+        "time": "2021-02-19T19:51:13+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
