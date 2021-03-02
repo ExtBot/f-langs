@@ -1325,12 +1325,12 @@
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/tinaira/flarum-ext-albania.git",
+            "url": "https://github.com/hedho/flarum-ext-albania.git",
             "reference": "c5c14f960d8b78855e5e2ba166fbe443adce5881"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/tinaira/flarum-ext-albania/zipball/c5c14f960d8b78855e5e2ba166fbe443adce5881",
+            "url": "https://api.github.com/repos/hedho/flarum-ext-albania/zipball/c5c14f960d8b78855e5e2ba166fbe443adce5881",
             "reference": "c5c14f960d8b78855e5e2ba166fbe443adce5881",
             "shasum": ""
         },
