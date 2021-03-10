@@ -55,7 +55,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/best-answer](https://github.com/FriendsOfFlarum/best-answer) v0.3.5
 - [fof/byobu](https://github.com/friendsofflarum/byobu) v0.6.1
 - [fof/custom-footer](https://github.com/friendsofflarum/custom-footer) v0.3.0
-- [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.3.2
+- [fof/discussion-language](https://github.com/FriendsOfFlarum/discussion-language) v0.3.3
 - [fof/doorman](https://github.com/FriendsOfFlarum/doorman) v0.3.0
 - [fof/drafts](https://github.com/FriendsOfFlarum/drafts) v0.3.2
 - [fof/filter](https://github.com/FriendsOfFlarum/filter) v0.3.2
@@ -66,7 +66,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/linguist](https://github.com/FriendsOfFlarum/linguist) v0.5.0
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.7
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.5.1
-- [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v0.4.3
+- [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v0.4.4
 - [fof/nightmode](https://github.com/friendsofflarum/nightmode) v0.7.1
 - [fof/pages](https://github.com/friendsofflarum/pages) v0.6.0
 - [fof/polls](https://github.com/friendsofflarum/polls) v0.3.2
@@ -80,7 +80,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/subscribed](https://github.com/friendsofflarum/subscribed) v0.4.1
 - [fof/upload](https://github.com/friendsofflarum/upload) v0.12.10
 - [fof/user-bio](https://github.com/friendsofflarum/user-bio) v0.4.2
-- [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.5.0
+- [fof/user-directory](https://github.com/friendsofflarum/user-directory) v0.5.3
 - [fof/username-request](https://github.com/friendsofflarum/username-request) v0.4.2
 - [jslirola/flarum-ext-login2seeplus](https://github.com/jslirola/flarum-ext-login2seeplus) v0.1.7
 - [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.3.3
