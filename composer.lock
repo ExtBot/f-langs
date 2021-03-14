@@ -1224,7 +1224,7 @@
         },
         {
             "name": "nearata/lang-italian",
-            "version": "dev-master",
+            "version": "v0.1.0-beta.15.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nearata/lang-italian.git",
@@ -1481,12 +1481,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "997062bb42c7f44e043fab7884b20a2a2be185cb"
+                "reference": "2a78e7cc7c5ca8f76d76228734f11753a04cbca7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/997062bb42c7f44e043fab7884b20a2a2be185cb",
-                "reference": "997062bb42c7f44e043fab7884b20a2a2be185cb",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/2a78e7cc7c5ca8f76d76228734f11753a04cbca7",
+                "reference": "2a78e7cc7c5ca8f76d76228734f11753a04cbca7",
                 "shasum": ""
             },
             "require": {
@@ -1547,7 +1547,7 @@
                 "indonesian-language",
                 "translation"
             ],
-            "time": "2021-03-07T12:54:43+00:00"
+            "time": "2021-03-12T15:08:37+00:00"
         },
         {
             "name": "rodymolenaar/flarum-ext-dutch",

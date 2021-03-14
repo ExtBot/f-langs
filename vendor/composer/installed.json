@@ -1263,8 +1263,8 @@
     },
     {
         "name": "nearata/lang-italian",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
+        "version": "v0.1.0-beta.15.2",
+        "version_normalized": "0.1.0.0-beta15.2",
         "source": {
             "type": "git",
             "url": "https://github.com/Nearata/lang-italian.git",
@@ -1301,7 +1301,7 @@
                 "title": "Italiano"
             }
         },
-        "installation-source": "source",
+        "installation-source": "dist",
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
@@ -1531,12 +1531,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-            "reference": "997062bb42c7f44e043fab7884b20a2a2be185cb"
+            "reference": "2a78e7cc7c5ca8f76d76228734f11753a04cbca7"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/997062bb42c7f44e043fab7884b20a2a2be185cb",
-            "reference": "997062bb42c7f44e043fab7884b20a2a2be185cb",
+            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/2a78e7cc7c5ca8f76d76228734f11753a04cbca7",
+            "reference": "2a78e7cc7c5ca8f76d76228734f11753a04cbca7",
             "shasum": ""
         },
         "require": {
@@ -1563,7 +1563,7 @@
             "fof/upload": "<0.11",
             "fof/username-request": "<0.4.1"
         },
-        "time": "2021-03-07T12:54:43+00:00",
+        "time": "2021-03-12T15:08:37+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
