@@ -1112,21 +1112,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/qiaeru/lang-french.git",
-                "reference": "02dca7b7a51452fea61858975ce59d022364d48a"
+                "reference": "8bc616cd50647a76e4b82e5c10d5d10090bedc18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/02dca7b7a51452fea61858975ce59d022364d48a",
-                "reference": "02dca7b7a51452fea61858975ce59d022364d48a",
+                "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/8bc616cd50647a76e4b82e5c10d5d10090bedc18",
+                "reference": "8bc616cd50647a76e4b82e5c10d5d10090bedc18",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.15"
+                "flarum/core": "^0.1.0-beta.16"
             },
             "type": "flarum-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9.x-dev"
+                    "dev-master": "1.10.x-dev"
                 },
                 "flarum-extension": {
                     "title": "French",
@@ -1167,7 +1167,7 @@
                 "translation"
             ],
             "abandoned": "qiaeru/lang-french",
-            "time": "2021-03-06T10:20:11+00:00"
+            "time": "2021-03-15T20:40:12+00:00"
         },
         {
             "name": "naga0ka/flarum-ext-japanese",
@@ -1224,20 +1224,20 @@
         },
         {
             "name": "nearata/lang-italian",
-            "version": "v0.1.0-beta.15.2",
+            "version": "v0.1.0-beta.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nearata/lang-italian.git",
-                "reference": "b94f5170db8110485e4b34978217125276ed1176"
+                "reference": "bd48f8f5cafde5af0a000f891c36b186c682fff7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/b94f5170db8110485e4b34978217125276ed1176",
-                "reference": "b94f5170db8110485e4b34978217125276ed1176",
+                "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/bd48f8f5cafde5af0a000f891c36b186c682fff7",
+                "reference": "bd48f8f5cafde5af0a000f891c36b186c682fff7",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.15"
+                "flarum/core": "^0.1.0-beta.16"
             },
             "type": "flarum-extension",
             "extra": {
@@ -1276,7 +1276,7 @@
                 "italian",
                 "locale"
             ],
-            "time": "2021-03-05T20:58:11+00:00"
+            "time": "2021-03-15T21:37:51+00:00"
         },
         {
             "name": "nit/flarum-ext-albania",
