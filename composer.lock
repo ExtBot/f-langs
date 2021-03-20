@@ -1481,18 +1481,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "270236eaa60184a9c00b482d868eace6094034d3"
+                "reference": "c76e8a77e3bbaf27014862fdc47965693149d5e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/270236eaa60184a9c00b482d868eace6094034d3",
-                "reference": "270236eaa60184a9c00b482d868eace6094034d3",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/c76e8a77e3bbaf27014862fdc47965693149d5e4",
+                "reference": "c76e8a77e3bbaf27014862fdc47965693149d5e4",
                 "shasum": ""
             },
             "require": {
                 "flarum/core": "^0.1.0-beta.15"
             },
             "conflict": {
+                "clarkwinkelmann/flarum-ext-first-post-approval": "<0.1.4",
                 "clarkwinkelmann/flarum-ext-follow-tags-prompt": "<0.2.0",
                 "clarkwinkelmann/flarum-ext-passwordless": "<1.2.0",
                 "clarkwinkelmann/flarum-ext-see-past-first-post": "<1.1.0",
@@ -1547,7 +1548,7 @@
                 "indonesian-language",
                 "translation"
             ],
-            "time": "2021-03-17T18:55:59+00:00"
+            "time": "2021-03-19T19:20:53+00:00"
         },
         {
             "name": "rodymolenaar/flarum-ext-dutch",
