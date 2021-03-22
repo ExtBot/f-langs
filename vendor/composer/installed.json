@@ -591,7 +591,8 @@
         "description": "Spanish language pack.",
         "keywords": [
             "locale"
-        ]
+        ],
+        "abandoned": "flarumes/lang-spanish"
     },
     {
         "name": "heidar/flarum-ext-swedish",
@@ -1148,18 +1149,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/qiaeru/lang-french.git",
-            "reference": "8bc616cd50647a76e4b82e5c10d5d10090bedc18"
+            "reference": "aedcbc9fdae5613404ec19c13f7cb6170ab72224"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/8bc616cd50647a76e4b82e5c10d5d10090bedc18",
-            "reference": "8bc616cd50647a76e4b82e5c10d5d10090bedc18",
+            "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/aedcbc9fdae5613404ec19c13f7cb6170ab72224",
+            "reference": "aedcbc9fdae5613404ec19c13f7cb6170ab72224",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.16"
         },
-        "time": "2021-03-15T20:40:12+00:00",
+        "time": "2021-03-21T11:10:11+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
