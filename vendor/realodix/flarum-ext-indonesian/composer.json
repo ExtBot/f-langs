@@ -22,12 +22,13 @@
     "docs": "https://discuss.flarum.org/d/1358-indonesian-language-pack"
   },
   "require": {
-    "flarum/core": "^0.1.0-beta.15"
+    "flarum/core": "^0.1.0-beta.16"
   },
   "conflict": {
     "clarkwinkelmann/flarum-ext-first-post-approval": "<0.1.4",
     "clarkwinkelmann/flarum-ext-follow-tags-prompt": "<0.2.0",
     "clarkwinkelmann/flarum-ext-passwordless": "<1.2.0",
+    "clarkwinkelmann/flarum-ext-popular-discussion-badge": "<0.2.3",
     "clarkwinkelmann/flarum-ext-see-past-first-post": "<1.1.0",
     "fof/analytics": "<0.11.0",
     "fof/byobu": "<0.6.0",
@@ -43,8 +44,10 @@
     "fof/pages": "<0.6.0",
     "fof/reactions": "<0.5.0",
     "fof/secure-https": "<0.3.0",
+    "fof/upload": "<0.11",
     "fof/username-request": "<0.4.1",
-    "fof/upload": "<0.11"
+    "jslirola/flarum-ext-login2seeplus": "<0.1.9",
+    "michaelbelgium/mybb-to-flarum": "<7.0"
   },
   "extra": {
     "flarum-extension": {
