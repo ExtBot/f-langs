@@ -31,10 +31,10 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [askvortsov/flarum-trust-levels](https://github.com/askvortsov/flarum-trust-levels) v0.1.2
 - [askvortsov1/flarum-categories](https://github.com/askvortsov1/flarum-categories) v1.1.0
 - [askvortsov1/flarum-moderator-warnings](https://github.com/askvortsov1/flarum-moderator-warnings) v0.3.0
-- [clarkwinkelmann/flarum-ext-bookmarks](https://github.com/clarkwinkelmann/flarum-ext-bookmarks) v0.1.1
+- [clarkwinkelmann/flarum-ext-bookmarks](https://github.com/clarkwinkelmann/flarum-ext-bookmarks) v0.1.3
 - [clarkwinkelmann/flarum-ext-colorful-borders](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders) v0.1.0
 - [clarkwinkelmann/flarum-ext-create-user-modal](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal) v1.2.1  
-- [clarkwinkelmann/flarum-ext-emojionearea](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) v0.3.0
+- [clarkwinkelmann/flarum-ext-emojionearea](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) v0.3.1
 - [clarkwinkelmann/flarum-ext-first-post-approval](https://github.com/clarkwinkelmann/flarum-ext-first-post-approval) v0.1.4 
 - [clarkwinkelmann/flarum-ext-follow-tags-prompt](https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt) v0.2.1
 - [clarkwinkelmann/flarum-ext-group-invitation](https://github.com/clarkwinkelmann/flarum-ext-group-invitation) v0.1.2
@@ -46,7 +46,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [clarkwinkelmann/flarum-ext-silent-mailchimp](https://github.com/clarkwinkelmann/flarum-ext-silent-mailchimp) v1.0.0
 - [clarkwinkelmann/flarum-ext-status](https://github.com/clarkwinkelmann/flarum-ext-status) v0.1.1
 - [clarkwinkelmann/flarum-ext-watch-search](https://github.com/clarkwinkelmann/flarum-ext-watch-search) dev-master
-- [clarkwinkelmann/flarum-ext-who-read](https://github.com/askvortsov1/flarum-categories) v1.2.1
+- [clarkwinkelmann/flarum-ext-who-read](https://github.com/askvortsov1/flarum-categories) v1.3.0
 - [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.8.2
 - [extiverse/bazaar](https://github.com/extiverse/bazaar) v0.4.1
 - [flagrow/users-list](https://github.com/flagrow/users-list) v0.1.2
@@ -63,7 +63,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [fof/forum-statistics-widget](https://github.com/FriendsOfFlarum/forum-statistics-widget) v0.6.0
 - [fof/gamification](https://github.com/friendsofflarum/gamification) v0.4.3
 - [fof/impersonate](https://github.com/FriendsOfFlarum/impersonate) v0.8.0
-- [fof/linguist](https://github.com/FriendsOfFlarum/linguist) v0.5.0
+- [fof/linguist](https://github.com/FriendsOfFlarum/linguist) v0.6.0
 - [fof/masquerade](https://github.com/friendsofflarum/masquerade) v0.3.7
 - [fof/merge-discussions](https://github.com/friendsofflarum/merge-discussions) v0.5.1
 - [fof/moderator-notes](https://github.com/FriendsOfFlarum/moderator-notes) v0.5.0
@@ -85,7 +85,7 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [jslirola/flarum-ext-login2seeplus](https://github.com/jslirola/flarum-ext-login2seeplus) v0.1.9
 - [KyrneDev/Shout-public](https://github.com/KyrneDev/Shout-public) v0.3.3
 - [michaelbelgium/flarum-discussion-views](https://github.com/michaelbelgium/flarum-discussion-views) v6.0.0
-- [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v4.0.0
+- [michaelbelgium/flarum-profile-views](https://github.com/michaelbelgium/flarum-profile-views) v5.0.0
 - [michaelbelgium/mybb_to_flarum](https://github.com/michaelbelgium/mybb_to_flarum) v7.0
 - [oaklinq/flarum-ext-reply2see](https://github.com/oaklinq/flarum-ext-reply2see) v0.1.2
 - [reflar/level-ranks](https://github.com/reflar/level-ranks) v1.2.3

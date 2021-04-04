@@ -1149,18 +1149,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/qiaeru/lang-french.git",
-            "reference": "aedcbc9fdae5613404ec19c13f7cb6170ab72224"
+            "reference": "bd0d01dc8fedbb04d8184b9ce9c892e874151a0a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/aedcbc9fdae5613404ec19c13f7cb6170ab72224",
-            "reference": "aedcbc9fdae5613404ec19c13f7cb6170ab72224",
+            "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/bd0d01dc8fedbb04d8184b9ce9c892e874151a0a",
+            "reference": "bd0d01dc8fedbb04d8184b9ce9c892e874151a0a",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.16"
         },
-        "time": "2021-03-21T11:10:11+00:00",
+        "time": "2021-03-28T13:50:13+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1532,23 +1532,26 @@
         "source": {
             "type": "git",
             "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-            "reference": "5ac99058fa7b4ab4392f9040db6319940fa43a14"
+            "reference": "ac105fdc4b7c3f6259af0bcf731d8295013d9f26"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/5ac99058fa7b4ab4392f9040db6319940fa43a14",
-            "reference": "5ac99058fa7b4ab4392f9040db6319940fa43a14",
+            "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/ac105fdc4b7c3f6259af0bcf731d8295013d9f26",
+            "reference": "ac105fdc4b7c3f6259af0bcf731d8295013d9f26",
             "shasum": ""
         },
         "require": {
             "flarum/core": "^0.1.0-beta.16"
         },
         "conflict": {
+            "clarkwinkelmann/flarum-ext-bookmarks": "<0.1.3",
+            "clarkwinkelmann/flarum-ext-emojionearea": "<0.3.1",
             "clarkwinkelmann/flarum-ext-first-post-approval": "<0.1.4",
             "clarkwinkelmann/flarum-ext-follow-tags-prompt": "<0.2.0",
             "clarkwinkelmann/flarum-ext-passwordless": "<1.2.0",
             "clarkwinkelmann/flarum-ext-popular-discussion-badge": "<0.2.3",
             "clarkwinkelmann/flarum-ext-see-past-first-post": "<1.1.0",
+            "clarkwinkelmann/flarum-ext-who-read": "<1.3.0",
             "fof/analytics": "<0.11.0",
             "fof/byobu": "<0.6.0",
             "fof/custom-footer": "<0.3.0",
@@ -1557,6 +1560,7 @@
             "fof/formatting": "<0.3.1",
             "fof/forum-statistics-widget": "<0.4.0",
             "fof/gamification": "<0.4.0",
+            "fof/linguist": "<0.6.0",
             "fof/masquerade": "<0.3.7",
             "fof/moderator-notes": "<0.4.1",
             "fof/nightmode": "<0.7.0",
@@ -1566,9 +1570,10 @@
             "fof/upload": "<0.11",
             "fof/username-request": "<0.4.1",
             "jslirola/flarum-ext-login2seeplus": "<0.1.9",
+            "michaelbelgium/flarum-profile-views": "<5.0.0",
             "michaelbelgium/mybb-to-flarum": "<7.0"
         },
-        "time": "2021-03-24T19:46:23+00:00",
+        "time": "2021-03-28T10:59:15+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
