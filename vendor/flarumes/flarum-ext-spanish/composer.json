@@ -1,13 +1,15 @@
 {
-    "name": "flarumes/flarum-ext-spanish",
+    "name": "flarumes/lang-spanish",
     "type": "flarum-extension",
-    "description": "Spanish language pack.",
+    "homepage": "https://github.com/FlarumES/Spanish",
+    "description": "Paquete de idioma español para Flarum y sus extensiones",
     "keywords": ["locale"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Johann Rodríguez",
-            "email": "johann@flarum.es"
+            "name": "FlarumES",
+            "email": "FlarumES@gmail.com",
+            "homepage": "https://FlarumES.com"
         }
     ],
     "support": {
@@ -15,24 +17,29 @@
         "source": "https://github.com/FlarumES/Spanish"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.8"
+        "flarum/core": "^0.1.0-beta.16"
     },
     "extra": {
         "branch-alias": {
             "dev-master": "0.1.x-dev"
-        },
+    },
         "flarum-extension": {
-            "title": "Spanish",
+            "title": "Español",
+            "category": "language",
+            "info": {
+                "website": "https://FlarumES.com",
+                "support": "https://github.com/FlarumES/Spanish/issues"
+            },
             "icon": {
                 "image": "icon.svg",
-                "backgroundColor": "#AD1519",
+                "backgroundColor": "#fff",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }
         },
         "flarum-locale": {
             "code": "es",
-            "title": "Spanish"
+            "title": "Español"
         }
     }
 }

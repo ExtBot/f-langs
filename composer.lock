@@ -23,6 +23,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.8"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -58,6 +59,11 @@
                 "flarum",
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/ahrasis/bahasa-melayu/issues",
+                "site": "https://flarum.sch.my",
+                "source": "https://github.com/ahrasis/bahasa-melayu"
+            },
             "time": "2019-01-14T04:23:16+00:00"
         },
         {
@@ -112,6 +118,11 @@
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "forum": "https://www.bmain.ro",
+                "issues": "https://github.com/bmalex88/flarum-ext-romanian/issues",
+                "source": "https://github.com/bmalex88/flarum-ext-romanian"
+            },
             "time": "2017-07-21T16:22:10+00:00"
         },
         {
@@ -131,6 +142,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.15"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -164,12 +176,17 @@
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/2648",
+                "issues": "https://github.com/Kakifrucht/flarum-de/issues",
+                "source": "https://github.com/Kakifrucht/flarum-de"
+            },
             "abandoned": "kakifrucht/flarum-de",
             "time": "2021-02-27T00:44:52+00:00"
         },
         {
             "name": "comocozy/flarum-ext-korean",
-            "version": "dev-master",
+            "version": "v1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Comocozy/flarum-ext-korean.git",
@@ -218,6 +235,10 @@
                 "flarum",
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/Comocozy/flarum-ext-korean/issues",
+                "source": "https://github.com/Comocozy/flarum-ext-korean"
+            },
             "time": "2017-05-29T05:36:24+00:00"
         },
         {
@@ -271,6 +292,10 @@
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "issues": "https://vivaldi.club/t/flarum",
+                "source": "https://github.com/Csineneo/flarum-ext-traditional-chinese.git"
+            },
             "abandoned": "csineneo/lang-traditional-chinese",
             "time": "2018-04-25T15:35:16+00:00"
         },
@@ -291,6 +316,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.15"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "branch-alias": {
@@ -334,6 +360,11 @@
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/2614-ukrainian-language-pack",
+                "issues": "https://github.com/eikoninaru/flarum-ext-ukrainian/issues",
+                "source": "https://github.com/eikoninaru/flarum-ext-ukrainian/tree/master"
+            },
             "time": "2021-01-17T10:25:14+00:00"
         },
         {
@@ -353,6 +384,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.7"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -377,6 +409,10 @@
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/hichem2h/flarum-ext-arabic/issues",
+                "source": "https://github.com/hichem2h/flarum-ext-arabic/tree/master"
+            },
             "time": "2018-04-11T19:58:44+00:00"
         },
         {
@@ -396,6 +432,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.7"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -426,6 +463,10 @@
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/enverarslan/flarum-ext-turkish/issues",
+                "source": "https://github.com/enverarslan/flarum-ext-turkish/tree/master"
+            },
             "abandoned": "tolgaaaltas/flarum-lang-turkish",
             "time": "2017-12-25T20:57:16+00:00"
         },
@@ -446,6 +487,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.10"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -477,6 +519,10 @@
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/itayganor/flabrew/issues",
+                "source": "https://github.com/itayganor/flabrew/tree/master"
+            },
             "time": "2020-02-20T17:55:34+00:00"
         },
         {
@@ -523,43 +569,52 @@
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "source": "https://github.com/flarum/lang-english/tree/master"
+            },
             "abandoned": "flarum/lang-english",
             "time": "2018-12-15T10:57:05+00:00"
         },
         {
             "name": "flarumes/flarum-ext-spanish",
-            "version": "dev-master",
+            "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/FlarumES/Spanish.git",
-                "reference": "8969bee37a8f82080e94c48b883f6520820fde80"
+                "url": "https://github.com/FlarumES/lang-spanish.git",
+                "reference": "709ad219a544e821a9796100e8b28963f44377ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlarumES/Spanish/zipball/8969bee37a8f82080e94c48b883f6520820fde80",
-                "reference": "8969bee37a8f82080e94c48b883f6520820fde80",
+                "url": "https://api.github.com/repos/FlarumES/lang-spanish/zipball/709ad219a544e821a9796100e8b28963f44377ae",
+                "reference": "709ad219a544e821a9796100e8b28963f44377ae",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.8"
+                "flarum/core": "^0.1.0-beta.16"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "branch-alias": {
                     "dev-master": "0.1.x-dev"
                 },
                 "flarum-extension": {
-                    "title": "Spanish",
+                    "title": "Español",
+                    "category": "language",
+                    "info": {
+                        "website": "https://FlarumES.com",
+                        "support": "https://github.com/FlarumES/Spanish/issues"
+                    },
                     "icon": {
                         "image": "icon.svg",
-                        "backgroundColor": "#AD1519",
+                        "backgroundColor": "#fff",
                         "backgroundSize": "cover",
                         "backgroundPosition": "center"
                     }
                 },
                 "flarum-locale": {
                     "code": "es",
-                    "title": "Spanish"
+                    "title": "Español"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -568,16 +623,22 @@
             ],
             "authors": [
                 {
-                    "name": "Johann Rodríguez",
-                    "email": "johann@flarum.es"
+                    "name": "FlarumES",
+                    "email": "FlarumES@gmail.com",
+                    "homepage": "https://FlarumES.com"
                 }
             ],
-            "description": "Spanish language pack.",
+            "description": "Paquete de idioma español para Flarum y sus extensiones",
+            "homepage": "https://github.com/FlarumES/Spanish",
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/FlarumES/Spanish/issues",
+                "source": "https://github.com/FlarumES/Spanish"
+            },
             "abandoned": "flarumes/lang-spanish",
-            "time": "2018-12-06T16:05:40+00:00"
+            "time": "2021-03-20T20:55:05+00:00"
         },
         {
             "name": "heidar/flarum-ext-swedish",
@@ -596,6 +657,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.7"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "branch-alias": {
@@ -629,6 +691,10 @@
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/heidarKadkhoda/flarum-ext-swedish/issues",
+                "source": "https://github.com/heidarKadkhoda/flarum-ext-swedish"
+            },
             "time": "2017-07-23T22:23:46+00:00"
         },
         {
@@ -648,6 +714,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.7"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -678,6 +745,10 @@
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/Flarum-Chinese/flarum-ext-simplified-chinese/issues",
+                "source": "https://github.com/jsthon/flarum-ext-simplified-chinese"
+            },
             "time": "2018-01-26T08:27:22+00:00"
         },
         {
@@ -697,6 +768,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.7"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -724,6 +796,10 @@
                 "flarum",
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/jubayed/flarum-ext-bengali/issues",
+                "source": "https://github.com/jubayed/flarum-ext-bengali/tree/master"
+            },
             "time": "2018-10-30T13:05:43+00:00"
         },
         {
@@ -743,6 +819,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.4"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -784,6 +861,10 @@
                 "portuguese",
                 "translation"
             ],
+            "support": {
+                "issues": "https://github.com/kassius/flarum-brazilian-portuguese/issues",
+                "source": "https://github.com/kassius/flarum-brazilian-portuguese"
+            },
             "time": "2016-01-14T22:18:11+00:00"
         },
         {
@@ -803,6 +884,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.7"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "branch-alias": {
@@ -840,6 +922,10 @@
                 "locale",
                 "translation"
             ],
+            "support": {
+                "issues": "https://github.com/kryonoglou/flarum-ext-greek/issues",
+                "source": "https://github.com/kryonoglou/flarum-ext-greek/tree/0.2"
+            },
             "time": "2018-09-20T22:12:14+00:00"
         },
         {
@@ -859,6 +945,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.4"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -890,20 +977,24 @@
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/laptrinhphp/flarum-ext-vietnamese/issues",
+                "source": "https://github.com/laptrinhphp/flarum-ext-vietnamese/tree/master"
+            },
             "time": "2016-02-02T14:50:43+00:00"
         },
         {
             "name": "lilcode/flarum-ext-estonian",
-            "version": "dev-master",
+            "version": "v1.6.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rxnniiee/flarum-ext-estonian.git",
-                "reference": "db03e3aa456e7f30b191319a070f1e904b83b123"
+                "reference": "b8c06e731853103db0e4603876c4293bd296f4e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rxnniiee/flarum-ext-estonian/zipball/db03e3aa456e7f30b191319a070f1e904b83b123",
-                "reference": "db03e3aa456e7f30b191319a070f1e904b83b123",
+                "url": "https://api.github.com/repos/rxnniiee/flarum-ext-estonian/zipball/b8c06e731853103db0e4603876c4293bd296f4e5",
+                "reference": "b8c06e731853103db0e4603876c4293bd296f4e5",
                 "shasum": ""
             },
             "require": {
@@ -933,14 +1024,18 @@
                 "MIT"
             ],
             "description": "Estonian language pack.",
-            "homepage": "https://github.com/rxnniiee/flarum-ext-estonian",
+            "homepage": "https://github.com/lilcode/flarum-ext-estonian",
             "keywords": [
                 "language",
                 "locale",
                 "multilanguage"
             ],
+            "support": {
+                "issues": "https://github.com/lilcode/flarum-ext-estonian/issues",
+                "source": "https://github.com/lilcode/flarum-ext-estonian"
+            },
             "abandoned": "flarum-ext-estonian",
-            "time": "2019-02-26T15:01:44+00:00"
+            "time": "2017-12-08T07:51:45+00:00"
         },
         {
             "name": "lukaszflorczak/flarum-ext-polish",
@@ -992,6 +1087,10 @@
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/lukaszflorczak/flarum-ext-polish/issues",
+                "source": "https://github.com/lukaszflorczak/flarum-ext-polish"
+            },
             "time": "2017-01-31T18:32:10+00:00"
         },
         {
@@ -1011,6 +1110,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.8"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -1044,6 +1144,10 @@
                 "hungarian",
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/manaszon/flarum-ext-hungarian/issues",
+                "source": "https://github.com/manaszon/flarum-ext-hungarian"
+            },
             "time": "2020-04-12T20:00:19+00:00"
         },
         {
@@ -1104,6 +1208,13 @@
                 "russian",
                 "translation"
             ],
+            "support": {
+                "email": "support@metastore.pro",
+                "forum": "https://webmasters.community/",
+                "issues": "https://gitlab.com/metastore/flarum/flarum-l10n-forum/issues",
+                "source": "https://gitlab.com/metastore/flarum/flarum-l10n-forum",
+                "wiki": "https://flarum.webmasters.wiki/"
+            },
             "abandoned": "marketplace/flarum-l10n-core-russian",
             "time": "2018-12-13T21:05:26+00:00"
         },
@@ -1124,6 +1235,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.16"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "branch-alias": {
@@ -1167,12 +1279,16 @@
                 "locale",
                 "translation"
             ],
+            "support": {
+                "issues": "https://github.com/qiaeru/lang-french/issues",
+                "source": "https://github.com/qiaeru/lang-french"
+            },
             "abandoned": "qiaeru/lang-french",
             "time": "2021-03-28T13:50:13+00:00"
         },
         {
             "name": "naga0ka/flarum-ext-japanese",
-            "version": "dev-master",
+            "version": "v1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/naga0ka/flarum-ext-japanese.git",
@@ -1221,11 +1337,15 @@
                 "flarum",
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/naga0ka/flarum-ext-japanese/issues",
+                "source": "https://github.com/naga0ka/flarum-ext-japanese"
+            },
             "time": "2018-02-08T01:37:33+00:00"
         },
         {
             "name": "nearata/lang-italian",
-            "version": "v0.1.0-beta.16",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nearata/lang-italian.git",
@@ -1240,6 +1360,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.16"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -1277,6 +1398,11 @@
                 "italian",
                 "locale"
             ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/5160",
+                "issues": "https://github.com/Nearata/lang-italian/issues",
+                "source": "https://github.com/Nearata/lang-italian"
+            },
             "time": "2021-03-15T21:37:51+00:00"
         },
         {
@@ -1296,6 +1422,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.8"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "branch-alias": {
@@ -1323,6 +1450,10 @@
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/tinaira/flarum-ext-albania/issues",
+                "source": "https://github.com/tinaira/flarum-ext-albania/tree/master"
+            },
             "time": "2018-04-21T18:12:10+00:00"
         },
         {
@@ -1342,6 +1473,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.7"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -1377,6 +1509,10 @@
                 "locale",
                 "translation"
             ],
+            "support": {
+                "issues": "https://github.com/nlssn/flarum-ext-swedish/issues",
+                "source": "https://github.com/nlssn/flarum-ext-swedish"
+            },
             "abandoned": "https://github.com/taddis/flarum-extensions-swedish",
             "time": "2019-03-24T17:05:56+00:00"
         },
@@ -1397,6 +1533,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.9"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -1426,6 +1563,10 @@
                 "no",
                 "norwegian"
             ],
+            "support": {
+                "issues": "https://github.com/pladask/flarum-ext-norwegian-bokmal/issues",
+                "source": "https://github.com/pladask/flarum-ext-norwegian-bokmal/tree/master"
+            },
             "time": "2020-01-01T15:31:01+00:00"
         },
         {
@@ -1445,6 +1586,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.5"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -1474,6 +1616,10 @@
                 "norwegian",
                 "nynorsk"
             ],
+            "support": {
+                "issues": "https://github.com/pladask/flarum-ext-norwegian-nynorsk/issues",
+                "source": "https://github.com/pladask/flarum-ext-norwegian-nynorsk/tree/master"
+            },
             "time": "2016-05-09T11:19:48+00:00"
         },
         {
@@ -1523,6 +1669,7 @@
                 "michaelbelgium/flarum-profile-views": "<5.0.0",
                 "michaelbelgium/mybb-to-flarum": "<7.0"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -1557,6 +1704,11 @@
                 "indonesian-language",
                 "translation"
             ],
+            "support": {
+                "docs": "https://discuss.flarum.org/d/1358-indonesian-language-pack",
+                "issues": "https://github.com/realodix/flarum-ext-indonesian/issues",
+                "source": "https://github.com/realodix/flarum-ext-indonesian"
+            },
             "time": "2021-03-28T10:59:15+00:00"
         },
         {
@@ -1576,6 +1728,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.7"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -1608,11 +1761,16 @@
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/758-dutch-language-pack",
+                "issues": "https://github.com/rodymolenaar/flarum-ext-dutch/issues",
+                "source": "https://github.com/rodymolenaar/flarum-ext-dutch"
+            },
             "time": "2017-12-10T18:27:41+00:00"
         },
         {
             "name": "sijad/flarum-ext-persian",
-            "version": "dev-master",
+            "version": "v0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/persianfla/flarum-ext-persian.git",
@@ -1663,6 +1821,10 @@
                 "farsi",
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/persianfla/flarum-ext-persian/issues",
+                "source": "https://github.com/persianfla/flarum-ext-persian"
+            },
             "abandoned": "persianfla/flarum-ext-persian",
             "time": "2019-03-30T08:36:17+00:00"
         },
@@ -1683,6 +1845,7 @@
             "require": {
                 "flarum/core": "^0.1.0-beta.10"
             },
+            "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
@@ -1708,6 +1871,10 @@
             "keywords": [
                 "locale"
             ],
+            "support": {
+                "issues": "https://github.com/Veriael/flarum-pl/issues",
+                "source": "https://github.com/Veriael/flarum-pl/tree/v1.0.9.1"
+            },
             "time": "2019-09-30T12:09:47+00:00"
         }
     ],
@@ -1751,5 +1918,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
