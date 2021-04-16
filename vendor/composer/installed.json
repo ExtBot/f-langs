@@ -1707,12 +1707,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "ac105fdc4b7c3f6259af0bcf731d8295013d9f26"
+                "reference": "efa507f0398bc3a5a85e7552231087371e59f7fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/ac105fdc4b7c3f6259af0bcf731d8295013d9f26",
-                "reference": "ac105fdc4b7c3f6259af0bcf731d8295013d9f26",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/efa507f0398bc3a5a85e7552231087371e59f7fe",
+                "reference": "efa507f0398bc3a5a85e7552231087371e59f7fe",
                 "shasum": ""
             },
             "require": {
@@ -1743,12 +1743,13 @@
                 "fof/reactions": "<0.5.0",
                 "fof/secure-https": "<0.3.0",
                 "fof/upload": "<0.11",
+                "fof/user-directory": "<0.6.1",
                 "fof/username-request": "<0.4.1",
                 "jslirola/flarum-ext-login2seeplus": "<0.1.9",
                 "michaelbelgium/flarum-profile-views": "<5.0.0",
                 "michaelbelgium/mybb-to-flarum": "<7.0"
             },
-            "time": "2021-03-28T10:59:15+00:00",
+            "time": "2021-04-15T12:34:46+00:00",
             "default-branch": true,
             "type": "flarum-extension",
             "extra": {
