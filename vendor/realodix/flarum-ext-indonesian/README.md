@@ -37,14 +37,14 @@ Ketika Anda menginstall salah satu atau semua ekstensi yang ada pada daftar di b
 - [clarkwinkelmann/flarum-ext-emojionearea](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) v0.3.1
 - [clarkwinkelmann/flarum-ext-first-post-approval](https://github.com/clarkwinkelmann/flarum-ext-first-post-approval) v0.1.4 
 - [clarkwinkelmann/flarum-ext-follow-tags-prompt](https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt) v0.2.1
-- [clarkwinkelmann/flarum-ext-group-invitation](https://github.com/clarkwinkelmann/flarum-ext-group-invitation) v0.1.2
+- [clarkwinkelmann/flarum-ext-group-invitation](https://github.com/clarkwinkelmann/flarum-ext-group-invitation) v0.1.3
 - [clarkwinkelmann/flarum-ext-likes-received](https://github.com/clarkwinkelmann/flarum-ext-likes-received) v0.1.2
 - [clarkwinkelmann/flarum-ext-mailing](https://github.com/clarkwinkelmann/flarum-ext-mailing) v0.4.0
 - [clarkwinkelmann/flarum-ext-passwordless](https://github.com/clarkwinkelmann/flarum-ext-passwordless) v1.3.0
 - [clarkwinkelmann/flarum-ext-popular-discussion-badge](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) v0.2.3
 - [clarkwinkelmann/flarum-ext-see-past-first-post](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post) v1.1.0
 - [clarkwinkelmann/flarum-ext-silent-mailchimp](https://github.com/clarkwinkelmann/flarum-ext-silent-mailchimp) v1.0.0
-- [clarkwinkelmann/flarum-ext-status](https://github.com/clarkwinkelmann/flarum-ext-status) v0.1.1
+- [clarkwinkelmann/flarum-ext-status](https://github.com/clarkwinkelmann/flarum-ext-status) v0.1.2
 - [clarkwinkelmann/flarum-ext-watch-search](https://github.com/clarkwinkelmann/flarum-ext-watch-search) dev-master
 - [clarkwinkelmann/flarum-ext-who-read](https://github.com/askvortsov1/flarum-categories) v1.3.0
 - [datitisev/flarum-ext-dashboard](https://github.com/datitisev/flarum-ext-dashboard) v0.1.0-beta.8.2

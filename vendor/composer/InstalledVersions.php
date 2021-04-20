@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '72d69f7b8410fb6ab318e3129b5b713362580103',
+    'reference' => '147c81fe79604aa9848d8c994fdf262f70a0d11e',
     'name' => '__root__',
   ),
   'versions' => 
@@ -42,7 +42,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '72d69f7b8410fb6ab318e3129b5b713362580103',
+      'reference' => '147c81fe79604aa9848d8c994fdf262f70a0d11e',
     ),
     'ahrasis/flarum-ext-malaysian' => 
     array (
@@ -335,7 +335,7 @@ private static $installed = array (
       array (
         0 => '9999999-dev',
       ),
-      'reference' => 'efa507f0398bc3a5a85e7552231087371e59f7fe',
+      'reference' => '92e3544d719cd1422c100ea3f76221eb7db0e89b',
     ),
     'rodymolenaar/flarum-ext-dutch' => 
     array (

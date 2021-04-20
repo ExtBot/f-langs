@@ -1707,12 +1707,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "efa507f0398bc3a5a85e7552231087371e59f7fe"
+                "reference": "92e3544d719cd1422c100ea3f76221eb7db0e89b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/efa507f0398bc3a5a85e7552231087371e59f7fe",
-                "reference": "efa507f0398bc3a5a85e7552231087371e59f7fe",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/92e3544d719cd1422c100ea3f76221eb7db0e89b",
+                "reference": "92e3544d719cd1422c100ea3f76221eb7db0e89b",
                 "shasum": ""
             },
             "require": {
@@ -1723,9 +1723,11 @@
                 "clarkwinkelmann/flarum-ext-emojionearea": "<0.3.1",
                 "clarkwinkelmann/flarum-ext-first-post-approval": "<0.1.4",
                 "clarkwinkelmann/flarum-ext-follow-tags-prompt": "<0.2.0",
+                "clarkwinkelmann/flarum-ext-group-invitation": "<0.1.3",
                 "clarkwinkelmann/flarum-ext-passwordless": "<1.2.0",
                 "clarkwinkelmann/flarum-ext-popular-discussion-badge": "<0.2.3",
                 "clarkwinkelmann/flarum-ext-see-past-first-post": "<1.1.0",
+                "clarkwinkelmann/flarum-ext-status": "<0.1.2",
                 "clarkwinkelmann/flarum-ext-who-read": "<1.3.0",
                 "fof/analytics": "<0.11.0",
                 "fof/byobu": "<0.6.0",
@@ -1749,7 +1751,7 @@
                 "michaelbelgium/flarum-profile-views": "<5.0.0",
                 "michaelbelgium/mybb-to-flarum": "<7.0"
             },
-            "time": "2021-04-15T12:34:46+00:00",
+            "time": "2021-04-19T12:08:37+00:00",
             "default-branch": true,
             "type": "flarum-extension",
             "extra": {
