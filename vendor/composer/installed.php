@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '2455784cf781f5b2dd376ff4394f4f0bd9ad79df',
+    'reference' => 'b59973ca7dc85fbd8fb9ff539af12ff771721c44',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '2455784cf781f5b2dd376ff4394f4f0bd9ad79df',
+      'reference' => 'b59973ca7dc85fbd8fb9ff539af12ff771721c44',
     ),
     'ahrasis/flarum-ext-malaysian' => 
     array (
