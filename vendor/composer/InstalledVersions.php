@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '42fc5a6b749c5b722c78519f660a63a2ab342584',
+    'reference' => 'cb75aaa0b7da1f7d53af28438957e60cbe1d627a',
     'name' => '__root__',
   ),
   'versions' => 
@@ -42,7 +42,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '42fc5a6b749c5b722c78519f660a63a2ab342584',
+      'reference' => 'cb75aaa0b7da1f7d53af28438957e60cbe1d627a',
     ),
     'ahrasis/flarum-ext-malaysian' => 
     array (
