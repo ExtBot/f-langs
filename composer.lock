@@ -1224,12 +1224,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/qiaeru/lang-french.git",
-                "reference": "55f5ae25280e49f199e7489e1a794ea44e568585"
+                "reference": "0bcd3b6bcd64a62c9b2c0006193421a0fe0c1681"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/55f5ae25280e49f199e7489e1a794ea44e568585",
-                "reference": "55f5ae25280e49f199e7489e1a794ea44e568585",
+                "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/0bcd3b6bcd64a62c9b2c0006193421a0fe0c1681",
+                "reference": "0bcd3b6bcd64a62c9b2c0006193421a0fe0c1681",
                 "shasum": ""
             },
             "require": {
@@ -1284,7 +1284,7 @@
                 "source": "https://github.com/qiaeru/lang-french"
             },
             "abandoned": "qiaeru/lang-french",
-            "time": "2021-05-07T18:42:36+00:00"
+            "time": "2021-05-09T13:51:33+00:00"
         },
         {
             "name": "naga0ka/flarum-ext-japanese",
@@ -1628,12 +1628,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "00a77c6e8d4e46d0ad01fccbc479fe224fbb132c"
+                "reference": "51b7b48c6c2ae6bff47489c778d225968d36dc82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/00a77c6e8d4e46d0ad01fccbc479fe224fbb132c",
-                "reference": "00a77c6e8d4e46d0ad01fccbc479fe224fbb132c",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/51b7b48c6c2ae6bff47489c778d225968d36dc82",
+                "reference": "51b7b48c6c2ae6bff47489c778d225968d36dc82",
                 "shasum": ""
             },
             "require": {
@@ -1712,7 +1712,7 @@
                 "issues": "https://github.com/realodix/flarum-ext-indonesian/issues",
                 "source": "https://github.com/realodix/flarum-ext-indonesian"
             },
-            "time": "2021-05-03T00:58:17+00:00"
+            "time": "2021-05-08T14:07:25+00:00"
         },
         {
             "name": "rodymolenaar/flarum-ext-dutch",
