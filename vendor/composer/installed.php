@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'e8da7c1b32acc33bfdf66b9f8b976b38b8595a7a',
+    'reference' => 'd36213b94d8ece92cef8634aa41661fe1ae65745',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'e8da7c1b32acc33bfdf66b9f8b976b38b8595a7a',
+      'reference' => 'd36213b94d8ece92cef8634aa41661fe1ae65745',
     ),
     'ahrasis/flarum-ext-malaysian' => 
     array (
@@ -242,7 +242,7 @@
       array (
         0 => '1.10.x-dev',
       ),
-      'reference' => '0bcd3b6bcd64a62c9b2c0006193421a0fe0c1681',
+      'reference' => 'f75336949a189c7dedcbb2cbc3cfd873f45cf444',
     ),
     'naga0ka/flarum-ext-japanese' => 
     array (
