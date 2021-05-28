@@ -1282,23 +1282,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/qiaeru/lang-french.git",
-                "reference": "fd04d15a10bf0bce27ece82a9f75f4789c898f62"
+                "reference": "e901c86c7d3a89dd80a4104a3bccde632bb7a52c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/fd04d15a10bf0bce27ece82a9f75f4789c898f62",
-                "reference": "fd04d15a10bf0bce27ece82a9f75f4789c898f62",
+                "url": "https://api.github.com/repos/qiaeru/lang-french/zipball/e901c86c7d3a89dd80a4104a3bccde632bb7a52c",
+                "reference": "e901c86c7d3a89dd80a4104a3bccde632bb7a52c",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.16"
+                "flarum/core": "^1.0.0"
             },
-            "time": "2021-05-14T14:30:16+00:00",
+            "time": "2021-05-27T23:40:16+00:00",
             "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.10.x-dev"
+                    "dev-master": "2.x-dev"
                 },
                 "flarum-extension": {
                     "title": "French",
@@ -1413,28 +1413,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nearata/lang-italian.git",
-                "reference": "b6502335bfac996b4e59a4f6bec8c321ef31c62a"
+                "reference": "f990e74879bcc3604acb80957b4f96d88f8744b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/b6502335bfac996b4e59a4f6bec8c321ef31c62a",
-                "reference": "b6502335bfac996b4e59a4f6bec8c321ef31c62a",
+                "url": "https://api.github.com/repos/Nearata/lang-italian/zipball/f990e74879bcc3604acb80957b4f96d88f8744b5",
+                "reference": "f990e74879bcc3604acb80957b4f96d88f8744b5",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.16"
+                "flarum/core": "^1.0"
             },
-            "time": "2021-05-14T21:05:19+00:00",
+            "time": "2021-05-27T15:38:47+00:00",
             "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "flarum-extension": {
                     "title": "Italian",
                     "category": "language",
-                    "info": {
-                        "website": "https://discuss.flarum.org/d/5160",
-                        "support": "https://github.com/Nearata/lang-italian/issues"
-                    },
                     "icon": {
                         "image": "icon.svg",
                         "backgroundColor": "#00247d",
@@ -1454,13 +1450,14 @@
             ],
             "authors": [
                 {
-                    "name": "William Di Cicco",
+                    "name": "Nearata",
                     "email": "williamdicicco@protonmail.com"
                 }
             ],
             "description": "Italian language pack.",
             "keywords": [
                 "extension",
+                "flarum",
                 "italian",
                 "locale"
             ],
