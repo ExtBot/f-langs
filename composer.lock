@@ -1224,12 +1224,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/french.git",
-                "reference": "81af823b16e8a0103f4f402b728c828ef0f49c9c"
+                "reference": "541fa34ff6796aab7863c6f58723b4743f73d6ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/french/zipball/81af823b16e8a0103f4f402b728c828ef0f49c9c",
-                "reference": "81af823b16e8a0103f4f402b728c828ef0f49c9c",
+                "url": "https://api.github.com/repos/flarum-lang/french/zipball/541fa34ff6796aab7863c6f58723b4743f73d6ab",
+                "reference": "541fa34ff6796aab7863c6f58723b4743f73d6ab",
                 "shasum": ""
             },
             "require": {
@@ -1271,7 +1271,11 @@
                 {
                     "name": "Qiaeru",
                     "email": "qiaeru@protonmail.com",
-                    "homepage": "https://www.qiaeru.com"
+                    "homepage": "https://www.qiaeru.com/"
+                },
+                {
+                    "name": "Hiob",
+                    "homepage": "https://hiob.fr/"
                 }
             ],
             "description": "French language pack for Flarum, its official extensions and bundled libraries.",
@@ -1288,7 +1292,7 @@
                 "source": "https://github.com/flarum-lang/french"
             },
             "abandoned": "qiaeru/lang-french",
-            "time": "2021-06-14T19:51:08+00:00"
+            "time": "2021-06-15T20:01:19+00:00"
         },
         {
             "name": "naga0ka/flarum-ext-japanese",
