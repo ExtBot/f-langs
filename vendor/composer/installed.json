@@ -131,19 +131,19 @@
             "version_normalized": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Kakifrucht/flarum-de.git",
-                "reference": "a725d12d69180153b01ea9333fcbceac6871ed30"
+                "url": "https://github.com/flarum-lang/german.git",
+                "reference": "02a2a37592fbdc081cf6b823851a62d3a3685e50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kakifrucht/flarum-de/zipball/a725d12d69180153b01ea9333fcbceac6871ed30",
-                "reference": "a725d12d69180153b01ea9333fcbceac6871ed30",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/02a2a37592fbdc081cf6b823851a62d3a3685e50",
+                "reference": "02a2a37592fbdc081cf6b823851a62d3a3685e50",
                 "shasum": ""
             },
             "require": {
                 "flarum/core": "^1.0"
             },
-            "time": "2021-06-07T17:20:31+00:00",
+            "time": "2021-06-17T19:02:58+00:00",
             "default-branch": true,
             "type": "flarum-extension",
             "extra": {
@@ -181,8 +181,8 @@
             ],
             "support": {
                 "forum": "https://discuss.flarum.org/d/2648",
-                "issues": "https://github.com/Kakifrucht/flarum-de/issues",
-                "source": "https://github.com/Kakifrucht/flarum-de"
+                "issues": "https://github.com/flarum-lang/german/issues",
+                "source": "https://github.com/flarum-lang/german"
             },
             "abandoned": "kakifrucht/flarum-de",
             "install-path": "../cbmainz/flarum-de"
@@ -605,31 +605,34 @@
             "version_normalized": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/FlarumES/lang-spanish.git",
-                "reference": "709ad219a544e821a9796100e8b28963f44377ae"
+                "url": "https://github.com/flarum-lang/spanish.git",
+                "reference": "a9e504696407e73e40b5f9f9add2cb1cb97351ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlarumES/lang-spanish/zipball/709ad219a544e821a9796100e8b28963f44377ae",
-                "reference": "709ad219a544e821a9796100e8b28963f44377ae",
+                "url": "https://api.github.com/repos/flarum-lang/spanish/zipball/a9e504696407e73e40b5f9f9add2cb1cb97351ad",
+                "reference": "a9e504696407e73e40b5f9f9add2cb1cb97351ad",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^0.1.0-beta.16"
+                "flarum/core": "^1.0.0"
             },
-            "time": "2021-03-20T20:55:05+00:00",
+            "replace": {
+                "flarumes/lang-spanish": "*"
+            },
+            "time": "2021-06-17T22:31:10+00:00",
             "default-branch": true,
             "type": "flarum-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.1.x-dev"
+                    "dev-master": "1.x-dev"
                 },
                 "flarum-extension": {
-                    "title": "Español",
+                    "title": "Spanish",
                     "category": "language",
                     "info": {
-                        "website": "https://FlarumES.com",
-                        "support": "https://github.com/FlarumES/Spanish/issues"
+                        "website": "https://flarum.es",
+                        "support": "https://github.com/flarum-lang/spanish/issues"
                     },
                     "icon": {
                         "image": "icon.svg",
@@ -651,18 +654,21 @@
             "authors": [
                 {
                     "name": "FlarumES",
-                    "email": "FlarumES@gmail.com",
-                    "homepage": "https://FlarumES.com"
+                    "email": "hola@flarum.es",
+                    "homepage": "https://flarum.es"
                 }
             ],
-            "description": "Paquete de idioma español para Flarum y sus extensiones",
-            "homepage": "https://github.com/FlarumES/Spanish",
+            "description": "Spanish Language Pack.",
             "keywords": [
-                "locale"
+                "flarum",
+                "locale",
+                "spanish"
             ],
             "support": {
-                "issues": "https://github.com/FlarumES/Spanish/issues",
-                "source": "https://github.com/FlarumES/Spanish"
+                "docs": "https://flarum.es/p/7-docs",
+                "forum": "https://flarum.es",
+                "issues": "https://github.com/flarum-lang/spanish/issues",
+                "source": "https://github.com/flarum-lang/spanish"
             },
             "abandoned": "flarumes/lang-spanish",
             "install-path": "../flarumes/flarum-ext-spanish"
@@ -1282,18 +1288,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/french.git",
-                "reference": "541fa34ff6796aab7863c6f58723b4743f73d6ab"
+                "reference": "cf2ec95395f17a79877f13956444fa14bc876e31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/french/zipball/541fa34ff6796aab7863c6f58723b4743f73d6ab",
-                "reference": "541fa34ff6796aab7863c6f58723b4743f73d6ab",
+                "url": "https://api.github.com/repos/flarum-lang/french/zipball/cf2ec95395f17a79877f13956444fa14bc876e31",
+                "reference": "cf2ec95395f17a79877f13956444fa14bc876e31",
                 "shasum": ""
             },
             "require": {
                 "flarum/core": "^1.0"
             },
-            "time": "2021-06-15T20:01:19+00:00",
+            "time": "2021-06-16T15:00:28+00:00",
             "default-branch": true,
             "type": "flarum-extension",
             "extra": {
@@ -1338,7 +1344,7 @@
                     "homepage": "https://hiob.fr/"
                 }
             ],
-            "description": "French language pack for Flarum, its official extensions and bundled libraries.",
+            "description": "French language pack to localize the Flarum forum software plus its official and third-party extensions.",
             "keywords": [
                 "extension",
                 "flarum",
@@ -1712,18 +1718,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "d2811688c025ec9f5da9a2356a7b4cead7190c1e"
+                "reference": "fad79294be51d29237d4e0389503045e91ede898"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/d2811688c025ec9f5da9a2356a7b4cead7190c1e",
-                "reference": "d2811688c025ec9f5da9a2356a7b4cead7190c1e",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/fad79294be51d29237d4e0389503045e91ede898",
+                "reference": "fad79294be51d29237d4e0389503045e91ede898",
                 "shasum": ""
             },
             "require": {
                 "flarum/core": "^1.0"
             },
-            "time": "2021-05-29T23:41:22+00:00",
+            "time": "2021-06-16T07:25:02+00:00",
             "default-branch": true,
             "type": "flarum-extension",
             "extra": {
