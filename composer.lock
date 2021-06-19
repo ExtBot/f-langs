@@ -131,12 +131,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum-lang/german.git",
-                "reference": "02a2a37592fbdc081cf6b823851a62d3a3685e50"
+                "reference": "2c2d23c09d1f67c3418f2327c39d1acaf52e073d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/german/zipball/02a2a37592fbdc081cf6b823851a62d3a3685e50",
-                "reference": "02a2a37592fbdc081cf6b823851a62d3a3685e50",
+                "url": "https://api.github.com/repos/flarum-lang/german/zipball/2c2d23c09d1f67c3418f2327c39d1acaf52e073d",
+                "reference": "2c2d23c09d1f67c3418f2327c39d1acaf52e073d",
                 "shasum": ""
             },
             "require": {
@@ -182,7 +182,7 @@
                 "source": "https://github.com/flarum-lang/german"
             },
             "abandoned": "kakifrucht/flarum-de",
-            "time": "2021-06-17T19:02:58+00:00"
+            "time": "2021-06-18T22:32:00+00:00"
         },
         {
             "name": "comocozy/flarum-ext-korean",
@@ -467,7 +467,7 @@
                 "issues": "https://github.com/enverarslan/flarum-ext-turkish/issues",
                 "source": "https://github.com/enverarslan/flarum-ext-turkish/tree/master"
             },
-            "abandoned": "tolgaaaltas/flarum-lang-turkish",
+            "abandoned": "flarum-lang/turkish",
             "time": "2017-12-25T20:57:16+00:00"
         },
         {
@@ -1639,12 +1639,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/flarum-ext-indonesian.git",
-                "reference": "fad79294be51d29237d4e0389503045e91ede898"
+                "reference": "55fecd23090593ddef89506c413d24996ed25941"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/fad79294be51d29237d4e0389503045e91ede898",
-                "reference": "fad79294be51d29237d4e0389503045e91ede898",
+                "url": "https://api.github.com/repos/realodix/flarum-ext-indonesian/zipball/55fecd23090593ddef89506c413d24996ed25941",
+                "reference": "55fecd23090593ddef89506c413d24996ed25941",
                 "shasum": ""
             },
             "require": {
@@ -1693,7 +1693,7 @@
                 "issues": "https://github.com/realodix/flarum-ext-indonesian/issues",
                 "source": "https://github.com/realodix/flarum-ext-indonesian"
             },
-            "time": "2021-06-16T07:25:02+00:00"
+            "time": "2021-06-18T11:25:43+00:00"
         },
         {
             "name": "rodymolenaar/flarum-ext-dutch",
